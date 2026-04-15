@@ -1,0 +1,1829 @@
+,start,end,content,wordcount
+0,31.571,34.49,[],0
+1,34.491,37.743,"['FEMALE', 'VOICE', ':', 'The', 'world', 'is', 'changed', '.']",8
+2,37.744,41.497,"['I', 'feel', 'it', 'in', 'the', 'water', '.']",7
+3,41.498,46.001,"['I', 'feel', 'it', 'in', 'the', 'earth', '.']",7
+4,46.002,49.421,"['I', 'smell', 'it', 'in', 'the', 'air', '.']",7
+5,49.422,51.507,"['Much', 'that', 'once', 'was', '.', '.', '.']",7
+6,51.508,53.759,"['.', '.', '.', 'is', 'lost', '.']",6
+7,53.76,58.76,"['For', 'none', 'now', 'live', 'who', 'remember', 'it', '.']",8
+8,69.734,74.363,"['It', 'began', 'with', 'the', 'forging', 'of', 'the', 'Great', 'Rings', '.']",10
+9,74.364,76.448,"['Three', 'were', 'given', 'to', 'the', 'Elves', ':']",7
+10,76.449,81.286,"['Immortal', ',', 'wisest', 'and', 'fairest', 'of', 'all', 'beings', '.']",9
+11,81.287,84.122,"['Seven', 'to', 'the', 'Dwarf-lords', ':']",5
+12,84.123,89.002,"['Great', 'miners', 'and', 'craftsmen', 'of', 'the', 'mountain', 'halls', '.']",9
+13,89.003,90.462,"['And', 'nine', '.', '.', '.']",5
+14,90.463,93.674,"['.', '.', '.', 'nine', 'rings', 'were', 'gifted', 'to', 'the', 'race', 'of', 'Men', '.', '.', '.']",15
+15,93.675,98.675,"['.', '.', '.', 'who', ',', 'above', 'all', 'else', ',', 'desire', 'power', '.']",12
+16,99.18,104.18,"['For', 'within', 'these', 'rings', 'was', 'bound', 'the', 'strength', 'and', 'will', 'to', 'govern', 'each', 'race', '.']",15
+17,105.353,108.772,"['But', 'they', 'were', 'all', 'of', 'them', 'deceived', '.']",8
+18,108.773,112.234,"['For', 'another', 'ring', 'was', 'made', '.']",6
+19,112.235,115.696,"['In', 'the', 'land', 'of', 'Mordor', ',', 'in', 'the', 'fires', 'of', 'Mount', 'Doom', '.', '.', '.']",15
+20,115.697,120.367,"['.', '.', '.', 'the', 'Dark', 'Lord', 'Sauron', 'forged', 'in', 'secret', 'a', 'Master', 'Ring', '.', '.', '.']",16
+21,120.368,122.619,"['.', '.', '.', 'to', 'control', 'all', 'others', '.']",8
+22,122.62,126.79,"['And', 'into', 'this', 'Ring', 'he', 'poured', 'his', 'cruelty', ',', 'his', 'malice', '.', '.', '.']",14
+23,126.791,131.791,"['.', '.', '.', 'and', 'his', 'will', 'to', 'dominate', 'all', 'life', '.']",11
+24,131.963,136.675,"['One', 'Ring', 'to', 'rule', 'them', 'all', '.']",7
+25,136.676,138.552,"['One', 'by', 'one', '.', '.', '.']",6
+26,138.553,143.432,"['.', '.', '.', 'the', 'Free', 'Lands', 'of', 'Middle-earth', 'fell', 'to', 'the', 'power', 'of', 'the', 'Ring', '.']",16
+27,143.433,146.935,"['But', 'there', 'were', 'some', 'who', 'resisted', '.']",7
+28,146.936,151.815,"['A', 'Last', 'Alliance', 'of', 'Men', 'and', 'Elves', 'marched', 'against', 'the', 'armies', 'of', 'Mordor', '.']",14
+29,151.816,156.816,"['And', 'on', 'the', 'slopes', 'of', 'Mount', 'Doom', ',', 'they', 'fought', 'for', 'the', 'freedom', 'of', 'Middle-earth', '.']",16
+30,169.25,174.25,[],0
+31,186.768,191.768,"['Victory', 'was', 'near', '.']",4
+32,194.15,196.735,"['But', 'the', 'power', 'of', 'the', 'Ring', '.', '.', '.']",9
+33,196.736,201.736,"['.', '.', '.', 'could', 'not', 'be', 'undone', '.']",8
+34,222.762,224.888,"['It', 'was', 'in', 'this', 'moment', '.', '.', '.']",8
+35,224.889,227.474,"['.', '.', '.', 'when', 'all', 'hope', 'had', 'faded', '.', '.', '.']",11
+36,227.475,232.475,"['.', '.', '.', 'that', 'Isildur', ',', 'son', 'of', 'the', 'king', ',', 'took', 'up', 'his', 'father', ""'s"", 'sword', '.']",18
+37,262.677,267.677,"['Sauron', ',', 'the', 'enemy', 'of', 'the', 'Free', 'Peoples', 'of', 'Middle-earth', ',', 'was', 'defeated', '.']",14
+38,276.065,278.442,"['The', 'Ring', 'passed', 'to', 'isildur', '.', '.', '.']",8
+39,278.443,283.363,"['.', '.', '.', 'who', 'had', 'this', 'one', 'chance', 'to', 'destroy', 'evil', 'forever', '.']",13
+40,283.364,285.699,"['But', 'the', 'hearts', 'of', 'Men', '.', '.', '.']",8
+41,285.7,288.452,"['.', '.', '.', 'are', 'easily', 'corrupted', '.']",7
+42,288.453,293.453,"['And', 'the', 'Ring', 'of', 'Power', 'has', 'a', 'will', 'of', 'its', 'own', '.']",12
+43,318.274,322.736,"['It', 'betrayed', 'isildur', '.', '.', '.']",6
+44,322.737,327.737,"['.', '.', '.', 'to', 'his', 'death', '.']",7
+45,329.327,333.413,"['And', 'some', 'things', 'that', 'should', 'not', 'have', 'been', 'forgotten', '.', '.', '.']",12
+46,333.414,336.583,"['.', '.', '.', 'were', 'lost', '.']",6
+47,336.584,339.002,"['History', 'became', 'legend', '.', '.', '.']",6
+48,339.003,341.213,"['.', '.', '.', 'legend', 'became', 'myth', '.']",7
+49,341.214,344.257,"['And', 'for', 'two', 'and', 'a', 'half', 'thousand', 'years', '.', '.', '.']",11
+50,344.258,348.595,"['.', '.', '.', 'the', 'Ring', 'passed', 'out', 'of', 'all', 'knowledge', '.']",11
+51,348.596,352.098,"['Until', ',', 'when', 'chance', 'came', '.', '.', '.']",8
+52,352.099,356.561,"['.', '.', '.', 'it', 'ensnared', 'a', 'new', 'bearer', '.']",9
+53,356.562,361.562,"['GOLLUM', ':', 'My', 'precious', '.']",5
+54,361.651,364.361,"['FEMALE', 'VOICE', ':', 'The', 'Ring', 'came', 'to', 'the', 'creature', 'Gollum', '.', '.', '.']",13
+55,364.362,368.573,"['.', '.', '.', 'who', 'took', 'it', 'deep', 'into', 'the', 'tunnels', 'of', 'the', 'Misty', 'Mountains', '.']",15
+56,368.574,371.701,"['And', 'there', 'it', 'consumed', 'him', '.']",6
+57,371.702,373.954,"['GOLLUM', ':', 'It', 'came', 'to', 'me', '.']",7
+58,373.955,378.583,"['My', 'own', '.', 'My', 'love', '.', 'My', 'own', '.']",9
+59,378.584,383.584,"['My', 'precious', '.']",3
+60,386.926,390.554,"['FEMALE', 'VOICE', ':', 'The', 'Ring', 'brought', 'to', 'Gollum', 'unnatural', 'long', 'life', '.']",12
+61,390.555,394.599,"['For', '500', 'years', 'it', 'poisoned', 'his', 'mind', '.']",8
+62,394.6,399.396,"['And', 'in', 'the', 'gloom', 'of', 'Gollum', ""'s"", 'cave', ',', 'it', 'waited', '.']",12
+63,399.397,402.899,"['Darkness', 'crept', 'back', 'into', 'the', 'forests', 'of', 'the', 'world', '.']",10
+64,402.9,405.944,"['Rumor', 'grew', 'of', 'a', 'shadow', 'in', 'the', 'East', '.', '.', '.']",11
+65,405.945,408.947,"['.', '.', '.', 'whispers', 'of', 'a', 'nameless', 'fear', '.']",9
+66,408.948,412.45,"['And', 'the', 'Ring', 'of', 'Power', 'perceived', '.', '.', '.']",9
+67,412.451,417.451,"['.', '.', '.', 'its', 'time', 'had', 'now', 'come', '.']",9
+68,417.665,421.001,"['It', 'abandoned', 'Gollum', '.']",4
+69,421.002,426.002,"['But', 'something', 'happened', 'then', 'the', 'Ring', 'did', 'not', 'intend', '.']",10
+70,426.34,431.136,"['It', 'was', 'picked', 'up', 'by', 'the', 'most', 'unlikely', 'creature', 'imaginable', '.']",11
+71,431.137,432.387,"['BILBO', ':', 'What', ""'s"", 'this', '?']",6
+72,432.388,434.014,"['FEMALE', 'VOICE', ':', 'A', 'Hobbit', '.']",6
+73,434.015,436.975,"['Bilbo', 'Baggins', 'of', 'the', 'Shire', '.']",6
+74,436.976,438.935,"['A', 'ring', '.']",3
+75,438.936,443.565,"['GOLLUM', ':', 'Lost', '!']",4
+76,443.566,447.235,"['My', 'precious', 'is', 'lost', '!']",5
+77,447.236,449.779,"['FEMALE', 'VOICE', ':', 'For', 'the', 'time', 'will', 'soon', 'come', '.', '.', '.']",12
+78,449.78,454.78,"['.', '.', '.', 'when', 'Hobbits', 'will', 'shape', 'the', 'fortunes', 'of', 'all', '.']",12
+79,459.707,462.959,"['BILBO', ':', 'The', '22nd', 'day', 'of', 'September', '.', '.', '.']",10
+80,462.96,466.379,"['.', '.', '.', 'in', 'the', 'year', '1400', '.', '.', '.']",10
+81,466.38,469.382,"['.', '.', '.', 'by', 'Shire-reckoning', '.']",6
+82,469.383,474.383,"['Bag', 'End', ',', 'Bagshot', 'Row', ',', 'Hobbiton', ',', 'Westfarthing', '.', '.', '.']",12
+83,475.473,477.015,"['.', '.', '.', 'the', 'Shire', '.', '.', '.']",8
+84,477.016,482.016,"['.', '.', '.', 'Middle-earth', '.']",5
+85,484.482,489.482,"['The', 'Third', 'Age', 'of', 'this', 'world', '.']",7
+86,499.372,503.917,"['There', 'and', 'Back', 'Again', ':']",5
+87,503.918,505.919,"['A', 'Hobbit', ""'s"", 'Tale', '.']",5
+88,505.92,510.92,"['By', 'Bilbo', 'Baggins', '.']",4
+89,514.679,517.138,"['Now', '.', '.', '.']",4
+90,517.139,520.433,"['.', '.', '.', 'where', 'to', 'begin', '?']",7
+91,520.434,525.434,"['Ah', ',', 'yes', '.', '.', '.']",6
+92,525.94,529.317,"['""', 'Concerning', '.', '.', '.']",5
+93,529.318,531.611,"['.', '.', '.', 'Hobbits', '.', '""']",6
+94,531.612,535.323,"['Hobbits', 'have', 'been', 'living', 'and', 'farming', 'in', 'the', 'four', 'Farthings', 'of', 'the', 'Shire', '.', '.', '.']",16
+95,535.324,537.492,"['.', '.', '.', 'for', 'many', 'hundreds', 'of', 'years', '.', '.', '.']",11
+96,537.493,540.662,"['.', '.', '.', 'quite', 'content', 'to', 'ignore', 'and', 'be', 'ignored', '.', '.', '.']",13
+97,540.663,544.165,"['.', '.', '.', 'by', 'the', 'world', 'of', 'the', 'Big', 'Folk', '.']",11
+98,544.166,549.166,"['Middle-earth', 'being', ',', 'after', 'all', ',', 'full', 'of', 'strange', 'creatures', 'beyond', 'count', '.', '.', '.']",15
+99,550.006,553.341,"['.', '.', '.', 'Hobbits', 'must', 'seem', 'of', 'little', 'importance', '.', '.', '.']",12
+100,553.342,557.554,"['.', '.', '.', 'being', 'neither', 'renowned', 'as', 'great', 'warriors', '.', '.', '.']",12
+101,557.555,562.555,"['.', '.', '.', 'nor', 'counted', 'among', 'the', 'very', 'wise', '.']",10
+102,563.269,566.146,[],0
+103,566.147,570.358,"['Frodo', '!', 'Someone', 'at', 'the', 'door', '.']",7
+104,570.359,573.153,"['In', 'fact', ',', 'it', 'has', 'been', 'remarked', 'by', 'some', '.', '.', '.']",12
+105,573.154,577.949,"['.', '.', '.', 'that', 'Hobbits', ""'"", 'only', 'real', 'passion', 'is', 'for', 'food', '.']",13
+106,577.95,580.326,"['A', 'rather', 'unfair', 'observation', '.', '.', '.']",7
+107,580.327,584.456,"['.', '.', '.', 'as', 'we', 'have', 'also', 'developed', 'a', 'keen', 'interest', 'in', 'the', 'brewing', 'of', 'ales', '.', '.', '.']",19
+108,584.457,587.625,"['.', '.', '.', 'and', 'the', 'smoking', 'of', 'pipe-weed', '.']",9
+109,587.626,590.628,"['But', 'where', 'our', 'hearts', 'truly', 'lie', '.', '.', '.']",9
+110,590.629,593.465,"['.', '.', '.', 'is', 'in', 'peace', 'and', 'quiet', '.', '.', '.']",11
+111,593.466,595.8,"['.', '.', '.', 'and', 'good', ',', 'tilled', 'earth', '.']",9
+112,595.801,600.801,"['For', 'all', 'Hobbits', 'share', 'a', 'love', 'of', 'things', 'that', 'grow', '.']",11
+113,604.143,608.772,"['And', ',', 'yes', ',', 'no', 'doubt', 'to', 'others', ',', 'our', 'ways', 'seem', 'quaint', '.']",14
+114,608.773,613.773,"['But', 'today', 'of', 'all', 'days', ',', 'it', 'is', 'brought', 'home', 'to', 'me', ':']",13
+115,614.57,619.57,"['It', 'is', 'no', 'bad', 'thing', 'to', 'celebrate', 'a', 'simple', 'life', '.']",11
+116,622.203,624.662,[],0
+117,624.663,629.663,"['Frodo', ',', 'the', 'door', '!']",5
+118,631.67,633.838,"['Sticklebacks', '.', 'Where', 'is', 'that', 'boy', '?']",7
+119,633.839,638.839,"['Frodo', '!']",2
+120,641.347,646.347,"['MALE', 'VOICE', ':', 'Down', 'from', 'the', 'door', 'where', 'it', 'began']",10
+121,646.519,649.562,[],0
+122,649.563,654.359,"['And', 'I', 'must', 'follow', 'if', 'I', 'can']",7
+123,654.36,658.696,"['The', 'road', 'goes', 'ever', 'on', 'and', 'on']",7
+124,658.697,662.367,"['Down', 'from', 'the', 'door', 'where', 'it', 'began']",7
+125,662.368,667.368,"['Now', 'far', 'ahead', 'the', 'road', 'has', 'gone']",7
+126,667.957,672.957,"['-', 'And', 'I', 'must', 'follow', 'if]', 'can', '-', ""You're"", 'late', '.']",11
+127,675.047,679.592,"['A', 'wizard', 'is', 'never', 'late', ',', 'Frodo', 'Baggins', '.']",9
+128,679.593,684.593,"['Nor', 'is', 'he', 'early', '.', 'He', 'arrives', 'precisely', 'when', 'he', 'means', 'to', '.']",13
+129,695.609,700.609,"['It', ""'s"", 'wonderful', 'to', 'see', 'you', ',', 'Gandalf', '!']",9
+130,702.575,707.575,"['You', ""didn't"", 'think', ""I'd"", 'miss', 'your', 'Uncle', 'Bilbo', ""'s"", 'birthday', '?']",11
+131,707.955,710.623,"['How', 'is', 'the', 'old', 'rascal', '?']",6
+132,710.624,714.377,"['I', 'hear', 'it', ""'s"", 'going', 'to', 'be', 'a', 'party', 'of', 'special', 'magnificence', '.']",13
+133,714.378,716.963,"['You', 'know', 'Bilbo', '.', 'He', ""'s"", 'got', 'the', 'whole', 'place', 'in', 'an', 'uproar', '.']",14
+134,716.964,719.132,"['Well', ',', 'that', 'should', 'please', 'him', '.']",7
+135,719.133,721.259,"['Half', 'the', 'Shire', ""'s"", 'been', 'invited', '.']",7
+136,721.26,726.26,"['And', 'the', 'rest', 'of', 'them', 'are', 'turning', 'up', 'anyway', '.']",10
+137,727.016,730.518,"['BILBO', ':', 'And', 'so', 'life', 'in', 'the', 'Shire', 'goes', 'on', '.', '.', '.']",13
+138,730.519,733.771,"['.', '.', '.', 'very', 'much', 'as', 'it', 'has', 'this', 'past', 'Age', '.', '.', '.']",14
+139,733.772,738.772,"['.', '.', '.', 'full', 'of', 'its', 'own', 'comings', 'and', 'goings', ',', 'with', 'change', 'coming', 'slowly', '.']",16
+140,739.486,742.655,"['If', 'it', 'comes', 'at', 'all', '.']",6
+141,742.656,746.284,"['For', 'things', 'are', 'made', 'to', 'endure', 'in', 'the', 'Shire', '.', '.', '.']",12
+142,746.285,750.163,"['.', '.', '.', 'passing', 'from', 'one', 'generation', 'to', 'the', 'next', '.']",11
+143,750.164,755.164,"['There', ""'s"", 'always', 'been', 'a', 'Baggins', 'living', 'here', 'under', 'the', 'Hill', '.', '.', '.']",14
+144,755.336,759.464,"['.', '.', '.', 'in', 'Bag', 'End', '.']",7
+145,759.465,762.967,"['And', 'there', 'always', 'will', 'be', '.']",6
+146,762.968,767.805,"['To', 'tell', 'you', 'the', 'truth', ',', 'Bilbo', ""'s"", 'been', 'a', 'bit', 'odd', 'lately', '.']",14
+147,767.806,770.975,"['I', 'mean', ',', 'more', 'than', 'usual', '.']",7
+148,770.976,774.479,"['He', ""'s"", 'taken', 'to', 'locking', 'himself', 'in', 'his', 'study', '.']",10
+149,774.48,779.48,"['He', 'spends', 'hours', 'poring', 'over', 'old', 'maps', 'when', 'he', 'thinks', ""I'm"", 'not', 'looking', '.']",14
+150,791.33,796.33,"['Where', ""'s"", 'it', 'gone', '?']",5
+151,819.525,824.525,"['He', ""'s"", 'up', 'to', 'something', '.']",6
+152,829.994,832.704,"['-', 'All', 'right', ',', 'then', '.', 'Keep', 'your', 'secrets', '.', '-', 'What', '?']",13
+153,832.705,834.58,"['But', 'I', 'know', 'you', 'have', 'something', 'to', 'do', 'with', 'it', '.']",11
+154,834.581,835.915,"['Good', 'gracious', 'me', '.']",4
+155,835.916,839.043,"['Before', 'you', 'came', 'along', ',', 'we', 'Bagginses', 'were', 'very', 'well', 'thought', 'of', '.']",13
+156,839.044,840.378,"['Indeed', '.']",2
+157,840.379,843.131,"['Never', 'had', 'any', 'adventures', 'or', 'did', 'anything', 'unexpected', '.']",9
+158,843.132,848.132,"['If', ""you're"", 'referring', 'to', 'the', 'incident', 'with', 'the', 'dragon', ',', 'I', 'was', 'barely', 'involved', '.']",15
+159,849.221,853.016,"['All', 'I', 'did', 'was', 'give', 'your', 'uncle', 'a', 'little', 'nudge', 'out', 'of', 'the', 'door', '.']",15
+160,853.017,857.52,"['Whatever', 'you', 'did', ',', ""you've"", 'been', 'officially', 'labeled', 'a', 'disturber', 'of', 'the', 'peace', '.']",14
+161,857.521,862.521,"['Oh', ',', 'really', '?']",4
+162,865.029,867.697,"['Gandalf', '!', 'Gandalf', '!']",4
+163,867.698,872.698,[],0
+164,873.078,877.415,"['FEMALE', 'HOBBIT', '1', ':', 'Fireworks', ',', 'Gandalf', '!']",8
+165,877.416,882.416,"['FEMALE', 'HOBBIT', '2', ':', 'Gandalf', '!', 'MALE', 'HOBBIT', ':', 'Fireworks', ',', 'Gandalf', '!']",13
+166,898.854,900.438,"['Gandalf', '?']",2
+167,900.439,905.439,"['-', ""I'm"", 'glad', ""you're"", 'back', '.', '-', 'So', 'am', 'I', ',', 'dear', 'boy', '.']",14
+168,909.031,914.031,"['So', 'am', 'I', '.']",4
+169,928.926,933.926,"['Whoa', ',', 'whoa', '.']",4
+170,942.648,944.315,"['BILBO', ':', 'No', ',', 'thank', 'you', '!']",7
+171,944.316,948.486,"['We', ""don't"", 'want', 'any', 'more', 'visitors', ',', 'well-wishers', 'or', 'distant', 'relations', '!']",12
+172,948.487,953.487,"['And', 'what', 'about', 'very', 'old', 'friends', '?']",7
+173,955.16,957.495,"['Gandalf', '?']",2
+174,957.496,961.165,"['-', 'Bilbo', 'Baggins', '.', '-', 'My', 'dear', 'Gandalf', '!']",9
+175,961.166,966.166,"['Good', 'to', 'see', 'you', '.', '111', 'years', 'old', '!', 'Who', 'would', 'believe', 'it', '?']",14
+176,968.09,973.09,"['You', ""haven't"", 'aged', 'a', 'day', '.']",6
+177,976.682,978.85,"['Come', 'on', ',', 'come', 'in', '!']",6
+178,978.851,982.478,"['Welcome', ',', 'welcome', '.']",4
+179,982.479,986.691,"['Oh', ',', 'here', 'we', 'are', '.']",6
+180,986.692,989.318,"['Tea', '?', 'Or', 'maybe', 'something', 'a', 'little', 'stronger', '?']",9
+181,989.319,993.322,"[""I've"", 'got', 'a', 'few', 'bottles', 'of', 'the', 'Old', 'Winyard', 'left', '.', '1296', '.']",13
+182,993.323,998.323,"['Very', 'good', 'year', '.', 'Almost', 'as', 'old', 'as', 'I', 'am', '.']",11
+183,998.537,1003.207,"['It', 'was', 'laid', 'down', 'by', 'my', 'father', '.', 'What', 'say', 'we', 'open', 'one', ',', 'eh', '?']",16
+184,1003.208,1008.208,"['Just', 'tea', ',', 'thank', 'you', '.']",6
+185,1010.215,1012.216,"['Oh', '!']",2
+186,1012.217,1014.135,"['I', 'was', 'expecting', 'you', 'sometime', 'last', 'week', '.']",8
+187,1014.136,1017.638,"['Not', 'that', 'it', 'matters', '.', 'You', 'come', 'and', 'go', 'as', 'you', 'please', '.', 'Always', 'have', 'and', 'always', 'will', '.']",19
+188,1017.639,1022.639,"['You', 'caught', 'me', 'a', 'bit', 'unprepared', '.', ""We've"", 'only', 'got', 'cold', 'chicken', 'and', 'a', 'bit', 'of', 'pickle', '.', '.', '.']",20
+189,1023.061,1026.647,"['There', ""'s"", 'some', 'cheese', 'here', '.', 'No', ',', 'that', ""won't"", 'do', '.']",12
+190,1026.648,1031.235,"[""We've"", 'got', 'raspberry', 'jam', ',', 'an', 'apple', 'tart', '.', '.', '.']",11
+191,1031.236,1035.406,"['But', 'not', 'much', 'for', 'afters', '.', 'Oh', ',', 'no', ',', ""we're"", 'all', 'right', '.']",14
+192,1035.407,1040.407,"[""I've"", 'just', 'found', 'some', 'sponge', 'cake', '.']",7
+193,1041.163,1046.163,"['I', 'could', 'make', 'you', 'some', 'eggs', 'if', ""you'd"", '---']",9
+194,1046.251,1050.087,"['-', 'Just', 'tea', ',', 'thank', 'you', '.', '-', 'Oh', ',', 'right', '.']",12
+195,1050.088,1052.59,"['-', 'You', ""don't"", 'mind', 'if', 'I', 'eat', ',', 'do', 'you', '?', '-', 'No', ',', 'not', 'at', 'all', '.']",18
+196,1052.591,1054.133,[],0
+197,1054.134,1055.593,"['FEMALE', 'HOBBIT', ':', 'Bilbo', '!', 'Bilbo', 'Baggins', '!']",8
+198,1055.594,1060.594,"[""I'm"", 'not', 'at', 'home', '!']",5
+199,1063.185,1065.937,"['It', ""'s"", 'the', 'Sackville-Bagginses', '.']",5
+200,1065.938,1068.731,"['-', 'I', 'know', ""you're"", 'in', 'there', '!', '-', ""They're"", 'after', 'the', 'house', '.']",13
+201,1068.732,1071.442,"[""They've"", 'never', 'forgiven', 'me', 'for', 'living', 'this', 'long', '.']",9
+202,1071.443,1074.403,"[""I've"", 'got', 'to', 'get', 'away', 'from', 'these', 'confounded', 'relatives', ',', 'hanging', 'on', 'the', 'bell', 'all', 'day', '.', '.', '.']",19
+203,1074.404,1077.073,"['.', '.', '.', 'never', 'giving', 'me', 'a', 'moment', ""'s"", 'peace', '.']",11
+204,1077.074,1080.785,"['I', 'want', 'to', 'see', 'mountains', 'again', '.', 'Mountains', ',', 'Gandalf', '!']",11
+205,1080.786,1085.456,"['And', 'then', 'find', 'somewhere', 'quiet', 'where', 'I', 'can', 'finish', 'my', 'book', '.', 'Oh', ',', 'tea', '.']",16
+206,1085.457,1089.627,"['-', 'So', 'you', 'mean', 'to', 'go', 'through', 'with', 'your', 'plan', '?', '-', 'Yes', ',', 'yes', '.', 'It', ""'s"", 'all', 'in', 'hand', '.']",22
+207,1089.628,1093.965,"['All', 'the', 'arrangements', 'are', 'made', '.']",6
+208,1093.966,1096.217,"['Oh', ',', 'thank', 'you', '.']",5
+209,1096.218,1098.469,"['Frodo', 'suspects', 'something', '.']",4
+210,1098.47,1101.222,"['Of', 'course', 'he', 'does', '.', 'He', ""'s"", 'a', 'Baggins', '.', '.', '.']",12
+211,1101.223,1104.308,"['.', '.', '.', 'not', 'some', 'blockheaded', 'Bracegirdle', 'from', 'Hardbottle', '.']",10
+212,1104.309,1107.979,"['You', 'will', 'tell', 'him', ',', ""won't"", 'you', '?']",8
+213,1107.98,1112.316,"['-', 'Yes', ',', 'yes', '.', '-', 'He', ""'s"", 'very', 'fond', 'of', 'you', '.']",13
+214,1112.317,1116.153,"['I', 'know', '.']",3
+215,1116.154,1120.157,"[""He'd"", 'probably', 'come', 'with', 'me', 'if', 'I', 'asked', 'him', '.']",10
+216,1120.158,1125.158,"['I', 'think', 'in', 'his', 'heart', ',', 'Frodo', ""'s"", 'still', 'in', 'love', 'with', 'the', 'Shire', '.']",15
+217,1125.163,1127.665,"['The', 'woods', ',', 'the', 'fields', '.']",6
+218,1127.666,1132.666,"['Little', 'rivers', '.']",3
+219,1134.506,1138.509,"['I', 'am', 'old', ',', 'Gandalf', '.']",6
+220,1138.51,1143.51,"['I', 'know', 'I', ""don't"", 'look', 'it', ',', 'but', ""I'm"", 'beginning', 'to', 'feel', 'it', 'in', 'my', 'heart', '.']",17
+221,1146.018,1148.686,"['I', 'feel', 'thin', '.']",4
+222,1148.687,1151.689,"['Sort', 'of', 'stretched', '.', '.', '.']",6
+223,1151.69,1155.192,"['.', '.', '.', 'like', 'butter', 'scraped', 'over', 'too', 'much', 'bread', '.']",11
+224,1155.193,1159.864,"['I', 'need', 'a', 'holiday', '.', 'A', 'very', 'long', 'holiday', '.']",10
+225,1159.865,1164.865,"['And', 'I', ""don't"", 'expect', 'I', 'shall', 'return', '.']",8
+226,1165.37,1170.37,"['In', 'fact', ',', 'I', 'mean', 'not', 'to', '.']",8
+227,1171.209,1176.209,"['Old', 'Toby', '.', 'The', 'finest', 'weed', 'in', 'the', 'Southfarthing', '.']",10
+228,1190.062,1192.688,"['Ah', '.']",2
+229,1192.689,1195.399,"['Gandalf', ',', 'my', 'old', 'friend', '.', '.', '.']",8
+230,1195.4,1199.82,"['.', '.', '.', 'this', 'will', 'be', 'a', 'night', 'to', 'remember', '.']",11
+231,1199.821,1202.99,[],0
+232,1202.991,1207.991,[],0
+233,1221.093,1222.426,"['BILBO', ':', 'Hello', ',', 'hello', '.']",6
+234,1222.427,1227.427,"['Fatty', 'Bolger', '.', 'Lovely', 'to', 'see', 'you', '.', 'Welcome', ',', 'welcome', '.']",12
+235,1227.432,1232.432,"['Go', 'on', ',', 'Sam', '.', 'Ask', 'Rosie', 'for', 'a', 'dance', '.']",11
+236,1232.604,1237.274,"['-', 'I', 'think', ""I'll"", 'just', 'have', 'another', 'ale', '.', '-', 'Oh', ',', 'no', ',', 'you', ""don't"", '.']",17
+237,1237.275,1242.275,"['Go', 'on', '!']",3
+238,1249.121,1251.247,"['So', 'there', 'I', 'was', '.', '.', '.']",7
+239,1251.248,1255.459,"['.', '.', '.', 'at', 'the', 'mercy', 'of', 'three', 'monstrous', 'trolls', '.']",11
+240,1255.46,1257.628,"['And', 'they', 'were', 'all', 'arguing', 'amongst', 'themselves', '.', '.', '.']",10
+241,1257.629,1260.297,"['.', '.', '.', 'about', 'how', 'they', 'were', 'going', 'to', 'cook', 'us', '.']",12
+242,1260.298,1265.298,"['Whether', 'it', 'be', 'turned', 'on', 'a', 'spit', ',', 'or', 'to', 'sit', 'on', 'us', 'one', 'by', 'one', ',', 'squash', 'us', 'into', 'jelly', '.']",22
+243,1266.304,1270.099,"['They', 'spent', 'so', 'much', 'time', 'arguing', 'the', 'whithertos', 'and', 'the', 'whyfors', '.', '.', '.']",14
+244,1270.1,1274.645,"['.', '.', '.', 'that', 'the', 'sun', ""'s"", 'first', 'light', 'crept', 'over', 'the', 'top', 'of', 'the', 'trees', '.', '.', '.']",19
+245,1274.646,1278.232,"['.', '.', '.', 'and', 'turned', 'them', 'all', 'to', 'stone', '!']",10
+246,1278.233,1282.445,[],0
+247,1282.446,1286.282,"['MERRY', ':', 'Quickly', '.']",4
+248,1286.283,1287.992,"['Whoa', '!']",2
+249,1287.993,1292.955,"['UP', 'they', 'go', '!']",4
+250,1292.956,1297.956,"['No', ',', 'the', 'big', 'one', '.']",6
+251,1303.341,1306.343,"['Mrs.', 'Bracegirdle', ',', 'how', 'nice', 'to', 'see', 'you', '.', 'Welcome', ',', 'welcome', '.']",13
+252,1306.344,1308.471,"['Are', 'all', 'these', 'children', 'yours', '?']",6
+253,1308.472,1313.472,"['Good', 'gracious', ',', 'you', 'have', 'been', 'productive', '.']",8
+254,1313.477,1316.52,"['FEMALE', 'HOBBIT', ':', 'Bilbo', '?']",5
+255,1316.521,1318.439,"['Sackville-Bagginses', '!']",2
+256,1318.44,1323.44,"['Quickly', ',', 'hide', '!']",4
+257,1329.367,1333.037,"['Thank', 'you', ',', 'my', 'boy', '.']",6
+258,1333.038,1336.665,"[""You're"", 'a', 'good', 'lad', ',', 'Frodo', '.']",7
+259,1336.666,1339.96,"[""I'm"", 'very', 'selfish', ',', 'you', 'know', '.']",7
+260,1339.961,1343.547,"['Yes', ',', 'I', 'am', '.', 'Very', 'selfish', '.']",8
+261,1343.548,1345.966,"['I', ""don't"", 'know', 'why', 'I', 'took', 'you', 'in', 'after', 'your', 'mother', 'and', 'father', 'died', '.', '.', '.']",17
+262,1345.967,1348.219,"['.', '.', '.', 'but', 'it', ""wasn't"", 'out', 'of', 'charity', '.']",10
+263,1348.22,1349.845,"['I', 'think', 'it', 'was', 'because', '.', '.', '.']",8
+264,1349.846,1352.473,"['.', '.', '.', 'of', 'all', 'my', 'numerous', 'relations', '.', '.', '.']",11
+265,1352.474,1356.227,"['.', '.', '.', 'you', 'were', 'the', 'one', 'Baggins', 'that', 'showed', 'real', 'spirit', '.']",13
+266,1356.228,1358.229,"['Bilbo', ',', 'have', 'you', 'been', 'at', 'the', 'Gaffer', ""'s"", 'home', 'brew', '?']",12
+267,1358.23,1360.231,"['No', '.']",2
+268,1360.232,1363.067,"['Well', ',', 'yes', ',', 'but', 'that', ""'s"", 'not', 'the', 'point', '.']",11
+269,1363.068,1368.068,"['The', 'point', 'is', ',', 'Frodo', '.', '.', '.']",8
+270,1369.407,1374.407,"['.', '.', '.', ""you'll"", 'be', 'all', 'right', '.']",8
+271,1374.746,1377.081,"['-', 'Done', '!', '-', ""You're"", 'supposed', 'to', 'stick', 'it', 'in', 'the', 'ground', '.']",13
+272,1377.082,1378.749,"['-', 'It', 'is', 'in', 'the', 'ground', '.', '-', 'Outside', '!']",10
+273,1378.75,1383.75,"['This', 'was', 'your', 'idea', '.']",5
+274,1396.101,1398.769,"['Bilbo', '.']",2
+275,1398.77,1401.772,"['Bilbo', ',', 'watch', 'out', 'for', 'the', 'dragon', '!']",8
+276,1401.773,1406.773,"['Nonsense', '.', 'There', ""hasn't"", 'been', 'a', 'dragon', 'in', 'these', 'parts', 'for', 'a', 'thousand', 'years', '.']",15
+277,1418.623,1423.502,"['-', 'That', 'was', 'good', '.', '-', 'Let', ""'s"", 'get', 'another', 'one', '.']",12
+278,1423.503,1428.215,"['GANDALF', ':', 'Meriadoc', 'Brandybuck', 'and', 'Peregrin', 'Took', '.']",8
+279,1428.216,1433.216,"['I', ""might've"", 'known', '.']",4
+280,1435.974,1438.934,"['FEMALE', 'HOBBIT', ':', 'Speech', ',', 'Bilbo', '!']",7
+281,1438.935,1440.477,"['MALE', 'HOBBIT', ':', 'Speech', '!']",5
+282,1440.478,1445.478,"['Speech', '!']",2
+283,1446.818,1449.904,"['My', 'dear', 'Bagginses', 'and', 'Boffins', '.', '.', '.']",8
+284,1449.905,1452.281,"['.', '.', '.', 'Tooks', 'and', 'Brandybucks', '.', '.', '.']",9
+285,1452.282,1454.992,"['.', '.', '.', 'Grubbs', ',', 'Chubbs', '.', '.', '.']",9
+286,1454.993,1457.161,"['.', '.', '.', 'Hornblowers', '.', '.', '.']",7
+287,1457.162,1459.246,"['.', '.', '.', 'Bolgers', '.', '.', '.']",7
+288,1459.247,1460.998,"['.', '.', '.', 'Bracegirdles', '.', '.', '.']",7
+289,1460.999,1465.794,"['.', '.', '.', 'and', 'Proudfoots', '.', '-', 'Proudfeet', '!']",9
+290,1465.795,1470.758,"['Today', 'is', 'my', '111th', 'birthday', '!']",6
+291,1470.759,1472.509,"['Happy', 'birthday', '!']",3
+292,1472.51,1476.972,"['But', 'alas', ',', 'eleventy-one', 'years', 'is', 'far', 'too', 'short', 'a', 'time', 'to', 'live', 'among', '.', '.', '.']",17
+293,1476.973,1480.809,"['.', '.', '.', 'such', 'excellent', 'and', 'admirable', 'Hobbits', '.']",9
+294,1480.81,1483.687,"['I', ""don't"", 'know', 'half', 'of', 'you', 'half', 'as', 'well', 'as', 'I', 'should', 'like', '.', '.', '.']",16
+295,1483.688,1488.688,"['.', '.', '.', 'and', 'I', 'like', 'less', 'than', 'half', 'of', 'you', 'half', 'as', 'well', 'as', 'you', 'deserve', '.']",18
+296,1491.821,1496.821,"['I', ',', 'uh', '---']",4
+297,1498.286,1503.286,"['I', 'have', 'things', 'to', 'do', '.']",6
+298,1507.045,1512.045,"[""I've"", 'put', 'this', 'off', 'far', 'too', 'long', '.']",8
+299,1513.009,1518.009,"['I', 'regret', 'to', 'announce', 'this', 'is', 'the', 'end', '!']",9
+300,1518.139,1520.391,"[""I'm"", 'going', 'now', '.']",4
+301,1520.392,1525.392,"['I', 'bid', 'you', 'all', 'a', 'very', 'fond', 'farewell', '.']",9
+302,1525.689,1530.689,"['Goodbye', '.']",2
+303,1532.737,1536.573,[],0
+304,1536.574,1541.574,[],0
+305,1550.088,1555.088,[],0
+306,1560.14,1563.434,"['I', 'suppose', 'you', 'think', 'that', 'was', 'terribly', 'clever', '.']",9
+307,1563.435,1567.021,"['Come', 'on', ',', 'Gandalf', '.', 'Did', 'you', 'see', 'their', 'faces', '?']",11
+308,1567.022,1572.022,"['There', 'are', 'many', 'magic', 'rings', 'in', 'this', 'world', ',', 'and', 'none', 'of', 'them', 'should', 'be', 'used', 'lightly', '.']",18
+309,1572.277,1574.653,"['It', 'was', 'just', 'a', 'bit', 'of', 'fun', '.']",8
+310,1574.654,1579.654,"['Oh', ',', ""you're"", 'probably', 'right', ',', 'as', 'usual', '.']",9
+311,1579.743,1583.454,"['-', 'You', 'will', 'keep', 'an', 'eye', 'on', 'Frodo', ',', ""won't"", 'you', '?', '-', 'Two', 'eyes', '.']",16
+312,1583.455,1586.373,"['As', 'often', 'as', 'I', 'can', 'spare', 'them', '.']",8
+313,1586.374,1589.752,"['-', ""I'm"", 'leaving', 'everything', 'to', 'him', '.', '-', 'What', 'about', 'this', 'ring', 'of', 'yours', '?']",15
+314,1589.753,1593.714,"['-', 'Is', 'that', 'staying', 'too', '?', '-', 'Yes', ',', 'yes', '.']",11
+315,1593.715,1598.677,"['It', ""'s"", 'in', 'an', 'envelope', 'over', 'there', 'on', 'the', 'mantelpiece', '.']",11
+316,1598.678,1603.678,"['No', '.', 'Wait', ',', 'it', ""'s"", '.', '.', '.']",9
+317,1604.142,1609.142,"['.', '.', '.', 'here', 'in', 'my', 'pocket', '.']",8
+318,1611.316,1616.316,"[""Isn't"", 'that', '---', '?', ""Isn't"", 'that', 'odd', ',', 'now', '?']",10
+319,1616.321,1621.321,"['Yet', ',', 'after', 'all', ',', 'why', 'not', '?']",8
+320,1621.409,1626.409,"['-', 'Why', ""shouldn't"", 'I', 'keep', 'it', '?', '-', 'I', 'think', 'you', 'should', 'leave', 'the', 'ring', 'behind', '.']",17
+321,1626.706,1629.083,"['Is', 'that', 'so', 'hard', '?']",5
+322,1629.084,1632.795,"['Well', ',', 'no', '.']",4
+323,1632.796,1636.298,"['And', 'yes', '.']",3
+324,1636.299,1639.593,"['Now', 'it', 'comes', 'to', 'it', ',', 'I', ""don't"", 'feel', 'like', 'parting', 'with', 'it', '.']",14
+325,1639.594,1641.512,"['It', ""'s"", 'mine', '.', 'I', 'found', 'it', '!', 'It', 'came', 'to', 'me', '!']",13
+326,1641.513,1646.225,"['-', 'There', ""'s"", 'no', 'need', 'to', 'get', 'angry', '.', '-', 'Well', ',', 'if', ""I'm"", 'angry', ',', 'it', ""'s"", 'your', 'fault', '!']",21
+327,1646.226,1649.269,"['It', ""'s"", 'mine', '.']",4
+328,1649.27,1652.106,"['My', 'own', '.']",3
+329,1652.107,1656.276,"['-', 'My', 'precious', '.', '-', 'Precious', '?']",7
+330,1656.277,1659.363,"['It', ""'s"", 'been', 'called', 'that', 'before', ',', 'but', 'not', 'by', 'you', '.']",12
+331,1659.364,1662.157,"['What', 'business', 'is', 'it', 'of', 'yours', 'what', 'I', 'do', 'with', 'my', 'own', 'things', '?']",14
+332,1662.158,1665.119,"['I', 'think', ""you've"", 'had', 'that', 'ring', 'quite', 'long', 'enough', '.']",10
+333,1665.12,1668.163,"['-', 'You', 'want', 'it', 'for', 'yourself', '!', '-', 'Bilbo', 'Baggins', '!']",11
+334,1668.164,1672.626,"['Do', 'not', 'take', 'me', 'for', 'some', 'Conjurer', 'of', 'cheap', 'tricks', '.']",11
+335,1672.627,1677.627,"['I', 'am', 'not', 'trying', 'to', 'rob', 'you', '.']",8
+336,1681.344,1684.388,"[""I'm"", 'trying', 'to', 'help', 'you', '.']",6
+337,1684.389,1689.389,[],0
+338,1691.521,1695.232,"['All', 'your', 'long', 'years', ',', ""we've"", 'been', 'friends', '.']",9
+339,1695.233,1699.236,"['Trust', 'me', 'as', 'you', 'once', 'did', '.']",7
+340,1699.237,1702.197,"['Let', 'it', 'go', '.']",4
+341,1702.198,1706.743,"[""You're"", 'right', ',', 'Gandalf', '.']",5
+342,1706.744,1710.747,"['The', 'ring', 'must', 'go', 'to', 'Frodo', '.']",7
+343,1710.748,1713.917,"['It', ""'s"", 'late', '.', 'The', 'road', 'is', 'long', '.']",9
+344,1713.918,1718.918,"['Yes', ',', 'it', 'is', 'time', '.']",6
+345,1719.257,1721.758,"['-', 'Bilbo', '.', '-', 'Hm', '?']",6
+346,1721.759,1726.638,"['The', 'ring', 'is', 'still', 'in', 'your', 'pocket', '.']",8
+347,1726.639,1731.639,"['Ah', '.', 'Yes', '.']",4
+348,1758.963,1763.634,"[""I've"", 'thought', 'up', 'an', 'ending', 'for', 'my', 'book', ':']",9
+349,1763.635,1768.635,"['""', 'And', 'he', 'lived', 'happily', 'ever', 'after', 'to', 'the', 'end', 'of', 'his', 'days', '.', '""']",15
+350,1768.806,1773.31,"['And', ""I'm"", 'sure', 'you', 'will', ',', 'my', 'dear', 'friend', '.']",10
+351,1773.311,1777.272,"['Goodbye', ',', 'Gandalf', '.']",4
+352,1777.273,1782.273,"['Goodbye', ',', 'dear', 'Bilbo', '.']",5
+353,1787.951,1792.951,"['BILBO', ':', 'The', 'road', 'goes', 'ever', 'on', 'and', 'on']",9
+354,1794.707,1799.707,"['Until', 'our', 'next', 'meeting', '.']",5
+355,1824.487,1828.323,"['BILBO', ':', 'It', ""'s"", 'mine', '.', 'My', 'own', '.']",9
+356,1828.324,1832.035,"['My', 'precious', '.']",3
+357,1832.036,1835.163,"['Riddles', 'in', 'the', 'dark', '.']",5
+358,1835.164,1836.748,"['Bilbo', '!']",2
+359,1836.749,1841.749,"['Bilbo', '!']",2
+360,1841.963,1846.508,"['My', 'precious', '.']",3
+361,1846.509,1848.885,"['Precious', '.']",2
+362,1848.886,1853.886,"['He', ""'s"", 'gone', ',', ""hasn't"", 'he', '?']",7
+363,1854.225,1857.519,"['He', 'talked', 'for', 'so', 'long', 'about', 'leaving', '.', '.', '.']",10
+364,1857.52,1862.52,"['.', '.', '.', 'I', ""didn't"", 'think', ""he'd"", 'really', 'do', 'it', '.']",11
+365,1864.694,1869.694,"['Gandalf', '?']",2
+366,1874.871,1876.872,"['Bilbo', ""'s"", 'ring', '.']",4
+367,1876.873,1879.416,"['He', ""'s"", 'gone', 'to', 'stay', 'with', 'the', 'Elves', '.']",9
+368,1879.417,1884.417,"['He', ""'s"", 'left', 'you', 'Bag', 'End', '.']",7
+369,1886.132,1888.884,"['Along', 'with', 'all', 'his', 'possessions', '.']",6
+370,1888.885,1893.885,"['The', 'ring', 'is', 'yours', 'now', '.']",6
+371,1894.39,1898.06,"['-', 'Put', 'it', 'somewhere', 'out', 'of', 'sight', '.', '-', 'Where', 'are', 'you', 'going', '?']",14
+372,1898.061,1900.52,"['-', 'There', 'are', 'some', 'things', 'that', 'I', 'must', 'see', 'to', '.', '-', 'What', 'things', '?']",15
+373,1900.521,1905.521,"['-', 'Questions', '.', 'Questions', 'that', 'need', 'answering', '.', '-', ""You've"", 'only', 'just', 'arrived', '.']",14
+374,1905.651,1910.651,"['I', ""don't"", 'understand', '.']",4
+375,1911.616,1915.911,"['Neither', 'do', 'I', '.']",4
+376,1915.912,1918.413,"['Keep', 'it', 'secret', '.']",4
+377,1918.414,1923.414,"['Keep', 'it', 'safe', '.']",4
+378,1952.573,1955.158,[],0
+379,1955.159,1957.661,"['GOLLUM', ':', 'Shire', '!']",4
+380,1957.662,1962.662,"['Baggins', '!']",2
+381,1973.01,1978.01,[],0
+382,2009.338,2012.424,"['GANDALF', ':', '""', 'The', 'year', '3434', 'of', 'the', 'Second', 'Age', '.']",11
+383,2012.425,2017.053,"['Here', 'follows', 'the', 'account', 'of', 'Isildur', ',', 'High', 'King', 'of', 'Gondor', '.', '.', '.']",14
+384,2017.054,2022.054,"['.', '.', '.', 'and', 'the', 'finding', 'of', 'the', 'Ring', 'of', 'Power', '.', '""']",13
+385,2024.228,2026.229,"['""', 'It', 'has', 'come', 'to', 'me', '.']",7
+386,2026.23,2029.9,"['The', 'One', 'Ring', '.', 'It', 'shall', 'be', 'an', 'heirloom', 'of', 'my', 'kingdom', '.']",13
+387,2029.901,2033.57,"['All', 'those', 'who', 'follow', 'in', 'my', 'bloodline', 'shall', 'be', 'bound', 'to', 'its', 'fate', '.', '.', '.']",16
+388,2033.571,2037.574,"['.', '.', '.', 'for', 'I', 'will', 'risk', 'no', 'hurt', 'to', 'the', 'Ring', '.']",13
+389,2037.575,2040.911,"['It', 'is', 'precious', 'to', 'me', '.', '.', '.']",8
+390,2040.912,2045.912,"['.', '.', '.', 'though', 'I', 'buy', 'it', 'with', 'great', 'pain', '.']",11
+391,2046.709,2051.254,"['The', 'markings', 'upon', 'the', 'band', 'begin', 'to', 'fade', '.']",9
+392,2051.255,2056.176,"['The', 'writing', ',', 'which', 'at', 'first', 'was', 'as', 'clear', 'as', 'red', 'flame', ',', 'has', 'all', 'but', 'disappeared', '.']",18
+393,2056.177,2061.177,"['A', 'secret', 'now', 'that', 'only', 'fire', 'can', 'tell', '.', '""']",10
+394,2064.769,2069.769,[],0
+395,2076.739,2079.908,"['Shire', '.']",2
+396,2079.909,2082.41,"['Baggins', '.']",2
+397,2082.411,2087.411,"['There', ""'s"", 'no', 'Bagginses', 'around', 'here', '.', ""They're"", 'all', 'up', 'in', 'Hobbiton', '.']",13
+398,2088.125,2093.125,"['That', 'way', '.']",3
+399,2095.633,2098.009,"['To', 'heal', 'my', 'heart', 'and', 'drown', 'my', 'woe']",8
+400,2098.01,2100.512,"['Rain', 'may', 'fall', 'and', 'wind', 'may', 'blow']",7
+401,2100.513,2102.639,"['But', 'there', 'still', 'be']",4
+402,2102.64,2104.307,"['Many', 'miles', 'to', 'go']",4
+403,2104.308,2106.434,"['Sweet', 'is', 'the', 'sound', 'of', 'the', 'pouring', 'rain']",8
+404,2106.435,2108.812,"['And', 'the', 'stream', 'that', 'falls', 'From', 'hill', 'to', 'plain']",9
+405,2108.813,2110.814,"['Better', 'than', 'rain', 'or', 'rippling', 'brook']",6
+406,2110.815,2115.815,"['Is', 'a', 'mug', 'of', 'beer', 'inside', 'this', 'Took']",8
+407,2116.654,2119.948,"['There', ""'s"", 'been', 'some', 'strange', 'folk', 'crossing', 'the', 'Shire', '.']",10
+408,2119.949,2124.286,"['Dwarves', 'and', 'others', 'of', 'a', 'less', 'than', 'savory', 'nature', '.']",10
+409,2124.287,2126.329,"['War', 'is', 'brewing', '.']",4
+410,2126.33,2129.374,"['The', 'mountains', 'are', 'fair', 'teeming', 'with', 'goblins', '.']",8
+411,2129.375,2132.168,"['Far-off', 'tales', 'and', 'children', ""'s"", 'stories', ',', 'that', ""'s"", 'all', 'that', 'is', '.']",13
+412,2132.169,2136.84,"[""You're"", 'beginning', 'to', 'sound', 'like', 'that', 'old', 'Bilbo', 'Baggins', '.', 'Cracked', ',', 'he', 'was', '.']",15
+413,2136.841,2140.01,"['Young', 'Mr.', 'Frodo', 'here', ',', 'he', ""'s"", 'cracking', '.']",9
+414,2140.011,2141.636,"['And', 'proud', 'of', 'it', '.']",5
+415,2141.637,2144.055,"['-', 'Cheers', ',', 'Gaffer', '.', '-', 'Cheers', '.']",8
+416,2144.056,2148.351,"['It', ""'s"", 'none', 'of', 'our', 'concern', 'what', 'goes', 'on', 'beyond', 'our', 'borders', '.']",13
+417,2148.352,2153.352,"['Keep', 'your', 'nose', 'out', 'of', 'trouble', ',', 'and', 'no', ""trouble'll"", 'come', 'to', 'you', '.']",14
+418,2156.027,2158.403,"['-', 'Good', 'night', ',', 'lads', '.', '-', 'Good', 'night', '.']",10
+419,2158.404,2163.074,"['Good', 'night', ',', 'sweet', 'maiden', 'of', 'the', 'golden', 'ale', '.']",10
+420,2163.075,2165.66,"['Mind', 'who', ""you're"", 'sweet-talking', '.']",5
+421,2165.661,2170.661,"[""Don't"", 'worry', ',', 'Sam', '.', 'Rosie', 'knows', 'an', 'idiot', 'when', 'she', 'sees', 'one', '.']",14
+422,2171.208,2173.043,"['Does', 'she', '?']",3
+423,2173.044,2178.044,"['-', 'Good', 'night', ',', 'Sam', '.', '-', 'Good', 'night', ',', 'Mr.', 'Frodo', '.']",13
+424,2200.821,2205.821,"['Is', 'it', 'secret', '?', 'Is', 'it', 'safe', '?']",8
+425,2205.91,2209.079,[],0
+426,2209.08,2212.207,"['Ah', '.']",2
+427,2212.208,2217.208,"['What', 'are', 'you', 'doing', '?']",5
+428,2226.931,2229.599,"['Hold', 'out', 'your', 'hand', ',', 'Frodo', '.']",7
+429,2229.6,2234.354,"['It', ""'s"", 'quite', 'cool', '.']",5
+430,2234.355,2237.941,"['What', 'can', 'you', 'see', '?']",5
+431,2237.942,2242.942,"['Can', 'you', 'see', 'anything', '?']",5
+432,2242.988,2245.073,"['Nothing', '.']",2
+433,2245.074,2248.118,"['There', ""'s"", 'nothing', '.']",4
+434,2248.119,2253.119,"['Wait', '.']",2
+435,2253.749,2257.46,"['There', 'are', 'markings', '.']",4
+436,2257.461,2261.089,"['It', ""'s"", 'some', 'form', 'of', 'Elvish', '.', 'I', ""can't"", 'read', 'it', '.']",12
+437,2261.09,2264.175,"['There', 'are', 'few', 'who', 'can', '.']",6
+438,2264.176,2269.176,"['The', 'language', 'is', 'that', 'of', 'Mordor', ',', 'which', 'I', 'will', 'not', 'utter', 'here', '.']",14
+439,2269.64,2270.974,"['Mordor', '!']",2
+440,2270.975,2273.184,"['In', 'the', 'common', 'tongue', ',', 'it', 'says', ':']",8
+441,2273.185,2276.98,"['""', 'One', 'Ring', 'to', 'rule', 'them', 'all', '.', '.', '.']",10
+442,2276.981,2279.482,"['.', '.', '.', 'One', 'Ring', 'to', 'find', 'them', '.', '.', '.']",11
+443,2279.483,2281.985,"['.', '.', '.', 'One', 'Ring', 'to', 'bring', 'them', 'all', '.', '.', '.']",12
+444,2281.986,2286.614,"['.', '.', '.', 'and', 'in', 'the', 'darkness', 'bind', 'them', '.', '""']",11
+445,2286.615,2288.825,"['This', 'is', 'the', 'One', 'Ring', '.', '.', '.']",8
+446,2288.826,2293.826,"['.', '.', '.', 'forged', 'by', 'the', 'Dark', 'Lord', 'Sauron', 'in', 'the', 'fires', 'of', 'Mount', 'Doom', '.']",16
+447,2294.331,2299.127,"['Taken', 'by', 'Isildur', 'from', 'the', 'hand', 'of', 'Sauron', 'himself', '.']",10
+448,2299.128,2302.13,"['Bilbo', 'found', 'it', '.']",4
+449,2302.131,2304.299,"['-', 'In', 'Gollum', ""'s"", 'cave', '.', '-', 'Yes', '.']",9
+450,2304.3,2309.012,"['For', '60', 'years', ',', 'the', 'Ring', 'lay', 'quiet', 'in', 'Bilbo', ""'s"", 'keeping', '.', '.', '.']",15
+451,2309.013,2313.057,"['.', '.', '.', 'prolonging', 'his', 'life', ',', 'delaying', 'old', 'age', '.']",11
+452,2313.058,2317.687,"['But', 'no', 'longer', ',', 'Frodo', '.', 'Evil', 'is', 'stirring', 'in', 'Mordor', '.']",12
+453,2317.688,2320.315,"['The', 'Ring', 'has', 'awoken', '.']",5
+454,2320.316,2323.234,"['It', ""'s"", 'heard', 'its', 'master', ""'s"", 'call', '.']",8
+455,2323.235,2328.235,"['But', 'he', 'was', 'destroyed', '.', 'Sauron', 'was', 'destroyed', '.']",9
+456,2328.365,2332.869,[],0
+457,2332.87,2335.872,"['GANDALF', ':', 'No', ',', 'Frodo', '.']",6
+458,2335.873,2339.375,"['The', 'spirit', 'of', 'Sauron', 'endured', '.']",6
+459,2339.376,2344.376,"['His', 'life', 'force', 'is', 'bound', 'to', 'the', 'Ring', ',', 'and', 'the', 'Ring', 'survived', '.']",14
+460,2345.049,2348.092,"['Sauron', 'has', 'returned', '.']",4
+461,2348.093,2350.386,"['His', 'Orcs', 'have', 'multiplied', '.']",5
+462,2350.387,2354.599,"['His', 'fortress', 'at', 'Barad-dûr', 'is', 'rebuilt', 'in', 'the', 'land', 'of', 'Mordor', '.']",12
+463,2354.6,2359.6,"['Sauron', 'needs', 'only', 'this', 'Ring', 'to', 'cover', 'all', 'the', 'lands', 'in', 'a', 'second', 'darkness', '.']",15
+464,2359.605,2361.898,"['He', 'is', 'seeking', 'it', '.']",5
+465,2361.899,2365.985,"['Seeking', 'it', '.', 'All', 'his', 'thought', 'is', 'bent', 'on', 'it', '.']",11
+466,2365.986,2368.905,"['For', 'the', 'Ring', 'yearns', 'above', 'all', 'else', '.', '.', '.']",10
+467,2368.906,2372.575,"['.', '.', '.', 'to', 'return', 'to', 'the', 'hand', 'of', 'its', 'master', '.']",12
+468,2372.576,2374.494,"['They', 'are', 'one', '.', '.', '.']",6
+469,2374.495,2377.747,"['.', '.', '.', 'the', 'Ring', 'and', 'the', 'Dark', 'Lord', '.']",10
+470,2377.748,2379.374,"['Frodo', '.', '.', '.']",4
+471,2379.375,2381.417,"['.', '.', '.', 'he', 'must', 'never', 'find', 'it', '.']",9
+472,2381.418,2382.794,"['FRODO', ':', 'All', 'right', '.']",5
+473,2382.795,2387.298,"['We', 'put', 'it', 'away', '.', 'We', 'keep', 'it', 'hidden', '.', 'We', 'never', 'speak', 'of', 'it', 'again', '.']",17
+474,2387.299,2392.299,"['No', 'one', 'knows', 'it', ""'s"", 'here', ',', 'do', 'they', '?']",10
+475,2395.641,2397.934,"['Do', 'they', ',', 'Gandalf', '?']",5
+476,2397.935,2402.605,"['There', 'is', 'one', 'other', 'who', 'knew', 'that', 'Bilbo', 'had', 'the', 'Ring', '.']",12
+477,2402.606,2405.775,"['I', 'looked', 'everywhere', 'for', 'the', 'creature', 'Gollum', '.']",8
+478,2405.776,2408.152,"['But', 'the', 'enemy', 'found', 'him', 'first', '.']",7
+479,2408.153,2409.654,[],0
+480,2409.655,2412.323,"['GANDALF', ':', 'I', ""don't"", 'know', 'how', 'long', 'they', 'tortured', 'him', '.']",11
+481,2412.324,2417.036,"['But', 'amidst', 'the', 'endless', 'screams', 'and', 'inane', 'babble', ',', 'they', 'discerned', 'two', 'words', ':']",14
+482,2417.037,2419.33,"['GOLLUM', ':', 'Shire', '!']",4
+483,2419.331,2421.165,"['Baggins', '!']",2
+484,2421.166,2423.167,"['Shire', '.']",2
+485,2423.168,2428.168,"['Baggins', '.', 'But', 'that', 'would', 'lead', 'them', 'here', '!']",9
+486,2428.799,2431.676,"['Who', 'goes', 'there', '?']",4
+487,2431.677,2433.303,"['Take', 'it', ',', 'Gandalf', '!']",5
+488,2433.304,2434.554,"['-', 'Take', 'it', '!', '-', 'No', ',', 'Frodo', '.']",9
+489,2434.555,2437.14,"['-', 'You', 'must', 'take', 'it', '!', '-', 'You', 'cannot', 'offer', 'me', 'this', 'ring', '!']",14
+490,2437.141,2441.978,"['-', ""I'm"", 'giving', 'it', 'to', 'you', '!', '-', ""Don't"", 'tempt', 'me', ',', 'Frodo', '!']",14
+491,2441.979,2444.564,"['I', 'dare', 'not', 'take', 'it', '.']",6
+492,2444.565,2448.151,"['Not', 'even', 'to', 'keep', 'it', 'safe', '.']",7
+493,2448.152,2450.82,"['Understand', ',', 'Frodo', '.', '.', '.']",6
+494,2450.821,2455.821,"['.', '.', '.', 'I', 'would', 'use', 'this', 'Ring', 'from', 'a', 'desire', 'to', 'do', 'good', '.']",15
+495,2459.83,2464.83,"['But', 'through', 'me', ',', 'it', 'would', 'wield', 'a', 'power', 'too', 'great', 'and', 'terrible', 'to', 'imagine', '.']",16
+496,2466.17,2470.965,"['-', 'But', 'it', 'cannot', 'stay', 'in', 'the', 'Shire', '!', '-', 'No', '.']",12
+497,2470.966,2475.966,"['No', ',', 'it', ""can't"", '.']",5
+498,2477.89,2480.975,"['What', 'must', 'I', 'do', '?']",5
+499,2480.976,2484.687,"['-', 'You', 'must', 'leave', '.', 'And', 'leave', 'quickly', '.', '-', 'Where', '?', 'Where', 'do', 'I', 'go', '?']",17
+500,2484.688,2488.232,"['Get', 'out', 'of', 'the', 'Shire', '.', 'Make', 'for', 'the', 'village', 'of', 'Bree', '.']",13
+501,2488.233,2489.525,"['Bree', '.']",2
+502,2489.526,2492.528,"['-', 'What', 'about', 'you', '?', '-', ""I'll"", 'be', 'waiting', 'for', 'you', '.', '.', '.']",14
+503,2492.529,2495.198,"['.', '.', '.', 'at', 'the', 'inn', 'of', 'the', 'Prancing', 'Pony', '.']",11
+504,2495.199,2499.118,"['-', 'And', 'the', 'Ring', 'will', 'be', 'safe', 'there', '?', '-', 'I', ""don't"", 'know', ',', 'Frodo', '.']",16
+505,2499.119,2502.622,"['I', ""don't"", 'have', 'any', 'answers', '.']",6
+506,2502.623,2507.623,"['I', 'must', 'see', 'the', 'head', 'of', 'my', 'order', '.', 'He', 'is', 'both', 'wise', 'and', 'powerful', '.', 'Trust', 'me', ',', 'Frodo', '.']",21
+507,2508.379,2511.13,"[""He'll"", 'know', 'what', 'to', 'do', '.']",6
+508,2511.131,2514.217,"[""You'll"", 'have', 'to', 'leave', 'the', 'name', 'of', 'Baggins', 'behind', 'you', '.']",11
+509,2514.218,2517.345,"['That', 'name', 'is', 'not', 'safe', 'outside', 'the', 'Shire', '.']",9
+510,2517.346,2521.265,"['Travel', 'only', 'by', 'day', '.', 'And', 'stay', 'off', 'the', 'road', '.']",11
+511,2521.266,2526.266,"['I', 'can', 'cut', 'across', 'country', 'easily', 'enough', '.']",8
+512,2526.939,2528.564,"['My', 'dear', 'Frodo', '.']",4
+513,2528.565,2531.776,"['Hobbits', 'really', 'are', 'amazing', 'creatures', '.']",6
+514,2531.777,2534.904,"['You', 'can', 'learn', 'all', 'that', 'there', 'is', 'to', 'know', 'about', 'their', 'ways', 'in', 'a', 'month', '.']",16
+515,2534.905,2537.448,"['And', 'yet', ',', 'after', 'a', 'hundred', 'years', '.', '.', '.']",10
+516,2537.449,2539.742,"['.', '.', '.', 'they', 'can', 'still', 'surprise', 'you', '.']",9
+517,2539.743,2541.16,[],0
+518,2541.161,2546.161,"['Get', 'down', '.']",3
+519,2551.088,2554.757,[],0
+520,2554.758,2558.386,"['Confound', 'it', 'all', ',', 'Samwise', 'Gamgee', '!', 'Have', 'you', 'been', 'eavesdropping', '?']",12
+521,2558.387,2563.057,"['I', ""haven't"", 'been', 'dropping', 'no', 'eaves', '.', 'Honest', '.', 'I', 'was', 'cutting', 'the', 'grass', 'under', 'the', 'window', '.']",18
+522,2563.058,2565.685,"['A', 'little', 'late', 'for', 'trimming', 'the', 'verge', ',', ""don't"", 'you', 'think', '?']",12
+523,2565.686,2568.771,"['-', 'I', 'heard', 'raised', 'voices', '.', '-', 'What', 'did', 'you', 'hear', '?', 'Speak', '!']",14
+524,2568.772,2570.398,"['Nothing', 'important', '.']",3
+525,2570.399,2574.694,"['That', 'is', ',', 'I', 'heard', 'a', 'good', 'deal', 'about', 'a', 'ring', ',', 'a', 'Dark', 'Lord', 'and', 'the', 'end', 'of', 'the', 'world', 'but', '---']",23
+526,2574.695,2579.695,"['Please', ',', 'Mr.', 'Gandalf', ',', 'sir', ',', ""don't"", 'hurt', 'me', '.', ""Don't"", 'turn', 'me', 'into', 'anything', 'unnatural', '.']",18
+527,2580.117,2582.952,"['No', '?']",2
+528,2582.953,2585.329,"['Perhaps', 'not', '.']",3
+529,2585.33,2590.33,"[""I've"", 'thought', 'of', 'a', 'better', 'use', 'for', 'you', '.']",9
+530,2590.502,2595.006,"['GANDALF', ':', 'Come', 'along', ',', 'Samwise', '.', 'Keep', 'up', '.']",10
+531,2595.007,2597.508,"['Be', 'careful', ',', 'both', 'of', 'you', '.']",7
+532,2597.509,2600.511,"['The', 'enemy', 'has', 'many', 'spies', 'in', 'his', 'service', ':']",9
+533,2600.512,2605.224,"['Birds', ',', 'beasts', '.']",4
+534,2605.225,2608.728,"['Is', 'it', 'safe', '?']",4
+535,2608.729,2610.313,"['Never', 'put', 'it', 'on', '.', '.', '.']",7
+536,2610.314,2613.858,"['.', '.', '.', 'for', 'the', 'agents', 'of', 'the', 'Dark', 'Lord', 'will', 'be', 'drawn', 'to', 'its', 'power', '.']",17
+537,2613.859,2615.86,"['Always', 'remember', ',', 'Frodo', '.', '.', '.']",7
+538,2615.861,2619.447,"['.', '.', '.', 'the', 'Ring', 'is', 'trying', 'to', 'get', 'back', 'to', 'its', 'master', '.']",14
+539,2619.448,2624.448,"['It', 'wants', 'to', 'be', 'found', '.']",6
+540,2628.999,2633.999,[],0
+541,2662.157,2664.7,"['This', 'is', 'it', '.']",4
+542,2664.701,2667.161,"['This', 'is', 'what', '?']",4
+543,2667.162,2669.705,"['If', 'I', 'take', 'one', 'more', 'step', '.', '.', '.']",9
+544,2669.706,2674.706,"['.', '.', '.', ""it'll"", 'be', 'the', 'farthest', 'away', 'from', 'home', ""I've"", 'ever', 'been', '.']",14
+545,2677.881,2682.881,"['Come', 'on', ',', 'Sam', '.']",5
+546,2687.808,2690.184,"['Remember', 'what', 'Bilbo', 'used', 'to', 'say', ':']",7
+547,2690.185,2694.105,"['-', '""', 'It', ""'s"", 'a', 'dangerous', 'business', ',', 'Frodo', '.', '""', 'BILBO', ':', '""', 'Going', 'out', 'your', 'door', '.']",19
+548,2694.106,2698.734,"['You', 'step', 'onto', 'the', 'road', ',', 'and', 'if', 'you', ""don't"", 'keep', 'your', 'feet', '.', '.', '.']",16
+549,2698.735,2703.735,"['.', '.', '.', 'there', ""'s"", 'no', 'knowing', 'where', 'you', 'might', 'be', 'swept', 'off', 'to', '.', '""']",16
+550,2711.54,2716.54,[],0
+551,2716.92,2721.92,"['Sam', '.']",2
+552,2722.259,2727.259,"['Wood-elves', '.']",2
+553,2737.107,2741.152,"[""They're"", 'going', 'to', 'the', 'harbor', 'beyond', 'the', 'White', 'Towers', '.']",10
+554,2741.153,2743.529,"['To', 'the', 'Grey', 'Havens', '.']",5
+555,2743.53,2745.74,"['SAM', ':', ""They're"", 'leaving', 'Middle-earth', '.']",6
+556,2745.741,2750.741,"['FRODO', ':', 'Never', 'to', 'return', '.']",6
+557,2750.829,2753.623,"['I', ""don't"", 'know', 'why', '.', '.', '.']",7
+558,2753.624,2758.127,"['.', '.', '.', 'it', 'makes', 'me', 'sad', '.']",8
+559,2758.128,2763.128,"['Everywhere', 'I', 'lie', 'there', ""'s"", 'a', 'dirty', 'great', 'root', 'sticking', 'into', 'my', 'back', '.']",14
+560,2763.467,2765.343,"['Just', 'shut', 'your', 'eyes', '.', '.', '.']",7
+561,2765.344,2768.304,"['.', '.', '.', 'and', 'imagine', ""you're"", 'back', 'in', 'your', 'own', 'bed', '.', '.', '.']",14
+562,2768.305,2773.305,"['.', '.', '.', 'with', 'a', 'soft', 'mattress', 'and', 'a', 'lovely', 'feather', 'pillow', '.']",13
+563,2781.568,2784.445,"['It', ""'s"", 'not', 'working', ',', 'Mr.', 'Frodo', '.']",8
+564,2784.446,2789.446,"[""I'm"", 'never', 'going', 'to', 'be', 'able', 'to', 'sleep', 'out', 'here', '.']",11
+565,2789.66,2794.66,"['Me', 'neither', ',', 'Sam', '.']",5
+566,2820.524,2823.734,"['MALE', 'VOICE', ':', 'Smoke', 'rises', 'from', 'the', 'Mountain', 'of', 'Doom', '.']",11
+567,2823.735,2825.611,"['The', 'hour', 'grows', 'late', '.']",5
+568,2825.612,2829.365,"['And', 'Gandalf', 'the', 'Grey', 'rides', 'to', 'lsengard', '.', '.', '.']",10
+569,2829.366,2832.034,"['.', '.', '.', 'seeking', 'my', 'counsel', '.']",7
+570,2832.035,2836.205,"['For', 'that', 'is', 'why', 'you', 'have', 'come', ',', 'is', 'it', 'not', '?']",12
+571,2836.206,2837.748,"['My', 'old', 'friend', '.']",4
+572,2837.749,2842.749,"['Saruman', '.']",2
+573,2844.172,2848.009,"['SARUMAN', ':', 'You', 'are', 'sure', 'of', 'this', '?', 'GANDALF', ':', 'Beyond', 'any', 'doubt', '.']",14
+574,2848.01,2850.428,"['So', 'the', 'Ring', 'of', 'Power', 'has', 'been', 'found', '.']",9
+575,2850.429,2853.848,"['All', 'these', 'long', 'years', ',', 'it', 'was', 'in', 'the', 'Shire', '.']",11
+576,2853.849,2857.643,"['-', 'Under', 'my', 'very', 'nose', '.', '-', 'Yet', 'you', 'did', 'not', 'have', 'the', 'wit', 'to', 'see', 'it', '.']",18
+577,2857.644,2862.644,"['Your', 'love', 'of', 'the', 'half', 'ling', ""'s"", 'leaf', 'has', 'clearly', 'slowed', 'your', 'mind', '.']",14
+578,2863.025,2867.194,"['But', 'we', 'still', 'have', 'time', '.', 'Time', 'enough', 'to', 'counter', 'Sauron', 'if', 'we', 'act', 'quickly', '.']",16
+579,2867.195,2869.572,"['Time', '?']",2
+580,2869.573,2872.658,"['What', 'time', 'do', 'you', 'think', 'we', 'have', '?']",8
+581,2872.659,2876.704,"['Sauron', 'has', 'regained', 'much', 'of', 'his', 'former', 'strength', '.']",9
+582,2876.705,2879.165,"['He', 'cannot', 'yet', 'take', 'physical', 'form', '.', '.', '.']",9
+583,2879.166,2882.543,"['.', '.', '.', 'but', 'his', 'spirit', 'has', 'lost', 'none', 'of', 'its', 'potency', '.']",13
+584,2882.544,2887.544,"['Concealed', 'within', 'his', 'fortress', ',', 'the', 'Lord', 'of', 'Mordor', 'sees', 'all', '.']",12
+585,2888.175,2893.175,"['His', 'gaze', 'pierces', 'cloud', ',', 'shadow', ',', 'earth', 'and', 'flesh', '.']",11
+586,2895.599,2899.685,"['You', 'know', 'of', 'what', 'I', 'speak', ',', 'Gandalf', '.']",9
+587,2899.686,2904.686,"['A', 'Great', 'Eye', ',', 'lidless', ',', 'wreathed', 'in', 'flame', '.']",10
+588,2905.901,2907.902,"['The', 'Eye', 'of', 'Sauron', '.']",5
+589,2907.903,2910.696,"['He', 'is', 'gathering', 'all', 'evil', 'to', 'him', '.']",8
+590,2910.697,2913.366,"['Very', 'soon', ',', ""he'll"", 'have', 'summoned', 'an', 'army', 'great', 'enough', '.', '.', '.']",13
+591,2913.367,2915.91,"['.', '.', '.', 'for', 'an', 'assault', 'upon', 'Middle-earth', '.']",9
+592,2915.911,2918.788,"['You', 'know', 'this', '?']",4
+593,2918.789,2920.915,"['How', '?']",2
+594,2920.916,2923.0,"['I', 'have', 'seen', 'it', '.']",5
+595,2923.001,2926.921,"['A', 'palantír', 'is', 'a', 'dangerous', 'tool', ',', 'Saruman', '.']",9
+596,2926.922,2928.881,"['Why', '?']",2
+597,2928.882,2933.882,"['Why', 'should', 'we', 'fear', 'to', 'use', 'it', '?']",8
+598,2934.221,2938.307,"['They', 'are', 'not', 'all', 'accounted', 'for', ',', 'the', 'lost', 'Seeing-stones', '.']",11
+599,2938.308,2943.308,"['We', 'do', 'not', 'know', 'who', 'else', 'may', 'be', 'watching', '.']",10
+600,2944.147,2947.066,"['The', 'hour', 'is', 'later', 'than', 'you', 'think', '.']",8
+601,2947.067,2951.654,"['Sauron', ""'s"", 'forces', 'are', 'already', 'moving', '.']",7
+602,2951.655,2954.782,"['The', 'Nine', 'have', 'left', 'Minas', 'Morgul', '.']",7
+603,2954.783,2955.991,"['The', 'Nine', '?']",3
+604,2955.992,2959.245,"['They', 'crossed', 'the', 'River', 'Isen', 'on', 'Midsummer', ""'s"", 'Eve', '.', '.', '.']",12
+605,2959.246,2962.123,"['.', '.', '.', 'disguised', 'as', 'riders', 'in', 'black', '.']",9
+606,2962.124,2967.124,"['-', ""They've"", 'reached', 'the', 'Shire', '?', '-', 'They', 'will', 'find', 'the', 'Ring', '.']",13
+607,2967.671,2970.423,"['And', 'kill', 'the', 'one', 'who', 'carries', 'it', '.']",8
+608,2970.424,2975.424,"['Frodo', '!']",2
+609,2984.521,2989.521,"['You', 'did', 'not', 'seriously', 'think', 'that', 'a', 'Hobbit', 'could', 'contend', 'with', 'the', 'will', 'of', 'Sauron', '?']",16
+610,2989.693,2994.693,"['There', 'are', 'none', 'who', 'can', '.']",6
+611,2994.99,2997.867,"['Against', 'the', 'power', 'of', 'Mordor', '.', '.', '.']",8
+612,2997.868,3002.496,"['.', '.', '.', 'there', 'can', 'be', 'no', 'victory', '.']",9
+613,3002.497,3006.959,"['We', 'must', 'join', 'with', 'him', ',', 'Gandalf', '.']",8
+614,3006.96,3011.96,"['We', 'must', 'join', 'with', 'Sauron', '.']",6
+615,3011.965,3015.092,"['It', 'would', 'be', 'wise', ',', 'my', 'friend', '.']",8
+616,3015.093,3016.719,"['Tell', 'me', '.', '.', '.']",5
+617,3016.72,3018.804,"['.', '.', '.', 'friend', '.', '.', '.']",7
+618,3018.805,3023.805,"['.', '.', '.', 'when', 'did', 'Saruman', 'the', 'Wise', 'abandon', 'reason', 'for', 'madness', '?']",13
+619,3062.849,3065.684,"['I', 'gave', 'you', 'the', 'chance', '.', '.', '.']",8
+620,3065.685,3068.521,"['.', '.', '.', 'of', 'aiding', 'me', 'willingly', '.', '.', '.']",10
+621,3068.522,3073.522,"['.', '.', '.', 'but', 'you', 'have', 'elected', 'the', 'way', 'of', 'pain', '!']",12
+622,3095.966,3098.092,"['SAM', ':', 'Mr.', 'Frodo', '?']",5
+623,3098.093,3101.303,"['Frodo', '?', 'Frodo', '!']",4
+624,3101.304,3104.723,"['-', 'I', 'thought', ""I'd"", 'lost', 'you', '.', '-', 'What', 'are', 'you', 'talking', 'about', '?']",14
+625,3104.724,3108.561,"['-', 'It', ""'s"", 'just', 'something', 'Gandalf', 'said', '.', '-', 'What', 'did', 'he', 'say', '?']",14
+626,3108.562,3112.69,"['""', ""Don't"", 'you', 'lose', 'him', ',', 'Samwise', 'Gamgee', '.', '""', 'And', 'I', ""don't"", 'mean', 'to', '.']",16
+627,3112.691,3117.691,"['Sam', ',', ""we're"", 'still', 'in', 'the', 'Shire', '.', 'What', 'could', 'possibly', 'happen', '?']",13
+628,3119.281,3120.573,"['Frodo', '.']",2
+629,3120.574,3122.992,"['-', 'Merry', ',', 'it', ""'s"", 'Frodo', 'Baggins', '.', '-', 'Hello', ',', 'Frodo', '.']",13
+630,3122.993,3124.91,"['Get', 'off', 'him', '.']",4
+631,3124.911,3126.579,"['Come', 'on', ',', 'Frodo', '.']",5
+632,3126.58,3128.914,"['FRODO', ':', 'What', ""'s"", 'the', 'meaning', 'of', 'this', '?']",9
+633,3128.915,3130.916,"[""You've"", 'been', 'into', 'Farmer', 'Maggot', ""'s"", 'crop', '!']",8
+634,3130.917,3133.168,[],0
+635,3133.169,3136.297,"['MAGGOT', ':', 'You', 'get', 'back', 'here', '!']",7
+636,3136.298,3137.798,"['Get', 'out', 'of', 'my', 'field', '!']",6
+637,3137.799,3140.843,"[""You'll"", 'know', 'the', 'devil', 'if', 'I', 'catch', 'up', 'with', 'you', '!']",11
+638,3140.844,3143.971,"['MERRY', ':', 'I', ""don't"", 'know', 'why', 'he', ""'s"", 'so', 'upset', '.', 'It', ""'s"", 'only', 'a', 'couple', 'of', 'carrots', '.']",19
+639,3143.972,3145.264,"['PIPPIN', ':', 'And', 'some', 'cabbages', '.']",6
+640,3145.265,3148.35,"['And', 'those', 'three', 'bags', 'of', 'potatoes', 'that', 'we', 'lifted', 'last', 'week', '.']",12
+641,3148.351,3152.646,"['-', 'And', 'then', 'the', 'mushrooms', 'the', 'week', 'before', '.', 'MERRY', ':', 'Yes', ',', 'Pippin', '.', 'My', 'point', 'is', '.', '.', '.']",21
+642,3152.647,3155.024,"['.', '.', '.', 'he', ""'s"", 'clearly', 'overreacting', '.']",8
+643,3155.025,3160.025,"['Run', '!']",2
+644,3169.998,3173.626,"['Oh', ',', 'that', 'was', 'close', '.']",6
+645,3173.627,3177.755,"['I', 'think', ""I've"", 'broken', 'something', '.']",6
+646,3177.756,3180.299,"['Trust', 'a', 'Brandybuck', 'and', 'a', 'Took', '!']",7
+647,3180.3,3184.136,"['What', '?', 'That', 'was', 'just', 'a', 'detour', '.', 'A', 'short', 'cut', '.']",12
+648,3184.137,3189.137,"['-', 'Short', 'cut', 'to', 'what', '?', '-', 'Mushrooms', '!']",9
+649,3195.148,3199.401,"['PIPPIN', ':', 'That', ""'s"", 'mine', '.']",6
+650,3199.402,3201.57,"['That', ""'s"", 'nice', ',', 'Merry', '.']",6
+651,3201.571,3203.781,"['MERRY', ':', 'Here', ""'s"", 'a', 'nice', 'one', ',', 'Sam', '.']",10
+652,3203.782,3207.91,"['I', 'think', 'we', 'should', 'get', 'off', 'the', 'road', '.']",9
+653,3207.911,3212.911,[],0
+654,3215.502,3217.086,"['Get', 'off', 'the', 'road', '!']",5
+655,3217.087,3222.087,"['Quick', '!']",2
+656,3226.93,3231.266,[],0
+657,3231.267,3236.267,"['Be', 'quiet', '!']",3
+658,3259.879,3264.879,[],0
+659,3299.085,3304.085,"['What', 'was', 'that', '?']",4
+660,3320.523,3325.523,[],0
+661,3333.953,3336.121,"['SAM', ':', 'Anything', '?']",4
+662,3336.122,3338.332,"['Nothing', '.']",2
+663,3338.333,3341.168,"['What', 'is', 'going', 'on', '?']",5
+664,3341.169,3346.169,"['That', 'Black', 'Rider', 'was', 'looking', 'for', 'something', '.', 'Or', 'someone', '.']",11
+665,3346.299,3348.509,"['Frodo', '?']",2
+666,3348.51,3353.51,"['Get', 'down', '!']",3
+667,3366.486,3369.738,"['I', 'have', 'to', 'leave', 'the', 'Shire', '.']",7
+668,3369.739,3372.241,"['Sam', 'and', 'I', 'must', 'get', 'to', 'Bree', '.']",8
+669,3372.242,3375.035,"['Right', '.']",2
+670,3375.036,3380.036,"['Bucklebury', 'Ferry', '.', 'Follow', 'me', '.']",6
+671,3385.588,3388.173,"['PIPPIN', ':', 'Run', '!']",4
+672,3388.174,3393.174,"['MERRY', ':', 'This', 'way', '!', 'Follow', 'me', '!']",8
+673,3393.721,3398.721,"['PIPPIN', ':', 'Run', '!']",4
+674,3408.027,3412.447,"['MERRY', ':', 'Get', 'the', 'rope', ',', 'Sam', '!']",8
+675,3412.448,3414.7,"['Frodo', '!']",2
+676,3414.701,3416.451,"['PIPPIN', ':', 'Run', ',', 'Frodo', '!']",6
+677,3416.452,3417.744,"['FRODO', ':', 'Go', '!', 'PIPPIN', ':', 'Hurry', '!']",8
+678,3417.745,3421.29,"['MERRY', ':', 'Frodo', ',', 'come', 'on', '!']",7
+679,3421.291,3426.291,"['SAM', ':', 'Come', 'on', '!', 'Faster', '!', 'PIPPIN', ':', 'Jump', '!']",11
+680,3430.258,3435.258,[],0
+681,3438.266,3443.266,"['-', 'How', 'far', 'to', 'the', 'nearest', 'crossing', '?', '-', 'The', 'Brandywine', 'Bridge', '.', '20', 'miles', '.']",16
+682,3457.076,3462.076,"['Come', 'on', '.']",3
+683,3469.756,3474.756,"['-', 'What', 'do', 'you', 'want', '?', '-', ""We're"", 'heading', 'for', 'the', 'Prancing', 'Pony', '.']",14
+684,3476.679,3479.681,"['Hobbits', '.', 'Four', 'Hobbits', '!']",5
+685,3479.682,3484.061,"['What', ""'s"", 'more', ',', 'out', 'of', 'the', 'Shire', 'by', 'your', 'talk', '.', 'What', 'business', 'brings', 'you', 'to', 'Bree', '?']",19
+686,3484.062,3488.19,"['We', 'wish', 'to', 'stay', 'at', 'the', 'inn', '.', 'Our', 'business', 'is', 'our', 'own', '.']",14
+687,3488.191,3490.943,"['All', 'right', ',', 'young', 'sir', '.', 'I', 'meant', 'no', 'offense', '.']",11
+688,3490.944,3493.654,"['It', ""'s"", 'my', 'job', 'to', 'ask', 'questions', 'after', 'nightfall', '.']",10
+689,3493.655,3496.657,"['There', ""'s"", 'talk', 'of', 'strange', 'folk', 'abroad', '.']",8
+690,3496.658,3501.658,"[""Can't"", 'be', 'too', 'careful', '.']",5
+691,3518.554,3523.554,"['Out', 'of', 'the', 'way', '!', 'Watch', 'where', ""you're"", 'walking', '.']",10
+692,3529.399,3534.399,[],0
+693,3546.207,3548.834,"['Excuse', 'me', '.']",3
+694,3548.835,3551.837,"['Good', 'evening', ',', 'little', 'masters', '.', 'What', 'can', 'I', 'do', 'for', 'you', '?']",13
+695,3551.838,3556.838,"['If', ""you're"", 'seeking', 'accommodation', ',', 'we', 'got', 'some', 'cozy', 'Hobbit-sized', 'rooms', 'available', '.']",13
+696,3558.136,3563.136,"['Always', 'proud', 'to', 'cater', 'to', 'the', 'Little', 'Folk', ',', 'Mister', '.', '.', '.', '?']",14
+697,3563.933,3567.269,"['Underhill', '.', 'My', 'name', ""'s"", 'Underhill', '.']",7
+698,3567.27,3569.938,"['-', 'Underhill', ',', 'yes', '.', '-', ""We're"", 'friends', 'of', 'Gandalf', 'the', 'Grey', '.']",13
+699,3569.939,3573.525,"['-', 'Can', 'you', 'tell', 'him', ""we've"", 'arrived', '?', '-', 'Gandalf', '?']",11
+700,3573.526,3576.111,"['Gandalf', '.']",2
+701,3576.112,3577.988,"['Oh', ',', 'yes', '.', '.', '.']",6
+702,3577.989,3580.449,"['.', '.', '.', 'I', 'remember', '.', 'Elderly', 'chap', '.']",9
+703,3580.45,3583.785,"['Big', 'grey', 'beard', ',', 'pointy', 'hat', '.']",7
+704,3583.786,3588.786,"['Not', 'seen', 'him', 'for', 'six', 'months', '.']",7
+705,3592.378,3597.378,"['What', 'do', 'we', 'do', 'now', '?']",6
+706,3600.887,3602.304,"['Sam', '.', '.', '.']",4
+707,3602.305,3606.975,"['.', '.', '.', ""he'll"", 'be', 'here', '.', ""He'll"", 'come', '.']",10
+708,3606.976,3611.396,"['MAN', ':', 'Get', 'out', 'of', 'my', 'way', '!']",8
+709,3611.397,3613.315,"['What', ""'s"", 'that', '?']",4
+710,3613.316,3615.984,"['This', ',', 'my', 'friend', ',', 'is', 'a', 'pint', '.']",9
+711,3615.985,3617.986,"['It', 'comes', 'in', 'pints', '?']",5
+712,3617.987,3622.987,"['-', ""I'm"", 'getting', 'one', '.', '-', 'You', 'got', 'a', 'whole', 'half', 'already', '!']",13
+713,3628.039,3633.039,"['That', 'fellow', ""'s"", 'done', 'nothing', 'but', 'stare', 'at', 'you', 'since', 'we', 'arrived', '.']",13
+714,3635.421,3638.715,"['Excuse', 'me', '.']",3
+715,3638.716,3642.886,"['That', 'Man', 'in', 'the', 'corner', '.', 'Who', 'is', 'he', '?']",10
+716,3642.887,3647.557,"['He', ""'s"", 'one', 'of', 'them', 'Rangers', '.', ""They're"", 'dangerous', 'folk', ',', 'wandering', 'the', 'Wilds', '.']",15
+717,3647.558,3652.558,"['What', 'his', 'right', 'name', 'is', ',', ""I've"", 'never', 'heard', ',', 'but', 'around', 'here', 'he', ""'s"", 'known', 'as', 'Strider', '.']",19
+718,3654.44,3659.44,"['Strider', '.']",2
+719,3668.704,3673.704,"['VOICE', 'OF', 'THE', 'RING', ':', 'Baggins', '.']",7
+720,3674.752,3679.752,"['Baggins', '.']",2
+721,3682.301,3687.301,"['Baggins', '.', 'Baggins', '.']",4
+722,3689.267,3692.352,"['PIPPIN', ':', 'Baggins', '?', 'Sure', ',', 'I', 'know', 'a', 'Baggins', '.']",11
+723,3692.353,3695.397,"['He', ""'s"", 'over', 'there', '.', 'Frodo', 'Baggins', '.']",8
+724,3695.398,3698.608,"['He', ""'s"", 'my', 'second', 'cousin', ',', 'once', 'removed', 'on', 'his', 'mother', ""'s"", 'side', '.', '.', '.']",16
+725,3698.609,3703.609,"['.', '.', '.', 'and', 'my', 'third', 'cousin', ',', 'twice', 'removed', '.', '.', '.']",13
+726,3705.408,3710.408,"['-', 'Pippin', '!', '-', 'Steady', 'on', ',', 'Frodo', '.']",9
+727,3736.689,3741.689,"['SAURON', ':', 'You', 'cannot', 'hide', '.']",6
+728,3742.111,3746.948,"['I', 'see', 'you', '.']",4
+729,3746.949,3749.826,"['There', 'is', 'no', 'life', '.', '.', '.']",7
+730,3749.827,3752.204,"['.', '.', '.', 'in', 'the', 'void', '.']",7
+731,3752.205,3754.623,"['Only', '.', '.', '.']",4
+732,3754.624,3759.624,"['.', '.', '.', 'death', '.']",5
+733,3762.131,3767.131,"['You', 'draw', 'far', 'too', 'much', 'attention', 'to', 'yourself', ',', '""', 'Mr.', 'Underhill', '.', '""']",14
+734,3771.682,3772.933,"['What', 'do', 'you', 'want', '?']",5
+735,3772.934,3775.352,"['A', 'little', 'more', 'caution', 'from', 'you', '.', 'That', 'is', 'no', 'trinket', 'you', 'carry', '.']",14
+736,3775.353,3778.647,"['-', 'I', 'carry', 'nothing', '.', '-', 'Indeed', '.']",8
+737,3778.648,3781.358,"['I', 'can', 'avoid', 'being', 'seen', 'if', 'I', 'wish', '.', '.', '.']",11
+738,3781.359,3785.57,"['.', '.', '.', 'but', 'to', 'disappear', 'entirely', ',', 'that', 'is', 'a', 'rare', 'gift', '.']",14
+739,3785.571,3789.449,"['-', 'Who', 'are', 'you', '?', '-', 'Are', 'you', 'frightened', '?']",10
+740,3789.45,3790.659,"['Yes', '.']",2
+741,3790.66,3795.66,"['Not', 'nearly', 'frightened', 'enough', '.', 'I', 'know', 'what', 'hunts', 'you', '.']",11
+742,3796.374,3798.583,[],0
+743,3798.584,3802.796,"['Let', 'him', 'go', '!', 'Or', ""I'll"", 'have', 'you', ',', 'Longshanks', '.']",11
+744,3802.797,3807.092,"['You', 'have', 'a', 'stout', 'heart', ',', 'little', 'Hobbit', '.', 'But', 'that', 'will', 'not', 'save', 'you', '.']",16
+745,3807.093,3810.178,"['You', 'can', 'no', 'longer', 'wait', 'for', 'the', 'wizard', ',', 'Frodo', '.']",11
+746,3810.179,3811.513,"[""They're"", 'coming', '.']",3
+747,3811.514,3816.514,[],0
+748,3881.334,3886.334,[],0
+749,3894.889,3898.558,"['What', 'are', 'they', '?']",4
+750,3898.559,3901.186,"['They', 'were', 'once', 'Men', '.']",5
+751,3901.187,3903.605,"['Great', 'kings', 'of', 'Men', '.']",5
+752,3903.606,3907.359,"['Then', 'Sauron', 'the', 'Deceiver', 'gave', 'to', 'them', 'nine', 'rings', 'of', 'power', '.']",12
+753,3907.36,3910.695,"['Blinded', 'by', 'their', 'greed', ',', 'they', 'took', 'them', 'without', 'question', '.']",11
+754,3910.696,3914.199,"['One', 'by', 'one', ',', 'falling', 'into', 'darkness', '.']",8
+755,3914.2,3919.079,"['Now', 'they', 'are', 'slaves', 'to', 'his', 'will', '.']",8
+756,3919.08,3920.955,"['They', 'are', 'the', 'Nazgûl', '.']",5
+757,3920.956,3924.459,"['Ringwraiths', '.', 'Neither', 'living', 'nor', 'dead', '.']",7
+758,3924.46,3926.086,"['At', 'all', 'times', 'they', 'feel', '.', '.', '.']",8
+759,3926.087,3928.213,"['.', '.', '.', 'the', 'presence', 'of', 'the', 'Ring', '.', '.', '.']",11
+760,3928.214,3933.214,"['.', '.', '.', 'drawn', 'to', 'the', 'power', 'of', 'the', 'One', '.', 'They', 'will', 'never', 'stop', 'hunting', 'you', '.']",18
+761,3942.728,3947.728,"['FRODO', ':', 'Where', 'are', 'you', 'taking', 'us', '?', '-', 'Into', 'the', 'Wild', '.']",13
+762,3953.823,3958.118,"['How', 'do', 'we', 'know', 'this', 'Strider', 'is', 'a', 'friend', 'of', 'Gandalf', '?']",12
+763,3958.119,3961.329,"['I', 'think', 'a', 'servant', 'of', 'the', 'enemy', 'would', 'look', 'fairer', '.', '.', '.']",13
+764,3961.33,3965.834,"['-', '.', '.', '.', 'and', 'feel', 'fouler', '.', '-', 'He', ""'s"", 'foul', 'enough', '.']",14
+765,3965.835,3968.837,"['We', 'have', 'no', 'choice', 'but', 'to', 'trust', 'him', '.']",9
+766,3968.838,3973.838,"['-', 'But', 'where', 'is', 'he', 'leading', 'us', '?', 'STRIDER', ':', 'To', 'Rivendell', ',', 'Master', 'Gamgee', '.']",16
+767,3974.677,3978.513,"['-', 'To', 'the', 'house', 'of', 'Elrond', '.', 'SAM', ':', 'Did', 'you', 'hear', 'that', '?', 'Rivendell', '.']",16
+768,3978.514,3983.514,"[""We're"", 'going', 'to', 'see', 'the', 'Elves', '.']",7
+769,3998.576,4002.954,[],0
+770,4002.955,4007.375,"['-', 'Gentlemen', ',', 'we', 'do', 'not', 'stop', 'till', 'nightfall', '.', '-', 'What', 'about', 'breakfast', '?']",15
+771,4007.376,4010.211,"['-', ""You've"", 'already', 'had', 'it', '.', '-', ""We've"", 'had', 'one', ',', 'yes', '.']",13
+772,4010.212,4015.212,"['What', 'about', 'second', 'breakfast', '?']",5
+773,4015.885,4019.22,"[""Don't"", 'think', 'he', 'knows', 'about', 'second', 'breakfast', ',', 'Pip', '.']",10
+774,4019.221,4024.221,"['What', 'about', 'elevenses', '?', 'Luncheon', '?', 'Afternoon', 'tea', '?', 'Dinner', '?', 'Supper', '?']",13
+775,4024.685,4029.685,"['-', 'He', 'knows', 'about', 'them', ',', ""doesn't"", 'he', '?', '-', 'I', ""wouldn't"", 'count', 'on', 'it', '.']",16
+776,4034.32,4039.32,"['MERRY', ':', 'Pippin', '!']",4
+777,4052.421,4057.421,"['What', 'do', 'they', 'eat', 'when', 'they', ""can't"", 'get', 'Hobbit', '?']",10
+778,4076.362,4081.362,[],0
+779,4083.744,4088.744,[],0
+780,4094.588,4097.465,"['Who', 'is', 'she', '?']",4
+781,4097.466,4102.466,"['This', 'woman', 'you', 'sing', 'of', '.']",6
+782,4103.472,4106.099,"[""'Tis"", 'the', 'lady', 'of', 'Lúthien', '.']",6
+783,4106.1,4111.1,"['The', 'Elf-maiden', 'who', 'gave', 'her', 'love', 'to', 'Beren', ',', 'a', 'mortal', '.']",12
+784,4113.107,4117.443,"['What', 'happened', 'to', 'her', '?']",5
+785,4117.444,4122.444,"['She', 'died', '.']",3
+786,4123.993,4128.993,"['Get', 'some', 'sleep', ',', 'Frodo', '.']",6
+787,4136.589,4140.842,"['SARUMAN', ':', 'The', 'power', 'of', 'lsengard', 'is', 'at', 'your', 'command', '.', '.', '.']",13
+788,4140.843,4145.843,"['.', '.', '.', 'Sauron', ',', 'Lord', 'of', 'the', 'Earth', '.']",10
+789,4145.973,4148.641,[],0
+790,4148.642,4153.642,"['SAURON', ':', 'Build', 'me', 'an', 'army', 'worthy', 'of', 'Mordor', '.']",10
+791,4160.154,4165.033,"['What', 'orders', 'from', 'Mordor', ',', 'my', 'lord', '?', 'What', 'does', 'the', 'Eye', 'command', '?']",14
+792,4165.034,4170.034,"['We', 'have', 'work', 'to', 'do', '.']",6
+793,4209.578,4214.578,"['The', 'trees', 'are', 'strong', ',', 'my', 'lord', '.', 'Their', 'roots', 'go', 'deep', '.']",13
+794,4214.583,4219.583,"['Rip', 'them', 'all', 'down', '.']",5
+795,4243.862,4248.449,"['This', 'was', 'the', 'great', 'watchtower', 'of', 'Amon', 'SUI', '.']",9
+796,4248.45,4253.45,"['We', 'shall', 'rest', 'here', 'tonight', '.']",6
+797,4262.84,4266.467,"['These', 'are', 'for', 'you', '.', 'Keep', 'them', 'close', '.']",9
+798,4266.468,4271.347,"[""I'm"", 'going', 'to', 'have', 'a', 'look', 'around', '.']",8
+799,4271.348,4275.81,"['Stay', 'here', '.']",3
+800,4275.811,4278.229,"['MERRY', ':', 'My', 'tomato', ""'s"", 'burst', '.']",7
+801,4278.23,4280.314,"['PIPPIN', ':', 'Could', 'I', 'have', 'some', 'bacon', '?']",8
+802,4280.315,4282.65,"['MERRY', ':', 'Want', 'a', 'tomato', ',', 'Sam', '?']",8
+803,4282.651,4286.487,"['-', 'What', 'are', 'you', 'doing', '?', '!', '-', 'Tomatoes', ',', 'sausages', ',', 'nice', 'crispy', 'bacon', '.']",16
+804,4286.488,4289.449,"['SAM', ':', 'We', 'saved', 'some', 'for', 'you', ',', 'Mr.', 'Frodo', '.', 'FRODO', ':', 'Put', 'it', 'out', ',', 'you', 'fools', '!']",20
+805,4289.45,4293.995,"['-', 'Put', 'it', 'out', '!', 'PIPPIN', ':', 'That', ""'s"", 'nice', '!', 'Ash', 'on', 'my', 'tomatoes', '!']",16
+806,4293.996,4298.996,[],0
+807,4301.879,4306.879,"['Go', '!']",2
+808,4357.059,4362.059,"['Back', ',', 'you', 'devils', '!']",5
+809,4368.987,4373.987,[],0
+810,4410.779,4415.779,[],0
+811,4442.019,4447.019,"['Frodo', '!']",2
+812,4447.316,4452.316,"['-', 'Frodo', '.', '-', 'Oh', ',', 'Sam', '.']",8
+813,4486.188,4489.982,"['Strider', '!']",2
+814,4489.983,4494.983,"['-', 'Help', 'him', ',', 'Strider', '.', '-', 'He', ""'s"", 'been', 'stabbed', 'by', 'a', 'Morgul', 'blade', '.']",16
+815,4496.99,4501.99,"['This', 'is', 'beyond', 'my', 'skill', 'to', 'heal', '.', 'He', 'needs', 'Elvish', 'medicine', '.']",13
+816,4506.458,4507.708,"['Hurry', '!']",2
+817,4507.709,4511.879,"[""We're"", 'six', 'days', 'from', 'Rivendell', '!', ""He'll"", 'never', 'make', 'it', '!']",11
+818,4511.88,4514.09,"['Hold', 'on', ',', 'Frodo', '.']",5
+819,4514.091,4519.091,"['Gandalf', '!']",2
+820,4533.235,4538.235,[],0
+821,4574.067,4579.067,[],0
+822,4629.706,4634.706,[],0
+823,4674.251,4679.251,"['Look', ',', 'Frodo', '.', 'It', ""'s"", 'Mr.', 'Bilbo', ""'s"", 'trolls', '.']",11
+824,4679.506,4684.506,"['Mr.', 'Frodo', '?', 'He', ""'s"", 'going', 'cold', '.']",8
+825,4685.303,4687.263,"['Is', 'he', 'going', 'to', 'die', '?']",6
+826,4687.264,4692.264,"['He', ""'s"", 'passing', 'into', 'the', 'Shadow', 'World', '.', ""He'll"", 'soon', 'become', 'a', 'Wraith', 'like', 'them', '.']",16
+827,4692.394,4697.314,[],0
+828,4697.315,4701.318,"['-', ""They're"", 'close', '.', '-', 'Sam', ',', 'do', 'you', 'know', 'the', 'Athelas', 'plant', '?']",14
+829,4701.319,4702.987,"['-', 'Athelas', '?', '-', 'Kingsfoil', '.']",6
+830,4702.988,4704.28,"['Kingsfoil', ',', 'aye', ',', 'it', ""'s"", 'a', 'weed', '.']",9
+831,4704.281,4709.281,"['It', 'may', 'help', 'to', 'slow', 'the', 'poisoning', '.', 'Hurry', '!']",10
+832,4721.798,4726.798,"['FEMALE', ':', 'What', ""'s"", 'this', '?', 'A', 'Ranger', 'caught', 'off', 'his', 'guard', '?']",13
+833,4750.827,4753.829,"['Frodo', '.']",2
+834,4753.83,4758.83,"['I', 'am', 'Arwen', '-', ""I've"", 'come', 'to', 'help', 'you', '.']",10
+835,4759.377,4761.462,"['Hear', 'my', 'voice', '.', '.', '.']",6
+836,4761.463,4766.463,"['Come', 'back', 'to', 'the', 'light', '.']",6
+837,4768.803,4771.305,"['Who', 'is', 'she', '?']",4
+838,4771.306,4773.307,"['Frodo', '.']",2
+839,4773.308,4778.308,"['-', 'She', ""'s"", 'an', 'Elf', '.', '-', 'He', ""'s"", 'fading', '.']",11
+840,4779.064,4781.44,"['He', ""'s"", 'not', 'going', 'to', 'last', '.']",7
+841,4781.441,4784.86,"['We', 'must', 'get', 'him', 'to', 'my', 'father', '.']",8
+842,4784.861,4787.905,"['-', ""I've"", 'been', 'looking', 'for', 'you', 'for', 'two', 'days', '.', '-', 'Where', 'are', 'you', 'taking', 'him', '?']",17
+843,4787.906,4792.906,"['There', 'are', 'five', 'Wraiths', 'behind', 'you', '.', 'Where', 'the', 'other', 'four', 'are', ',', 'I', 'do', 'not', 'know', '.']",18
+844,4795.08,4797.665,"['Stay', 'with', 'the', 'Hobbits', '-', ""I'll"", 'send', 'horses', 'for', 'you', '.']",11
+845,4797.666,4800.251,"[""I'm"", 'the', 'faster', 'rider', '-', ""I'll"", 'take', 'him', '.']",9
+846,4800.252,4801.835,"['The', 'Road', 'is', 'too', 'dangerous', '.']",6
+847,4801.836,4803.295,"['What', 'are', 'they', 'saying', '?']",5
+848,4803.296,4805.547,"['ARWEN', ':', 'If', 'I', 'can', 'get', 'across', 'the', 'river', '.', '.', '.']",12
+849,4805.548,4809.176,"['.', '.', '.', 'the', 'power', 'of', 'my', 'people', 'will', 'protect', 'him', '.']",12
+850,4809.177,4814.177,"['I', 'do', 'not', 'fear', 'them', '.']",6
+851,4814.641,4819.641,[],0
+852,4820.689,4822.273,"['Arwen', '.', '.', '.']",4
+853,4822.274,4827.274,"['.', '.', '.', 'ride', 'hard', '.', ""Don't"", 'look', 'back', '.']",10
+854,4830.532,4835.532,"['What', 'are', 'you', 'doing', '?', '!', 'Those', 'Wraiths', 'are', 'still', 'out', 'there', '!']",13
+855,4901.77,4905.064,[],0
+856,4905.065,4910.065,[],0
+857,4949.526,4953.153,"['Give', 'up', 'the', 'half', 'ling', ',', 'She-Elf', '.']",8
+858,4953.154,4958.154,"['If', 'you', 'want', 'him', ',', 'come', 'and', 'claim', 'him', '.']",10
+859,4967.794,4972.794,[],0
+860,5009.627,5014.627,"['No', '.', 'No', '!']",4
+861,5015.383,5017.885,"['Frodo', ',', 'no', '.']",4
+862,5017.886,5020.387,"['Frodo', ',', ""don't"", 'give', 'in', '.']",6
+863,5020.388,5025.388,"['Not', 'now', '.']",3
+864,5033.318,5036.487,"['ARWEN', ':', 'What', 'grace', 'is', 'given', 'me', '.', '.', '.']",10
+865,5036.488,5038.572,"['.', '.', '.', 'let', 'it', 'pass', 'to', 'him', '.']",9
+866,5038.573,5041.325,"['Let', 'him', 'be', 'spared', '.']",5
+867,5041.326,5045.329,"['Save', 'him', '.']",3
+868,5045.33,5050.33,[],0
+869,5055.757,5060.757,"['-', 'Where', 'am', 'I', '?', 'GANDALF', ':', 'You', 'are', 'in', 'the', 'house', 'of', 'Elrond', '.']",15
+870,5061.387,5066.387,"['And', 'it', 'is', '10', ':', '00', 'in', 'the', 'morning', 'on', 'October', '24th', ',', 'if', 'you', 'want', 'to', 'know', '.']",19
+871,5069.854,5074.854,"['-', 'Gandalf', '!', '-', 'Yes', ',', ""I'm"", 'here', '.']",9
+872,5075.276,5079.029,"['And', ""you're"", 'lucky', 'to', 'be', 'here', 'too', '.']",8
+873,5079.03,5083.242,"['A', 'few', 'more', 'hours', 'and', 'you', 'would', 'have', 'been', 'beyond', 'our', 'aid', '.']",13
+874,5083.243,5088.243,"['But', 'you', 'have', 'some', 'strength', 'in', 'you', ',', 'my', 'dear', 'Hobbit', '.']",12
+875,5094.963,5098.423,"['What', 'happened', ',', 'Gandalf', '?']",5
+876,5098.424,5103.424,"['-', 'Why', ""didn't"", 'you', 'meet', 'us', '?', '-', 'I', 'am', 'sorry', ',', 'Frodo', '.']",14
+877,5108.56,5111.186,"['I', 'was', 'delayed', '.']",4
+878,5111.187,5116.187,"['A', 'friendship', 'with', 'Saruman', 'is', 'not', 'lightly', 'thrown', 'aside', '.']",10
+879,5119.487,5124.449,"['One', 'ill', 'turn', 'deserves', 'another', '.', 'It', 'is', 'over', '.']",10
+880,5124.45,5127.744,"['Embrace', 'the', 'power', 'of', 'the', 'Ring', '.', '.', '.']",9
+881,5127.745,5132.583,"['.', '.', '.', 'or', 'embrace', 'your', 'own', 'destruction', '!']",9
+882,5132.584,5136.712,"['GANDALF', ':', 'There', 'is', 'only', 'one', 'Lord', 'of', 'the', 'Ring', '.']",11
+883,5136.713,5141.508,"['Only', 'one', 'who', 'can', 'bend', 'it', 'to', 'his', 'will', '.']",10
+884,5141.509,5145.721,"['And', 'he', 'does', 'not', 'share', 'power', '.']",7
+885,5145.722,5150.722,[],0
+886,5159.819,5164.819,"['So', 'you', 'have', 'chosen', 'death', '.']",6
+887,5173.249,5178.003,"['Gandalf', '?', 'What', 'is', 'it', '?']",6
+888,5178.004,5180.464,"['Nothing', ',', 'Frodo', '.']",4
+889,5180.465,5182.507,"['SAM', ':', 'Frodo', '!']",4
+890,5182.508,5183.759,"['Frodo', '!']",2
+891,5183.76,5186.345,"['-', 'Sam', '.', '-', 'Bless', 'you', ',', ""you're"", 'awake', '!']",10
+892,5186.346,5189.306,"['Sam', 'has', 'hardly', 'left', 'your', 'side', '.']",7
+893,5189.307,5191.85,"['We', 'were', 'that', 'worried', 'about', 'you', '.', ""Weren't"", 'we', ',', 'Mr.', 'Gandalf', '?']",13
+894,5191.851,5196.851,"['By', 'the', 'skills', 'of', 'Lord', 'Elrond', ',', ""you're"", 'beginning', 'to', 'mend', '.']",12
+895,5198.483,5203.483,"['Welcome', 'to', 'Rivendell', ',', 'Frodo', 'Baggins', '.']",7
+896,5250.118,5253.62,"['FRODO', ':', 'Bilbo', '!', '-', 'Hello', ',', 'Frodo', ',', 'my', 'lad', '.']",12
+897,5253.621,5258.621,"['Bilbo', '.']",2
+898,5260.336,5262.337,"['FRODO', ':', '""', 'There', 'and', 'Back', 'Again', ':']",8
+899,5262.338,5267.338,"['A', 'Hobbit', ""'s"", 'Tale', ',', 'by', 'Bilbo', 'Baggins', '.', '""']",10
+900,5268.136,5272.055,"['-', 'This', 'is', 'wonderful', '.', '-', 'I', 'meant', 'to', 'go', 'back', '.', '.', '.']",14
+901,5272.056,5276.309,"['.', '.', '.', 'wonder', 'at', 'the', 'powers', 'of', 'Mirkwood', '.', '.', '.']",12
+902,5276.31,5278.854,"['.', '.', '.', 'visit', 'Lake-town', '.', '.', '.']",8
+903,5278.855,5282.649,"['.', '.', '.', 'see', 'the', 'Lonely', 'Mountain', 'again', '.']",9
+904,5282.65,5287.65,"['But', 'age', ',', 'it', 'seems', ',', 'has', 'finally', 'caught', 'up', 'with', 'me', '.']",13
+905,5299.667,5301.877,"['FRODO', ':', 'I', 'miss', 'the', 'Shire', '.']",7
+906,5301.878,5306.878,"['I', 'spent', 'all', 'my', 'childhood', 'pretending', 'I', 'was', 'off', 'somewhere', 'else', '.']",12
+907,5307.341,5312.341,"['Off', 'with', 'you', ',', 'on', 'one', 'of', 'your', 'adventures', '.']",10
+908,5313.89,5318.89,"['But', 'my', 'own', 'adventure', 'turned', 'out', 'to', 'be', 'quite', 'different', '.']",11
+909,5322.69,5327.027,"[""I'm"", 'not', 'like', 'you', ',', 'Bilbo', '.']",7
+910,5327.028,5332.028,"['My', 'dear', 'boy', '.']",4
+911,5333.451,5338.205,"['SAM', ':', 'Now', ',', 'what', 'have', 'I', 'forgotten', '?', '-', 'Packed', 'already', '?']",13
+912,5338.206,5340.207,"['No', 'harm', 'in', 'being', 'prepared', '.']",6
+913,5340.208,5342.959,"['-', 'I', 'thought', 'you', 'wanted', 'to', 'see', 'the', 'Elves', '.', '-', 'I', 'do', '.']",14
+914,5342.96,5346.046,"['-', 'More', 'than', 'anything', '.', '-', 'I', 'did', '.']",9
+915,5346.047,5348.715,"['It', ""'s"", 'just', '.', '.', '.']",6
+916,5348.716,5351.551,"['We', 'did', 'what', 'Gandalf', 'wanted', ',', ""didn't"", 'we', '?']",9
+917,5351.552,5355.43,"['We', 'got', 'the', 'Ring', 'this', 'far', ',', 'to', 'Rivendell', '.', 'And', 'I', 'thought', '.', '.', '.']",16
+918,5355.431,5358.934,"['.', '.', '.', 'seeing', 'as', 'how', ""you're"", 'on', 'the', 'mend', ',', ""we'd"", 'be', 'off', 'soon', '.']",16
+919,5358.935,5363.935,"['Off', 'home', '.']",3
+920,5364.816,5368.985,"['You', 'are', 'right', ',', 'Sam', '.']",6
+921,5368.986,5372.322,"['We', 'did', 'what', 'we', 'set', 'out', 'to', 'do', '.']",9
+922,5372.323,5377.323,"['The', 'Ring', 'will', 'be', 'safe', 'in', 'Rivendell', '.']",8
+923,5378.996,5382.082,"['I', 'am', 'ready', 'to', 'go', 'home', '.']",7
+924,5382.083,5384.334,"['ELROND', ':', 'His', 'strength', 'returns', '.']",6
+925,5384.335,5389.335,"['That', 'wound', 'will', 'never', 'fully', 'heal', '.', 'He', 'will', 'carry', 'it', 'the', 'rest', 'of', 'his', 'life', '.']",17
+926,5390.591,5393.343,"['And', 'yet', 'to', 'have', 'come', 'so', 'far', 'still', 'bearing', 'the', 'Ring', '.', '.', '.']",14
+927,5393.344,5397.264,"['.', '.', '.', 'the', 'Hobbit', 'has', 'shown', 'extraordinary', 'resilience', 'to', 'its', 'evil', '.']",13
+928,5397.265,5400.851,"['It', 'is', 'a', 'burden', 'he', 'should', 'never', 'have', 'had', 'to', 'bear', '.']",12
+929,5400.852,5405.852,"['-', 'We', 'can', 'ask', 'no', 'more', 'of', 'Frodo', '.', '-', 'Gandalf', ',', 'the', 'enemy', 'is', 'moving', '.']",17
+930,5406.482,5411.361,"['Sauron', ""'s"", 'forces', 'are', 'massing', 'in', 'the', 'East', '.', 'His', 'Eye', 'is', 'fixed', 'on', 'Rivendell', '.']",16
+931,5411.362,5414.281,"['And', 'Saruman', ',', 'you', 'tell', 'me', ',', 'has', 'betrayed', 'us', '.']",11
+932,5414.282,5418.285,"['Our', 'list', 'of', 'allies', 'grows', 'thin', '.']",7
+933,5418.286,5421.288,"['His', 'treachery', 'runs', 'deeper', 'than', 'you', 'know', '.']",8
+934,5421.289,5425.125,"['By', 'foul', 'craft', ',', 'Saruman', 'has', 'crossed', 'Orcs', 'with', 'Goblin-men', '.']",11
+935,5425.126,5427.878,"['He', ""'s"", 'breeding', 'an', 'army', 'in', 'the', 'caverns', 'of', 'lsengard', '.']",11
+936,5427.879,5432.632,"['An', 'army', 'that', 'can', 'move', 'in', 'sunlight', 'and', 'cover', 'great', 'distance', 'at', 'speed', '.']",14
+937,5432.633,5435.51,"['Saruman', 'is', 'coming', 'for', 'the', 'Ring', '.']",7
+938,5435.511,5439.764,"['This', 'evil', 'cannot', 'be', 'concealed', 'by', 'the', 'power', 'of', 'the', 'Elves', '.']",12
+939,5439.765,5444.765,"['We', 'do', 'not', 'have', 'the', 'strength', 'to', 'fight', 'both', 'Mordor', 'and', 'lsengard', '!']",13
+940,5447.982,5450.4,"['Gandalf', '.', '.', '.']",4
+941,5450.401,5455.401,"['.', '.', '.', 'the', 'Ring', 'cannot', 'stay', 'here', '.']",9
+942,5472.506,5475.926,"['ELROND', ':', 'This', 'peril', 'belongs', 'to', 'all', 'Middle-earth', '.']",9
+943,5475.927,5479.679,"['They', 'must', 'decide', 'now', 'how', 'to', 'end', 'it', '.']",9
+944,5479.68,5483.934,"['The', 'time', 'of', 'the', 'Elves', 'is', 'over', '.', 'My', 'people', 'are', 'leaving', 'these', 'shores', '.']",15
+945,5483.935,5487.687,"['Who', 'will', 'you', 'look', 'to', 'when', ""we've"", 'gone', '?', 'The', 'Dwarves', '?']",12
+946,5487.688,5492.688,"['They', 'hide', 'in', 'mountains', 'seeking', 'riches', '.', 'They', 'care', 'not', 'for', 'the', 'troubles', 'of', 'others', '.']",16
+947,5494.445,5497.614,"['It', 'is', 'in', 'Men', 'that', 'we', 'must', 'place', 'our', 'hope', '.']",11
+948,5497.615,5500.2,"['Men', '?']",2
+949,5500.201,5503.62,"['Men', 'are', 'weak', '.', 'The', 'race', 'of', 'Men', 'is', 'failing', '.']",11
+950,5503.621,5508.375,"['The', 'blood', 'of', 'Númenor', 'is', 'all', 'but', 'spent', ',', 'its', 'pride', 'and', 'dignity', 'forgotten', '.']",15
+951,5508.376,5512.087,"['It', 'is', 'because', 'of', 'Men', 'the', 'Ring', 'survives', '.']",9
+952,5512.088,5514.381,"['I', 'was', 'there', ',', 'Gandalf', '.']",6
+953,5514.382,5519.382,"['I', 'was', 'there', '3000', 'years', 'ago', '.', '.', '.']",9
+954,5524.058,5526.643,"['.', '.', '.', 'when', 'isildur', 'took', 'the', 'Ring', '.']",9
+955,5526.644,5531.644,"['I', 'was', 'there', 'the', 'day', 'the', 'strength', 'of', 'Men', 'failed', '.']",11
+956,5533.109,5537.237,"['Isildur', ',', 'hurry', '!', 'Follow', 'me', '.']",7
+957,5537.238,5541.116,"['ELROND', ':', 'I', 'led', 'Isildur', 'into', 'the', 'heart', 'of', 'Mount', 'Doom', '.', '.', '.']",14
+958,5541.117,5544.828,"['.', '.', '.', 'where', 'the', 'Ring', 'was', 'forged', ',', 'the', 'one', 'place', 'it', 'could', 'be', 'destroyed', '.']",17
+959,5544.829,5547.747,"['Cast', 'it', 'into', 'the', 'fire', '!']",6
+960,5547.748,5552.585,[],0
+961,5552.586,5557.586,"['-', 'Destroy', 'it', '!', '-', 'No', '.']",7
+962,5557.717,5560.343,"['Isildur', '!']",2
+963,5560.344,5565.344,"['ELROND', ':', 'It', 'should', 'have', 'ended', 'that', 'day', ',', 'but', 'evil', 'was', 'allowed', 'to', 'endure', '.']",16
+964,5569.186,5574.186,"['Isildur', 'kept', 'the', 'Ring', '.', 'The', 'line', 'of', 'kings', 'is', 'broken', '.']",12
+965,5574.358,5578.194,"['There', ""'s"", 'no', 'strength', 'left', 'in', 'the', 'world', 'of', 'Men', '.']",11
+966,5578.195,5583.195,"['-', ""They're"", 'scattered', ',', 'divided', ',', 'leaderless', '.', '-', 'There', 'is', 'one', 'who', 'could', 'unite', 'them', '.']",17
+967,5583.242,5588.242,"['One', 'who', 'could', 'reclaim', 'the', 'throne', 'of', 'Gondor', '.']",9
+968,5588.289,5592.292,"['He', 'turned', 'from', 'that', 'path', 'a', 'long', 'time', 'ago', '.']",10
+969,5592.293,5597.293,"['He', 'has', 'chosen', 'exile', '.']",5
+970,5625.659,5627.827,"['You', 'are', 'no', 'Elf', '.']",5
+971,5627.828,5630.497,"['Men', 'of', 'the', 'South', 'are', 'welcome', 'here', '.']",8
+972,5630.498,5635.498,"['-', 'Who', 'are', 'you', '?', '-', 'I', 'am', 'a', 'friend', 'to', 'Gandalf', 'the', 'Grey', '.']",15
+973,5635.503,5638.713,"['Then', 'we', 'are', 'here', 'on', 'common', 'purpose', '.', '.', '.']",10
+974,5638.714,5643.714,"['.', '.', '.', 'friend', '.']",5
+975,5655.356,5660.356,"['The', 'shards', 'of', 'Narsil', '.']",5
+976,5661.737,5666.737,"['The', 'blade', 'that', 'cut', 'the', 'Ring', 'from', 'Sauron', ""'s"", 'hand', '.']",11
+977,5669.12,5674.12,"['It', ""'s"", 'still', 'sharp', '.']",5
+978,5680.256,5685.256,"['But', 'no', 'more', 'than', 'a', 'broken', 'heirloom', '.']",8
+979,5710.161,5714.08,"['Why', 'do', 'you', 'fear', 'the', 'past', '?']",7
+980,5714.081,5719.081,"['You', 'are', 'lsildur', ""'s"", 'heir', ',', 'not', 'Isildur', 'himself', '.']",10
+981,5719.67,5723.59,"['You', 'are', 'not', 'bound', 'to', 'his', 'fate', '.']",8
+982,5723.591,5728.591,"['The', 'same', 'blood', 'flows', 'in', 'my', 'veins', '.']",8
+983,5730.598,5735.598,"['The', 'same', 'weakness', '.']",4
+984,5735.895,5738.897,"['Your', 'time', 'will', 'come', '.']",5
+985,5738.898,5743.898,"['You', 'will', 'face', 'the', 'same', 'evil', '.', 'And', 'you', 'will', 'defeat', 'it', '.']",13
+986,5746.447,5749.824,"['The', 'Shadow', 'does', 'not', 'hold', 'sway', 'yet', '.']",8
+987,5749.825,5754.825,"['Not', 'over', 'you', '.', '.', '.', 'not', 'over', 'me', '.']",10
+988,5764.798,5769.798,"['Do', 'you', 'remember', 'when', 'we', 'first', 'met', '?']",8
+989,5771.555,5776.555,"['I', 'thought', 'I', 'had', 'strayed', 'into', 'a', 'dream', '.']",9
+990,5776.644,5780.855,"['Long', 'years', 'have', 'passed', '.']",5
+991,5780.856,5785.693,"['You', 'did', 'not', 'have', 'the', 'cares', 'you', 'carry', 'now', '.']",10
+992,5785.694,5790.694,"['Do', 'you', 'remember', 'what', 'I', 'told', 'you', '?']",8
+993,5793.827,5798.498,"['You', 'said', ""you'd"", 'bind', 'yourself', 'to', 'me', '.', '.', '.']",10
+994,5798.499,5803.499,"['.', '.', '.', 'forsaking', 'the', 'immortal', 'life', 'of', 'your', 'people', '.']",11
+995,5804.63,5806.673,"['And', 'to', 'that', 'I', 'hold', '.']",6
+996,5806.674,5810.551,"['I', 'would', 'rather', 'share', 'one', 'lifetime', 'with', 'you', '.', '.', '.']",11
+997,5810.552,5815.552,"['.', '.', '.', 'than', 'face', 'all', 'the', 'Ages', 'of', 'this', 'world', 'alone', '.']",13
+998,5823.19,5827.986,"['I', 'choose', 'a', 'mortal', 'life', '.']",6
+999,5827.987,5832.987,"['-', 'You', 'cannot', 'give', 'me', 'this', '.', '-', 'It', 'is', 'mine', 'to', 'give', 'to', 'whom', 'I', 'will', '.', '.', '.']",20
+1000,5835.494,5840.494,"['.', '.', '.', 'like', 'my', 'heart', '.']",7
+1001,5853.762,5857.682,"['ELROND', ':', 'Strangers', 'from', 'distant', 'lands', ',', 'friends', 'of', 'old', '.', '.', '.']",13
+1002,5857.683,5862.228,"['.', '.', '.', ""you've"", 'been', 'summoned', 'here', 'to', 'answer', 'the', 'threat', 'of', 'Mordor', '.']",14
+1003,5862.229,5867.229,"['Middle-earth', 'stands', 'upon', 'the', 'brink', 'of', 'destruction', '.', 'None', 'can', 'escape', 'it', '.']",13
+1004,5867.359,5871.07,"['You', 'will', 'unite', ',', 'or', 'you', 'will', 'fall', '.']",9
+1005,5871.071,5876.071,"['Each', 'race', 'is', 'bound', 'to', 'this', 'fate', ',', 'this', 'one', 'doom', '.']",12
+1006,5877.202,5882.202,"['Bring', 'forth', 'the', 'Ring', ',', 'Frodo', '.']",7
+1007,5894.762,5899.762,"['So', 'it', 'is', 'true', '.']",5
+1008,5913.947,5917.658,"['In', 'a', 'dream', '.', '.', '.']",6
+1009,5917.659,5921.079,"['.', '.', '.', 'I', 'saw', 'the', 'eastern', 'sky', 'grow', 'dark', '.', '.', '.']",13
+1010,5921.08,5923.581,"['.', '.', '.', 'but', 'in', 'the', 'West', 'a', 'pale', 'light', 'lingered', '.']",12
+1011,5923.582,5925.625,"['A', 'voice', 'was', 'crying', ':']",5
+1012,5925.626,5929.545,"['""', 'Your', 'doom', 'is', 'near', 'at', 'hand', '.']",8
+1013,5929.546,5934.546,"['lsildur', ""'s"", 'Bane', 'is', 'found', '.', '""']",7
+1014,5936.303,5938.805,"['lsildur', ""'s"", 'Bane', '.']",4
+1015,5938.806,5940.306,"['Boromir', '!']",2
+1016,5940.307,5944.435,[],0
+1017,5944.436,5949.436,[],0
+1018,5963.288,5967.291,"['Never', 'before', 'has', 'any', 'voice', 'uttered', 'the', 'words', 'of', 'that', 'tongue', 'here', 'in', 'Imladris', '.']",15
+1019,5967.292,5971.17,"['I', 'do', 'not', 'ask', 'your', 'pardon', ',', 'Master', 'Elrond', '.', '.', '.']",12
+1020,5971.171,5973.589,"['.', '.', '.', 'for', 'the', 'Black', 'Speech', 'of', 'Mordor', '.', '.', '.']",12
+1021,5973.59,5975.133,"['.', '.', '.', 'may', 'yet', 'be', 'heard', '.', '.', '.']",10
+1022,5975.134,5978.302,"['.', '.', '.', 'in', 'every', 'corner', 'of', 'the', 'West', '!']",10
+1023,5978.303,5981.305,"['The', 'Ring', 'is', 'altogether', 'evil', '.']",6
+1024,5981.306,5983.391,"['It', 'is', 'a', 'gift', '.']",5
+1025,5983.392,5986.102,"['A', 'gift', 'to', 'the', 'foes', 'of', 'Mordor', '.']",8
+1026,5986.103,5988.396,"['Why', 'not', 'use', 'this', 'Ring', '?']",6
+1027,5988.397,5991.357,"['Long', 'has', 'my', 'father', ',', 'the', 'Steward', 'of', 'Gondor', '.', '.', '.']",12
+1028,5991.358,5995.987,"['.', '.', '.', 'kept', 'the', 'forces', 'of', 'Mordor', 'at', 'bay', '.', 'By', 'the', 'blood', 'of', 'our', 'people', '.', '.', '.']",20
+1029,5995.988,5999.991,"['.', '.', '.', 'are', 'your', 'lands', 'kept', 'safe', '.']",9
+1030,5999.992,6004.62,"['Give', 'Gondor', 'the', 'weapon', 'of', 'the', 'enemy', '.', 'Let', 'us', 'use', 'it', 'against', 'him', '.']",15
+1031,6004.621,6009.0,"['You', 'cannot', 'wield', 'it', '.', 'None', 'of', 'us', 'can', '.']",10
+1032,6009.001,6013.212,"['The', 'One', 'Ring', 'answers', 'to', 'Sauron', 'alone', '.', 'It', 'has', 'no', 'other', 'master', '.']",14
+1033,6013.213,6017.049,"['And', 'what', 'would', 'a', 'Ranger', 'know', 'of', 'this', 'matter', '?']",10
+1034,6017.05,6020.052,"['This', 'is', 'no', 'mere', 'Ranger', '.']",6
+1035,6020.053,6024.223,"['He', 'is', 'Aragorn', ',', 'son', 'of', 'Arathorn', '.']",8
+1036,6024.224,6029.224,"['You', 'owe', 'him', 'your', 'allegiance', '.']",6
+1037,6031.231,6034.901,"['Aragorn', '.']",2
+1038,6034.902,6039.902,"['This', 'is', 'lsildur', ""'s"", 'heir', '?']",6
+1039,6040.073,6044.911,"['And', 'heir', 'to', 'the', 'throne', 'of', 'Gondor', '.']",8
+1040,6044.912,6049.749,"['Sit', 'down', ',', 'Legolas', '.']",5
+1041,6049.75,6054.42,"['Gondor', 'has', 'no', 'king', '.']",5
+1042,6054.421,6059.421,"['Gondor', 'needs', 'no', 'king', '.']",5
+1043,6062.763,6067.433,"['Aragorn', 'is', 'right', '.', 'We', 'cannot', 'use', 'it', '.']",9
+1044,6067.434,6071.187,"['You', 'have', 'only', 'one', 'choice', '.']",6
+1045,6071.188,6075.399,"['The', 'Ring', 'must', 'be', 'destroyed', '.']",6
+1046,6075.4,6078.778,[],0
+1047,6078.779,6083.779,"['What', 'are', 'we', 'waiting', 'for', '?']",6
+1048,6087.246,6092.246,[],0
+1049,6093.46,6096.712,"['The', 'Ring', 'cannot', 'be', 'destroyed', ',', 'Gimli', ',', 'son', 'of', 'Gléin', '.', '.', '.']",14
+1050,6096.713,6101.467,"['.', '.', '.', 'by', 'any', 'craft', 'that', 'we', 'here', 'possess', '.']",11
+1051,6101.468,6105.805,"['The', 'Ring', 'was', 'made', 'in', 'the', 'fires', 'of', 'Mount', 'Doom', '.']",11
+1052,6105.806,6110.685,"['Only', 'there', 'can', 'it', 'be', 'unmade', '.']",7
+1053,6110.686,6113.479,"['It', 'must', 'be', 'taken', 'deep', 'into', 'Mordor', '.', '.', '.']",10
+1054,6113.48,6118.48,"['.', '.', '.', 'and', 'cast', 'back', 'into', 'the', 'fiery', 'chasm', 'from', 'whence', 'it', 'came', '.']",15
+1055,6118.652,6120.486,[],0
+1056,6120.487,6122.989,"['One', 'of', 'you', '.', '.', '.']",6
+1057,6122.99,6127.99,"['.', '.', '.', 'must', 'do', 'this', '.']",7
+1058,6128.078,6132.665,"['One', 'does', 'not', 'simply', 'walk', 'into', 'Mordor', '.']",8
+1059,6132.666,6137.169,"['Its', 'Black', 'Gates', 'are', 'guarded', 'by', 'more', 'than', 'just', 'Orcs', '.']",11
+1060,6137.17,6141.507,"['There', 'is', 'evil', 'there', 'that', 'does', 'not', 'sleep', '.']",9
+1061,6141.508,6146.508,"['The', 'Great', 'Eye', 'is', 'ever-watchful', '.']",6
+1062,6146.513,6148.723,"['It', 'is', 'a', 'barren', 'wasteland', '.', '.', '.']",8
+1063,6148.724,6152.518,"['.', '.', '.', 'riddled', 'with', 'fire', ',', 'and', 'ash', 'and', 'dust', '.']",12
+1064,6152.519,6156.606,"['The', 'very', 'air', 'you', 'breathe', 'is', 'a', 'poisonous', 'fume', '.']",10
+1065,6156.607,6161.11,"['Not', 'with', '10', ',', '000', 'men', 'could', 'you', 'do', 'this', '.', 'It', 'is', 'folly', '.']",15
+1066,6161.111,6165.74,"['Have', 'you', 'heard', 'nothing', 'Lord', 'Elrond', 'has', 'said', '?', 'The', 'Ring', 'must', 'be', 'destroyed', '.']",15
+1067,6165.741,6168.534,"['And', 'I', 'suppose', 'you', 'think', 'you', 'are', 'the', 'one', 'to', 'do', 'it', '!']",13
+1068,6168.535,6173.372,"['And', 'if', 'we', 'fail', ',', 'what', 'then', '?', 'What', 'happens', 'when', 'Sauron', 'takes', 'back', 'what', 'is', 'his', '?']",18
+1069,6173.373,6178.373,"['I', 'will', 'be', 'dead', 'before', 'I', 'see', 'the', 'Ring', 'in', 'the', 'hands', 'of', 'an', 'Elf', '!']",16
+1070,6178.879,6180.713,[],0
+1071,6180.714,6184.383,"['Never', 'trust', 'an', 'Elf', '!']",5
+1072,6184.384,6189.384,"['GANDALF', ':', 'Do', 'you', 'not', 'understand', '?', 'While', 'you', 'bicker', ',', 'Sauron', ""'s"", 'power', 'grows', '!']",16
+1073,6190.557,6194.727,"['None', 'can', 'escape', 'it', '!', ""You'll"", 'all', 'be', 'destroyed', '!']",10
+1074,6194.728,6199.728,[],0
+1075,6212.204,6216.415,"['I', 'will', 'take', 'it', '.']",5
+1076,6216.416,6221.416,"['I', 'will', 'take', 'it', '.']",5
+1077,6224.758,6229.758,"['I', 'will', 'take', 'the', 'Ring', 'to', 'Mordor', '.']",8
+1078,6235.852,6240.189,"['Though', '.', '.', '.']",4
+1079,6240.19,6244.026,"['.', '.', '.', 'I', 'do', 'not', 'know', 'the', 'way', '.']",10
+1080,6244.027,6248.531,"['I', 'will', 'help', 'you', 'bear', 'this', 'burden', ',', 'Frodo', 'Baggins', '.', '.', '.']",13
+1081,6248.532,6253.035,"['.', '.', '.', 'as', 'long', 'as', 'it', 'is', 'yours', 'to', 'bear', '.']",12
+1082,6253.036,6256.872,"['If', 'by', 'my', 'life', 'or', 'death', 'I', 'can', 'protect', 'you', '.', '.', '.']",13
+1083,6256.873,6261.419,"['.', '.', '.', 'I', 'will', '.']",6
+1084,6261.42,6265.548,"['You', 'have', 'my', 'sword', '.']",5
+1085,6265.549,6268.217,"['And', 'you', 'have', 'my', 'bow', '.']",6
+1086,6268.218,6273.218,"['And', 'my', 'ax', '.']",4
+1087,6277.728,6282.728,"['You', 'carry', 'the', 'fates', 'of', 'us', 'all', ',', 'little', 'one', '.']",11
+1088,6282.733,6286.861,"['If', 'this', 'is', 'indeed', 'the', 'will', 'of', 'the', 'Council', '.', '.', '.']",12
+1089,6286.862,6291.862,"['-', '.', '.', '.', 'then', 'Gondor', 'will', 'see', 'it', 'done', '.', '-', 'Hey', '!']",14
+1090,6291.908,6296.871,"['-', 'Frodo', ""'s"", 'not', 'going', 'anywhere', 'without', 'me', '.', '-', 'It', 'is', 'hardly', 'possible', 'to', 'separate', 'you', '.', '.', '.']",20
+1091,6296.872,6301.872,"['.', '.', '.', 'even', 'when', 'he', 'is', 'summoned', 'to', 'a', 'secret', 'Council', 'and', 'you', 'are', 'not', '.']",17
+1092,6302.252,6306.338,"[""We're"", 'coming', 'too', '!']",4
+1093,6306.339,6309.341,"[""You'll"", 'have', 'to', 'send', 'us', 'home', 'tied', 'up', 'in', 'a', 'sack', 'to', 'stop', 'us', '.']",15
+1094,6309.342,6313.012,"['Anyway', ',', 'you', 'need', 'people', 'of', 'intelligence', 'on', 'this', 'sort', 'of', '.', '.', '.']",14
+1095,6313.013,6314.513,"['.', '.', '.', 'mission', '.']",5
+1096,6314.514,6316.474,"['Quest', '.']",2
+1097,6316.475,6319.351,"['Thing', '.']",2
+1098,6319.352,6323.606,"['Well', ',', 'that', 'rules', 'you', 'out', ',', 'Pip', '.']",9
+1099,6323.607,6327.359,"['Nine', 'companions', '.']",3
+1100,6327.36,6329.528,"['So', 'be', 'it', '.']",4
+1101,6329.529,6333.199,"['You', 'shall', 'be', 'the', 'Fellowship', 'of', 'the', 'Ring', '.']",9
+1102,6333.2,6335.242,"['Great', '!']",2
+1103,6335.243,6340.243,"['Where', 'are', 'we', 'going', '?']",5
+1104,6375.91,6380.288,"['ELROND', ':', 'She', 'wanted', 'to', 'protect', 'her', 'child', '.', '.', '.']",11
+1105,6380.289,6385.289,"['she', 'thought', 'in', 'Rivendell', 'you', 'would', 'be', 'safe', '.']",9
+1106,6386.421,6390.424,"['In', 'her', 'heart', ',', 'your', 'mother', 'knew', ""you'd"", 'be', 'hunted', 'all', 'your', 'life', '.']",14
+1107,6390.425,6392.592,"['That', ""you'd"", 'never', 'escape', 'your', 'fate', '.']",7
+1108,6392.593,6396.68,"['The', 'skill', 'of', 'the', 'Elves', 'can', 'reforge', 'the', 'sword', 'of', 'kings', '.', '.', '.']",14
+1109,6396.681,6401.601,"['.', '.', '.', 'but', 'only', 'you', 'have', 'the', 'power', 'to', 'wield', 'it', '.']",13
+1110,6401.602,6404.271,"['I', 'do', 'not', 'want', 'that', 'power', '.']",7
+1111,6404.272,6408.275,"['I', 'have', 'never', 'wanted', 'it', '.']",6
+1112,6408.276,6413.276,"['You', 'are', 'the', 'last', 'of', 'that', 'bloodline', '.', 'There', 'is', 'no', 'other', '.']",13
+1113,6415.283,6417.826,"['BILBO', ':', 'My', 'old', 'sword', '!', 'Sting', '.']",8
+1114,6417.827,6422.827,"['Here', ',', 'take', 'it', '.', 'Take', 'it', '.']",8
+1115,6424.459,6429.129,"['-', 'It', ""'s"", 'so', 'light', '.', '-', 'Yes', '.', 'Made', 'by', 'the', 'Elves', ',', 'you', 'know', '.']",17
+1116,6429.13,6433.425,"['The', 'blade', 'glows', 'blue', 'when', 'Orcs', 'are', 'close', '.']",9
+1117,6433.426,6438.18,"['And', 'it', ""'s"", 'times', 'like', 'that', ',', 'my', 'lad', ',', 'when', 'you', 'have', 'to', 'be', 'extra', 'careful', '.']",18
+1118,6438.181,6441.057,"['Here', ""'s"", 'a', 'pretty', 'thing', '.']",6
+1119,6441.058,6443.143,"['Mithril', '.']",2
+1120,6443.144,6447.731,"['As', 'light', 'as', 'a', 'feather', ',', 'and', 'as', 'hard', 'as', 'dragon', 'scales', '.']",13
+1121,6447.732,6452.732,"['Let', 'me', 'see', 'you', 'put', 'it', 'on', '.', 'Come', 'on', '.']",11
+1122,6454.53,6459.034,"['Oh', '!']",2
+1123,6459.035,6462.329,"['My', 'old', 'ring', '.']",4
+1124,6462.33,6466.5,"['I', 'should', 'very', 'much', 'like', '.', '.', '.']",8
+1125,6466.501,6471.501,"['.', '.', '.', 'to', 'hold', 'it', 'again', ',', 'one', 'last', 'time', '.']",12
+1126,6487.855,6491.858,"[""I'm"", 'sorry', 'I', 'brought', 'this', 'upon', 'you', ',', 'my', 'boy', '.']",11
+1127,6491.859,6496.859,"[""I'm"", 'sorry', 'that', 'you', 'must', 'carry', 'this', 'burden', '.']",9
+1128,6500.493,6505.493,"[""I'm"", 'sorry', 'for', 'everything', '.']",5
+1129,6518.594,6523.594,"['The', 'Ring-bearer', 'is', 'setting', 'out', 'on', 'the', 'Quest', 'of', 'Mount', 'Doom', '.']",12
+1130,6524.1,6526.935,"['On', 'you', 'who', 'travel', 'with', 'him', ',', 'no', 'oath', '.', '.', '.']",12
+1131,6526.936,6531.936,"['.', '.', '.', 'nor', 'bond', 'is', 'laid', 'to', 'go', 'further', 'than', 'you', 'will', '.']",14
+1132,6533.526,6536.528,"['Farewell', '.', 'Hold', 'to', 'your', 'purpose', '.']",7
+1133,6536.529,6540.991,"['May', 'the', 'blessings', 'of', 'Elves', 'and', 'Men', '.', '.', '.']",10
+1134,6540.992,6545.992,"['.', '.', '.', 'and', 'all', 'Free', 'Folk', 'go', 'with', 'you', '.']",11
+1135,6546.664,6551.664,"['The', 'Fellowship', 'awaits', 'the', 'Ring-bearer', '.']",6
+1136,6569.186,6572.23,"['Mordor', ',', 'Gandalf', ',', 'is', 'it', 'left', 'or', 'right', '?']",10
+1137,6572.231,6577.231,"['Left', '.']",2
+1138,6653.562,6658.191,"['GANDALF', ':', 'We', 'must', 'hold', 'to', 'this', 'course', ',', 'west', 'of', 'the', 'Misty', 'Mountains', ',', 'for', '40', 'days', '.']",19
+1139,6658.192,6662.153,"['If', 'our', 'luck', 'holds', ',', 'the', 'Gap', 'of', 'Rohan', 'will', 'still', 'be', 'open', 'to', 'us', '.']",16
+1140,6662.154,6665.865,"['From', 'there', ',', 'our', 'road', 'turns', 'east', 'to', 'Mordor', '.']",10
+1141,6665.866,6670.866,"['Two', ',', 'one', ',', 'five', '.', 'Good', '!', 'Very', 'good', '.']",11
+1142,6671.539,6672.789,"['Move', 'your', 'feet', '.']",4
+1143,6672.79,6674.332,"['MERRY', ':', 'You', 'look', 'good', ',', 'Pippin', '.', '-', 'Thanks', '.']",11
+1144,6674.333,6677.085,"['BOROMIR', ':', 'Faster', '!']",4
+1145,6677.086,6681.089,"['If', 'anyone', 'was', 'to', 'ask', 'for', 'my', 'opinion', ',', 'which', 'I', 'note', ""they're"", 'not', '.', '.', '.']",17
+1146,6681.09,6684.342,"['.', '.', '.', ""I'd"", 'say', 'we', 'were', 'taking', 'the', 'long', 'way', ""'"", 'round', '.']",14
+1147,6684.343,6688.054,"['Gandalf', ',', 'we', 'could', 'pass', 'through', 'the', 'Mines', 'of', 'Moria', '.']",11
+1148,6688.055,6692.225,"['My', 'cousin', 'Balin', 'would', 'give', 'us', 'a', 'royal', 'welcome', '.']",10
+1149,6692.226,6697.226,"['No', ',', 'I', 'would', 'not', 'take', 'the', 'road', 'through', 'Moria', 'unless', 'I', 'had', 'no', 'other', 'choice', '.']",17
+1150,6706.824,6708.742,"['Sorry', '!']",2
+1151,6708.743,6711.578,"['MERRY', ':', 'Get', 'him', '!']",5
+1152,6711.579,6714.581,"['MERRY', ':', 'For', 'the', 'Shire', '!', 'PIPPIN', ':', 'Hold', 'him', '.', 'Hold', 'him', 'down', ',', 'Merry', '!']",17
+1153,6714.582,6719.582,"['Gentlemen', ',', 'that', ""'s"", 'enough', '.']",6
+1154,6720.713,6722.756,"['MERRY', ':', ""You've"", 'got', 'my', 'arm', '!', ""You've"", 'got', 'my', 'arm', '!']",12
+1155,6722.757,6725.675,"['-', 'What', 'is', 'that', '?', '-', 'Nothing', '.', 'It', ""'s"", 'just', 'a', 'wisp', 'of', 'cloud', '.']",16
+1156,6725.676,6728.595,"['It', ""'s"", 'moving', 'fast', '.']",5
+1157,6728.596,6731.556,"['Against', 'the', 'wind', '.']",4
+1158,6731.557,6733.892,"['-', 'Crebain', 'from', 'Dunland', '!', '-', 'Hide', '!']",8
+1159,6733.893,6738.893,"['-', 'Hurry', '!', '-', 'Take', 'cover', '!']",7
+1160,6770.012,6772.514,"['Spies', 'of', 'Saruman', '.']",4
+1161,6772.515,6776.976,"['The', 'passage', 'south', 'is', 'being', 'watched', '.']",7
+1162,6776.977,6781.977,"['We', 'must', 'take', 'the', 'Pass', 'of', 'Caradhras', '.']",8
+1163,6792.952,6797.952,"['ARAGORN', ':', 'Frodo', '!']",4
+1164,6813.639,6816.141,"['Boromir', '.']",2
+1165,6816.142,6820.562,"['It', 'is', 'a', 'strange', 'fate', 'that', 'we', 'should', 'suffer', 'so', 'much', 'fear', 'and', 'doubt', '.', '.', '.']",17
+1166,6820.563,6825.563,"['.', '.', '.', 'over', 'so', 'small', 'a', 'thing', '.']",9
+1167,6826.902,6829.07,"['Such', 'a', 'little', 'thing', '.']",5
+1168,6829.071,6831.156,"['Boromir', '!']",2
+1169,6831.157,6836.157,"['Give', 'the', 'Ring', 'to', 'Frodo', '.']",6
+1170,6843.669,6846.421,"['As', 'you', 'wish', '.']",4
+1171,6846.422,6851.422,"['I', 'care', 'not', '.']",4
+1172,6852.887,6857.887,[],0
+1173,6865.608,6870.608,[],0
+1174,6883.834,6888.755,"['So', ',', 'Gandalf', ',', 'you', 'try', 'to', 'lead', 'them', 'over', 'Caradhras', '.']",12
+1175,6888.756,6893.756,"['And', 'if', 'that', 'fails', ',', 'where', 'then', 'will', 'you', 'go', '?']",11
+1176,6894.637,6897.847,"['If', 'the', 'mountain', 'defeats', 'you', '.', '.', '.']",8
+1177,6897.848,6902.848,"['.', '.', '.', 'will', 'you', 'risk', 'a', 'more', 'dangerous', 'road', '?']",11
+1178,6908.776,6913.776,[],0
+1179,6914.615,6918.618,"['There', 'is', 'a', 'fell', 'voice', 'on', 'the', 'air', '.']",9
+1180,6918.619,6923.619,"['It', ""'s"", 'Saruman', '!']",4
+1181,6929.004,6933.967,"['He', ""'s"", 'trying', 'to', 'bring', 'down', 'the', 'mountain', '!', 'Gandalf', ',', 'we', 'must', 'turn', 'back', '!']",16
+1182,6933.968,6938.763,"['No', '!']",2
+1183,6938.764,6943.764,[],0
+1184,7002.202,7004.537,"['We', 'must', 'get', 'off', 'the', 'mountain', '!']",7
+1185,7004.538,7009.042,"['Make', 'for', 'the', 'Gap', 'of', 'Rohan', ',', 'and', 'take', 'the', 'west', 'road', 'to', 'my', 'city', '!']",16
+1186,7009.043,7012.545,"['The', 'Gap', 'of', 'Rohan', 'takes', 'us', 'too', 'close', 'to', 'lsengard', '!']",11
+1187,7012.546,7016.549,"['GIMLI', ':', 'We', 'cannot', 'pass', 'over', 'a', 'mountain', '.', 'Let', 'us', 'go', 'under', 'it', '.']",15
+1188,7016.55,7021.22,"['Let', 'us', 'go', 'through', 'the', 'Mines', 'of', 'Moria', '.']",9
+1189,7021.221,7025.725,"['SARUMAN', ':', 'Moria', '.', 'You', 'fear', 'to', 'go', 'into', 'those', 'mines', '.']",12
+1190,7025.726,7030.726,"['The', 'Dwarves', 'delved', 'too', 'greedily', 'and', 'too', 'deep', '.']",9
+1191,7031.565,7036.565,"['You', 'know', 'what', 'they', 'awoke', 'in', 'the', 'darkness', 'of', 'Khazad-dûm', ':']",11
+1192,7037.738,7042.738,"['Shadow', 'and', 'flame', '.']",4
+1193,7044.578,7049.578,"['Let', 'the', 'Ring-bearer', 'decide', '.']",5
+1194,7051.96,7054.253,"['We', 'cannot', 'stay', 'here', '!']",5
+1195,7054.254,7057.256,"['This', 'will', 'be', 'the', 'death', 'of', 'the', 'Hobbits', '.']",9
+1196,7057.257,7061.969,"['Frodo', '?']",2
+1197,7061.97,7065.598,"['We', 'will', 'go', 'through', 'the', 'mines', '.']",7
+1198,7065.599,7070.599,"['So', 'be', 'it', '.']",4
+1199,7074.149,7079.149,"['Frodo', ',', 'come', 'and', 'help', 'an', 'old', 'man', '.']",9
+1200,7081.615,7084.033,"['How', 'is', 'your', 'shoulder', '?']",5
+1201,7084.034,7088.83,"['-', 'Better', 'than', 'it', 'was', '.', '-', 'And', 'the', 'Ring', '?']",11
+1202,7088.831,7091.833,"['You', 'feel', 'its', 'power', 'growing', ',', ""don't"", 'you', '?']",9
+1203,7091.834,7095.169,"[""I've"", 'felt', 'it', 'too', '.', 'You', 'must', 'be', 'careful', 'now', '.']",11
+1204,7095.17,7099.257,"['Evil', 'will', 'be', 'drawn', 'to', 'you', 'from', 'outside', 'the', 'Fellowship', '.']",11
+1205,7099.258,7104.258,"['And', ',', 'I', 'fear', ',', 'from', 'within', '.']",8
+1206,7104.471,7108.808,"['-', 'Who', 'then', 'do', 'I', 'trust', '?', '-', 'You', 'must', 'trust', 'yourself', '.']",13
+1207,7108.809,7111.853,"['Trust', 'your', 'own', 'strengths', '.']",5
+1208,7111.854,7114.647,"['-', 'What', 'do', 'you', 'mean', '?', '-', 'There', 'are', 'many', 'powers', 'in', 'this', 'world', '.', '.', '.']",17
+1209,7114.648,7116.858,"['.', '.', '.', 'for', 'good', 'or', 'for', 'evil', '.']",9
+1210,7116.859,7119.694,"['Some', 'are', 'greater', 'than', 'I', 'am', '.']",7
+1211,7119.695,7124.695,"['And', 'against', 'some', 'I', 'have', 'not', 'yet', 'been', 'tested', '.']",10
+1212,7124.7,7126.784,"['The', 'walls', '.', '.', '.']",5
+1213,7126.785,7131.785,"['.', '.', '.', 'of', 'Moria', '.']",6
+1214,7134.585,7137.795,"['Dwarf', 'doors', 'are', 'invisible', 'when', 'closed', '.']",7
+1215,7137.796,7142.592,"['GANDALF', ':', 'Their', 'own', 'masters', 'cannot', 'find', 'them', 'if', 'their', 'secrets', 'are', 'forgotten', '.']",14
+1216,7142.593,7147.593,"['Why', ""doesn't"", 'that', 'surprise', 'me', '?']",6
+1217,7153.103,7156.606,"['Well', ',', 'let', ""'s"", 'see', '.']",6
+1218,7156.607,7158.608,"['Ithildin', '.']",2
+1219,7158.609,7163.609,"['It', 'mirrors', 'only', 'starlight', 'and', 'moonlight', '.']",7
+1220,7176.043,7180.713,"['It', 'reads', ',', '""', 'The', 'Doors', 'of', 'Durin', ',', 'Lord', 'of', 'Moria', '.']",13
+1221,7180.714,7185.551,"['-', 'Speak', ',', 'friend', ',', 'and', 'enter', '.', '""', '-', 'What', 'do', 'you', 'suppose', 'that', 'means', '?']",17
+1222,7185.552,7190.552,"['It', ""'s"", 'simple', '.', 'If', 'you', 'are', 'a', 'friend', ',', 'you', 'speak', 'the', 'password', 'and', 'the', 'doors', 'will', 'open', '.']",20
+1223,7190.891,7195.891,[],0
+1224,7214.081,7219.081,"['Nothing', ""'s"", 'happening', '.']",4
+1225,7222.256,7226.801,"['I', 'once', 'knew', 'every', 'spell', 'in', 'all', 'the', 'tongues', 'of', 'Elves', '.', '.', '.']",14
+1226,7226.802,7229.887,"['.', '.', '.', 'Men', 'and', 'Orcs', '.']",7
+1227,7229.888,7231.305,"['What', 'are', 'you', 'going', 'to', 'do', ',', 'then', '?']",9
+1228,7231.306,7233.808,"['Knock', 'your', 'head', 'against', 'these', 'doors', ',', 'Peregrin', 'Took', '!']",10
+1229,7233.809,7235.977,"['And', 'if', 'that', 'does', 'not', 'shatter', 'them', '.', '.', '.']",10
+1230,7235.978,7238.854,"['.', '.', '.', 'and', 'I', 'am', 'allowed', 'a', 'little', 'peace', 'from', 'foolish', 'questions', '.', '.', '.']",16
+1231,7238.855,7242.775,"['.', '.', '.', 'I', 'will', 'try', 'to', 'find', 'the', 'opening', 'words', '.']",12
+1232,7242.776,7247.776,[],0
+1233,7255.163,7257.915,"['Mines', 'are', 'no', 'place', 'for', 'a', 'pony', '.']",8
+1234,7257.916,7262.916,"['-', 'Even', 'one', 'so', 'brave', 'as', 'Bill', '.', '-', 'Bye-bye', ',', 'Bill', '.']",13
+1235,7263.171,7266.507,"['Go', 'on', ',', 'Bill', '.', 'Go', 'on', '.']",8
+1236,7266.508,7271.508,"[""Don't"", 'worry', ',', 'Sam', ',', 'he', 'knows', 'the', 'way', 'home', '.']",11
+1237,7276.852,7279.645,"['Do', 'not', 'disturb', 'the', 'water', '.']",6
+1238,7279.646,7284.646,"['Oh', ',', 'it', ""'s"", 'useless', '.']",6
+1239,7294.202,7299.123,"['It', ""'s"", 'a', 'riddle', '.']",5
+1240,7299.124,7302.627,"['""', 'Speak', ""'"", 'friend', ""'"", 'and', 'enter', '.', '""']",9
+1241,7302.628,7307.006,"['What', ""'s"", 'the', 'Elvish', 'word', 'for', '""', 'friend', '""', '?']",10
+1242,7307.007,7312.007,"['Mellon', '.']",2
+1243,7326.36,7331.36,"['GIMLI', ':', 'Soon', ',', 'Master', 'Elf', ',', 'you', 'will', 'enjoy', 'the', 'fabled', 'hospitality', 'of', 'the', 'Dwarves', '.']",17
+1244,7331.698,7336.698,"['Roaring', 'fires', ',', 'malt', 'beer', ',', 'ripe', 'meat', 'off', 'the', 'bone', '!']",12
+1245,7338.914,7342.375,"['This', ',', 'my', 'friend', ',', 'is', 'the', 'home', 'of', 'my', 'cousin', 'Balin', '.']",13
+1246,7342.376,7344.96,"['And', 'they', 'call', 'it', 'a', 'mine', '.']",7
+1247,7344.961,7347.963,"['A', 'mine', '!']",3
+1248,7347.964,7352.964,"['This', 'is', 'no', 'mine', '.', 'It', ""'s"", 'a', 'tomb', '.']",10
+1249,7355.555,7357.431,"['GIMLI', ':', 'No', '.']",4
+1250,7357.432,7360.267,"['No', '.', '.', '.']",4
+1251,7360.268,7364.563,"['No', '!']",2
+1252,7364.564,7369.564,"['Goblins', '.']",2
+1253,7370.028,7375.028,"['We', 'make', 'for', 'the', 'Gap', 'of', 'Rohan', '.', 'We', 'should', 'never', 'have', 'come', 'here', '.']",15
+1254,7375.409,7380.409,"['ARAGORN', ':', 'Now', ',', 'get', 'out', 'of', 'here', '.', 'Get', 'out', '!']",12
+1255,7380.747,7383.332,"['MERRY', ':', 'Frodo', '!', 'FRODO', ':', 'Help', '!']",8
+1256,7383.333,7385.126,"['Strider', '!']",2
+1257,7385.127,7388.087,"['FRODO', ':', 'Help', '!', 'SAM', ':', 'Get', 'off', 'him', '!']",10
+1258,7388.088,7393.088,"['Aragorn', '!']",2
+1259,7399.558,7401.767,"['Frodo', '!']",2
+1260,7401.768,7406.768,"['Strider', '!']",2
+1261,7426.96,7428.169,"['Into', 'the', 'mines', '!']",4
+1262,7428.17,7433.17,"['-', 'Legolas', '!', 'ARAGORN', ':', 'Into', 'the', 'cave', '!']",9
+1263,7435.677,7440.677,"['Run', '!']",2
+1264,7454.321,7458.115,"['GANDALF', ':', 'We', 'now', 'have', 'but', 'one', 'choice', '.']",9
+1265,7458.116,7463.116,"['We', 'must', 'face', 'the', 'long', 'dark', 'of', 'Moria', '.']",9
+1266,7463.246,7465.414,"['Be', 'on', 'your', 'guard', '.']",5
+1267,7465.415,7469.043,"['There', 'are', 'older', 'and', 'fouler', 'things', 'than', 'Orcs', '.', '.', '.']",11
+1268,7469.044,7474.044,"['.', '.', '.', 'in', 'the', 'deep', 'places', 'of', 'the', 'world', '.']",11
+1269,7480.555,7484.683,"['Quietly', 'now', '.', 'It', ""'s"", 'a', 'four-day', 'journey', 'to', 'the', 'other', 'side', '.']",13
+1270,7484.684,7489.684,"['Let', 'us', 'hope', 'that', 'our', 'presence', 'may', 'go', 'unnoticed', '.']",10
+1271,7534.317,7538.195,"['The', 'wealth', 'of', 'Moria', 'is', 'not', 'in', 'gold', '.', '.', '.']",11
+1272,7538.196,7540.781,"['.', '.', '.', 'or', 'jewels', '.', '.', '.']",8
+1273,7540.782,7545.782,"['.', '.', '.', 'but', 'mithril', '.']",6
+1274,7562.178,7567.178,"['Bilbo', 'had', 'a', 'shirt', 'of', 'mithril', 'rings', 'that', 'Thorin', 'gave', 'him', '.']",12
+1275,7567.309,7571.437,"['-', 'Oh', ',', 'that', 'was', 'a', 'kingly', 'gift', '.', '-', 'Yes', '.']",12
+1276,7571.438,7573.522,"['I', 'never', 'told', 'him', '.', '.', '.']",7
+1277,7573.523,7578.523,"['.', '.', '.', 'but', 'its', 'worth', 'was', 'greater', 'than', 'the', 'value', 'of', 'the', 'Shire', '.']",15
+1278,7590.832,7595.832,"['Pippin', '.']",2
+1279,7613.229,7617.942,"['I', 'have', 'no', 'memory', 'of', 'this', 'place', '.']",8
+1280,7617.943,7619.652,"['PIPPIN', ':', 'Are', 'we', 'lost', '?', 'MERRY', ':', 'No', '.']",10
+1281,7619.653,7622.321,"['PIPPIN', ':', 'I', 'think', 'we', 'are', '.', 'MERRY', ':', 'Gandalf', ""'s"", 'thinking', '.']",13
+1282,7622.322,7624.073,"['PIPPIN', ':', 'Merry', '?', 'MERRY', ':', 'What', '?']",8
+1283,7624.074,7629.074,"['PIPPIN', ':', ""I'm"", 'hungry', '.']",5
+1284,7637.337,7642.007,"['-', 'There', ""'s"", 'something', 'down', 'there', '.', '-It', ""'s"", 'Gollum', '.']",11
+1285,7642.008,7646.345,"['-', 'Gollum', '?', '-', 'He', ""'s"", 'been', 'following', 'us', 'for', 'three', 'days', '.']",13
+1286,7646.346,7651.183,"['-', 'He', 'escaped', 'the', 'dungeons', 'of', 'Barad-dûr', '?', '-', 'Escaped', '.', '.', '.']",13
+1287,7651.184,7653.352,"['.', '.', '.', 'or', 'was', 'set', 'loose', '.']",8
+1288,7653.353,7658.353,"['Now', 'the', 'Ring', 'has', 'brought', 'him', 'here', '.']",8
+1289,7659.651,7662.528,"['He', 'will', 'never', 'be', 'rid', 'of', 'his', 'need', 'for', 'it', '.']",11
+1290,7662.529,7667.529,"['He', 'hates', 'and', 'loves', 'the', 'Ring', ',', 'as', 'he', 'hates', 'and', 'loves', 'himself', '.']",14
+1291,7668.493,7673.493,"['Sméagol', ""'s"", 'life', 'is', 'a', 'sad', 'story', '.']",8
+1292,7673.54,7678.54,"['Yes', ',', 'Sméagol', 'he', 'was', 'once', 'called', '.', 'Before', 'the', 'Ring', 'found', 'him', '.']",14
+1293,7680.38,7683.507,"['Before', 'it', 'drove', 'him', 'mad', '.']",6
+1294,7683.508,7686.552,"['It', ""'s"", 'a', 'pity', 'Bilbo', ""didn't"", 'kill', 'him', 'when', 'he', 'had', 'the', 'chance', '.']",14
+1295,7686.553,7688.846,"['Pity', '?']",2
+1296,7688.847,7692.641,"['It', 'is', 'pity', 'that', 'stayed', 'Bilbo', ""'s"", 'hand', '.']",9
+1297,7692.642,7697.642,"['Many', 'that', 'live', 'deserve', 'death', '.', 'Some', 'that', 'die', 'deserve', 'life', '.']",12
+1298,7699.274,7704.194,"['Can', 'you', 'give', 'it', 'to', 'them', ',', 'Frodo', '?']",9
+1299,7704.195,7708.365,"['Do', 'not', 'be', 'too', 'eager', 'to', 'deal', 'out', 'death', 'and', 'judgment', '.']",12
+1300,7708.366,7711.869,"['Even', 'the', 'very', 'wise', 'cannot', 'see', 'all', 'ends', '.']",9
+1301,7711.87,7716.87,"['My', 'heart', 'tells', 'me', 'that', 'Gollum', 'has', 'some', 'part', 'to', 'play', 'yet', ',', 'for', 'good', 'or', 'ill', '.', '.', '.']",20
+1302,7718.585,7722.921,"['.', '.', '.', 'before', 'this', 'is', 'over', '.']",8
+1303,7722.922,7727.922,"['The', 'pity', 'of', 'Bilbo', 'may', 'rule', 'the', 'fate', 'of', 'many', '.']",11
+1304,7733.433,7738.228,"['I', 'wish', 'the', 'Ring', 'had', 'never', 'come', 'to', 'me', '.']",10
+1305,7738.229,7740.439,"['I', 'wish', 'none', 'of', 'this', 'had', 'happened', '.']",8
+1306,7740.44,7745.44,"['So', 'do', 'all', 'who', 'live', 'to', 'see', 'such', 'times', '.', 'But', 'that', 'is', 'not', 'for', 'them', 'to', 'decide', '.']",19
+1307,7746.279,7751.279,"['All', 'we', 'have', 'to', 'decide', 'is', 'what', 'to', 'do', 'with', 'the', 'time', 'that', 'is', 'given', 'to', 'us', '.']",18
+1308,7753.286,7757.706,"['There', 'are', 'other', 'forces', 'at', 'work', 'in', 'this', 'world', ',', 'Frodo', ',', 'besides', 'the', 'will', 'of', 'evil', '.']",18
+1309,7757.707,7760.626,"['Bilbo', 'was', 'meant', 'to', 'find', 'the', 'Ring', '.']",8
+1310,7760.627,7765.13,"['In', 'which', 'case', ',', 'you', 'also', 'were', 'meant', 'to', 'have', 'it', '.']",12
+1311,7765.131,7770.131,"['And', 'that', 'is', 'an', 'encouraging', 'thought', '.']",7
+1312,7771.262,7773.222,"['Ah', '!']",2
+1313,7773.223,7775.307,"['It', ""'s"", 'that', 'way', '.']",5
+1314,7775.308,7777.81,"['-', 'He', ""'s"", 'remembered', '.', 'GANDALF', ':', 'No', '.']",9
+1315,7777.811,7781.814,"['But', 'the', 'air', ""doesn't"", 'smell', 'so', 'foul', 'down', 'here', '.']",10
+1316,7781.815,7786.815,"['If', 'in', 'doubt', ',', 'Meriadoc', ',', 'always', 'follow', 'your', 'nose', '.']",11
+1317,7801.835,7806.835,"['Let', 'me', 'risk', 'a', 'little', 'more', 'light', '.']",8
+1318,7810.677,7813.178,"['Behold', '.', '.', '.']",4
+1319,7813.179,7818.179,"['.', '.', '.', 'the', 'great', 'realm', 'and', 'Dwarf-city', 'of', 'Dwarrowdelf', '.']",11
+1320,7820.854,7825.854,"['There', ""'s"", 'an', 'eye', 'opener', ',', 'and', 'no', 'mistake', '.']",10
+1321,7849.215,7854.215,"['Gimli', '!']",2
+1322,7856.723,7858.39,"['No', '.']",2
+1323,7858.391,7862.561,"['No', '!']",2
+1324,7862.562,7867.562,"['Oh', ',', 'no', '.']",4
+1325,7867.567,7872.567,"['No', '.']",2
+1326,7876.117,7878.577,"['GANDALF', ':', '""', 'Here', 'lies', 'Balin', '.', '.', '.']",9
+1327,7878.578,7880.913,"['.', '.', '.', 'son', 'of', 'Fundin', '.', '.', '.']",9
+1328,7880.914,7884.583,"['.', '.', '.', 'Lord', 'of', 'Moria', '.', '""']",8
+1329,7884.584,7888.42,"['He', 'is', 'dead', ',', 'then', '.']",6
+1330,7888.421,7893.421,"['It', ""'s"", 'as', 'I', 'feared', '.']",6
+1331,7900.934,7905.934,[],0
+1332,7907.941,7911.068,"['We', 'must', 'move', 'on', '.', 'We', 'cannot', 'linger', '.']",9
+1333,7911.069,7916.069,"['GANDALF', ':', '""', 'They', 'have', 'taken', 'the', 'bridge', 'and', 'the', 'second', 'hall', '.']",13
+1334,7916.866,7920.118,"['We', 'have', 'barred', 'the', 'gates', '.', '.', '.']",8
+1335,7920.119,7922.788,"['.', '.', '.', 'but', 'cannot', 'hold', 'them', 'for', 'long', '.']",10
+1336,7922.789,7925.999,"['The', 'ground', 'shakes', '.']",4
+1337,7926.0,7927.96,"['Drums', '.', '.', '.']",4
+1338,7927.961,7932.961,"['.', '.', '.', 'drums', 'in', 'the', 'deep', '.']",8
+1339,7934.926,7938.971,"['We', 'cannot', 'get', 'out', '.']",5
+1340,7938.972,7943.972,"['A', 'Shadow', 'moves', 'in', 'the', 'dark', '.']",7
+1341,7944.477,7949.477,"['We', 'cannot', 'get', 'out', '.']",5
+1342,7950.024,7955.024,"['They', 'are', 'coming', '.', '""']",5
+1343,7955.154,7960.154,[],0
+1344,7974.424,7979.424,[],0
+1345,7983.641,7988.641,[],0
+1346,7995.028,7997.195,"['Fool', 'of', 'a', 'Took', '!']",5
+1347,7997.196,8002.196,"['Throw', 'yourself', 'in', 'next', 'time', ',', 'and', 'rid', 'us', 'of', 'your', 'stupidity', '.']",13
+1348,8004.662,8009.662,[],0
+1349,8017.717,8022.717,[],0
+1350,8026.976,8030.896,"['SAM', ':', 'Frodo', '!']",4
+1351,8030.897,8035.897,"['Orcs', '.']",2
+1352,8039.405,8044.405,"['Get', 'back', '!', 'Stay', 'close', 'to', 'Gandalf', '!']",8
+1353,8048.706,8053.706,"['They', 'have', 'a', 'cave-troll', '.']",5
+1354,8066.265,8067.933,"['Let', 'them', 'come', '!']",4
+1355,8067.934,8072.934,"['There', 'is', 'one', 'Dwarf', 'yet', 'in', 'Moria', 'who', 'still', 'draws', 'breath', '.']",12
+1356,8086.661,8091.661,[],0
+1357,8210.409,8215.409,"['I', 'think', ""I'm"", 'getting', 'the', 'hang', 'of', 'this', '.']",9
+1358,8217.917,8222.917,"['Frodo', '!']",2
+1359,8253.119,8255.954,"['FRODO', ':', 'Aragorn', '!', 'Aragorn', '!']",6
+1360,8255.955,8260.955,"['Frodo', '!']",2
+1361,8303.002,8307.672,"['Frodo', '!']",2
+1362,8307.673,8312.673,"['Frodo', '!']",2
+1363,8365.106,8369.234,"['Oh', ',', 'no', '.']",4
+1364,8369.235,8374.235,[],0
+1365,8374.824,8379.119,"['He', ""'s"", 'alive', '.']",4
+1366,8379.12,8382.414,"[""I'm"", 'all', 'right', '.', ""I'm"", 'not', 'hurt', '.']",8
+1367,8382.415,8384.833,"['You', 'should', 'be', 'dead', '.']",5
+1368,8384.834,8387.585,"['That', 'spear', 'would', 'have', 'skewered', 'a', 'wild', 'boar', '.']",9
+1369,8387.586,8392.586,"['I', 'think', 'there', ""'s"", 'more', 'to', 'this', 'Hobbit', 'than', 'meets', 'the', 'eye', '.']",13
+1370,8398.139,8402.058,"['Mithril', '.']",2
+1371,8402.059,8405.103,"['You', 'are', 'full', 'of', 'surprises', ',', 'Master', 'Baggins', '.']",9
+1372,8405.104,8410.104,[],0
+1373,8410.651,8415.651,"['To', 'the', 'Bridge', 'of', 'Khazad-dûm', '!']",6
+1374,8427.585,8432.585,"['ARAGORN', ':', 'This', 'way', '!']",5
+1375,8472.797,8477.797,[],0
+1376,8499.573,8504.573,"['What', 'is', 'this', 'new', 'devilry', '?']",6
+1377,8516.715,8518.675,[],0
+1378,8518.676,8521.761,"['A', 'Balrog', '.']",3
+1379,8521.762,8526.762,"['A', 'demon', 'of', 'the', 'ancient', 'world', '.']",7
+1380,8527.101,8530.728,"['This', 'foe', 'is', 'beyond', 'any', 'of', 'you', '.']",8
+1381,8530.729,8535.729,"['Run', '!']",2
+1382,8539.613,8544.613,"['Quickly', '!']",2
+1383,8557.756,8559.632,"['Gandalf', '.']",2
+1384,8559.633,8562.635,"['Lead', 'them', 'on', ',', 'Aragorn', '.']",6
+1385,8562.636,8565.388,"['The', 'bridge', 'is', 'near', '.']",5
+1386,8565.389,8567.223,[],0
+1387,8567.224,8572.224,"['Do', 'as', 'I', 'say', '!', 'Swords', 'are', 'no', 'more', 'use', 'here', '.']",12
+1388,8600.466,8605.466,"['Gandalf', '!']",2
+1389,8620.486,8625.486,"['BOROMIR', ':', 'Merry', '!', 'Pippin', '!']",6
+1390,8632.831,8637.085,"['Sam', '!']",2
+1391,8637.086,8642.086,"['Nobody', 'tosses', 'a', 'Dwarf', '.']",5
+1392,8643.342,8648.342,"['Not', 'the', 'beard', '!']",4
+1393,8658.023,8662.026,"['Steady', '.']",2
+1394,8662.027,8666.656,"['Hold', 'on', '!']",3
+1395,8666.657,8669.617,[],0
+1396,8669.618,8674.618,[],0
+1397,8684.717,8689.717,"['Hang', 'on', '!']",3
+1398,8696.729,8701.399,"['Lean', 'forward', '!']",3
+1399,8701.4,8703.776,"['Steady', '.']",2
+1400,8703.777,8705.194,"['Come', 'on', '!']",3
+1401,8705.195,8710.195,"['NOW', '!']",2
+1402,8723.922,8725.923,"['Over', 'the', 'bridge', '!']",4
+1403,8725.924,8730.924,"['Fly', '!']",2
+1404,8772.137,8774.347,"['You', 'cannot', 'pass', '!']",4
+1405,8774.348,8779.348,"['Gandalf', '!']",2
+1406,8780.229,8785.229,"['I', 'am', 'a', 'servant', 'of', 'the', 'Secret', 'Fire', ',', 'wielder', 'of', 'the', 'flame', 'of', 'Anor', '.']",16
+1407,8786.11,8791.11,"['The', 'dark', 'fire', 'will', 'not', 'avail', 'you', ',', 'flame', 'of', 'Udûn', '!']",12
+1408,8799.873,8804.873,"['Go', 'back', 'to', 'the', 'Shadow', '.']",6
+1409,8809.675,8814.675,"['You', 'shall', 'not', 'pass', '!']",5
+1410,8841.29,8846.29,"['BOROMIR', ':', 'No', '!', 'No', '!', '-', 'Gandalf', '!']",9
+1411,8852.843,8857.843,"['Fly', ',', 'you', 'fools', '!']",5
+1412,8859.433,8864.433,"['No', '!']",2
+1413,8867.733,8872.733,"['Aragorn', '!']",2
+1414,8927.167,8932.167,"['Legolas', ',', 'get', 'them', 'up', '.']",6
+1415,8934.132,8936.133,"['Give', 'them', 'a', 'moment', ',', 'for', 'pity', ""'s"", 'sake', '!']",10
+1416,8936.134,8939.971,"['By', 'nightfall', ',', 'these', 'hills', 'will', 'be', 'swarming', 'with', 'Orcs', '.']",11
+1417,8939.972,8944.183,"['We', 'must', 'reach', 'the', 'woods', 'of', 'Lothlérien', '.']",8
+1418,8944.184,8948.98,"['Come', ',', 'Boromir', '.', 'Legolas', '.', 'Gimli', ',', 'get', 'them', 'up', '.']",12
+1419,8948.981,8951.524,"['On', 'your', 'feet', ',', 'Sam', '.']",6
+1420,8951.525,8955.111,"['Frodo', '?']",2
+1421,8955.112,8960.112,"['Frodo', '!']",2
+1422,9009.333,9012.585,"['Stay', 'close', ',', 'young', 'Hobbits', '!']",6
+1423,9012.586,9016.964,"['They', 'say', 'that', 'a', 'great', 'sorceress', 'lives', 'in', 'these', 'woods', '.']",11
+1424,9016.965,9020.051,"['An', 'Elf-witch', '.', '.', '.']",5
+1425,9020.052,9023.471,"['.', '.', '.', 'of', 'terrible', 'power', '.']",7
+1426,9023.472,9025.89,"['All', 'who', 'look', 'upon', 'her', '.', '.', '.']",8
+1427,9025.891,9027.892,"['.', '.', '.', 'fall', 'under', 'her', 'spell', '.']",8
+1428,9027.893,9031.437,"['FEMALE', 'VOICE', ':', 'Frodo', '!']",5
+1429,9031.438,9033.689,"['And', 'are', 'never', 'seen', 'again', '.']",6
+1430,9033.69,9038.402,"['FEMALE', 'VOICE', ':', 'Your', 'coming', 'to', 'us', 'is', 'as', 'the', 'footsteps', 'of', 'doom', '.']",14
+1431,9038.403,9042.281,"['You', 'bring', 'great', 'evil', 'here', ',', 'Ring-bearer', '.']",8
+1432,9042.282,9047.282,"['SAM', ':', 'Mr.', 'Frodo', '?']",5
+1433,9049.373,9054.373,"['Well', ',', 'here', ""'s"", 'one', 'Dwarf', 'she', ""won't"", 'ensnare', 'so', 'easily', '.']",12
+1434,9055.128,9060.128,"['I', 'have', 'the', 'eyes', 'of', 'a', 'hawk', 'and', 'the', 'ears', 'of', 'a', 'fox', '.']",14
+1435,9067.391,9072.391,"['The', 'Dwarf', 'breathes', 'so', 'loud', ',', 'we', 'could', 'have', 'shot', 'him', 'in', 'the', 'dark', '.']",15
+1436,9077.109,9080.027,"['Welcome', 'Legolas', ',', 'son', 'of', 'Thranduil', '.']",7
+1437,9080.028,9085.028,"['Our', 'Fellowship', 'stands', 'in', 'your', 'debt', '.']",7
+1438,9085.534,9087.868,"['Aragorn', 'of', 'the', 'Dunedain', '.', '.', '.']",7
+1439,9087.869,9090.121,"['you', 'are', 'known', 'to', 'us', '.']",6
+1440,9090.122,9092.581,"['So', 'much', 'for', 'the', 'legendary', 'courtesy', 'of', 'the', 'Elves', '!']",10
+1441,9092.582,9094.625,"['Speak', 'words', 'we', 'can', 'all', 'understand', '!']",7
+1442,9094.626,9099.547,"['We', 'have', 'not', 'had', 'dealings', 'with', 'the', 'Dwarves', 'since', 'the', 'Dark', 'Days', '.']",13
+1443,9099.548,9102.466,"['And', 'you', 'know', 'what', 'this', 'Dwarf', 'says', 'to', 'that', '?']",10
+1444,9102.467,9107.467,[],0
+1445,9108.974,9113.974,"['That', 'was', 'not', 'so', 'courteous', '.']",6
+1446,9117.482,9122.482,"['You', 'bring', 'great', 'evil', 'with', 'you', '.']",7
+1447,9123.28,9128.28,"['You', 'can', 'go', 'no', 'further', '.']",6
+1448,9131.621,9136.621,[],0
+1449,9162.736,9166.53,"['Gandalf', ""'s"", 'death', 'was', 'not', 'in', 'vain', '.']",8
+1450,9166.531,9169.909,"['Nor', 'would', 'he', 'have', 'you', 'give', 'up', 'hope', '.']",9
+1451,9169.91,9174.121,"['You', 'carry', 'a', 'heavy', 'burden', ',', 'Frodo', '.']",8
+1452,9174.122,9179.122,"[""Don't"", 'carry', 'the', 'weight', 'of', 'the', 'dead', '.']",8
+1453,9180.212,9185.212,"['You', 'will', 'follow', 'me', '.']",5
+1454,9193.934,9196.56,"['Caras', 'Galadhon', '.']",3
+1455,9196.561,9199.688,"['The', 'heart', 'of', 'Elvendom', 'on', 'earth', '.']",7
+1456,9199.689,9204.689,"['Realm', 'of', 'the', 'Lord', 'Celeborn', 'and', 'of', 'Galadriel', ',', 'Lady', 'of', 'Light', '.']",13
+1457,9284.357,9288.152,"['The', 'enemy', 'knows', 'you', 'have', 'entered', 'here', '.']",8
+1458,9288.153,9293.153,"['What', 'hope', 'you', 'had', 'in', 'secrecy', 'is', 'now', 'gone', '.']",10
+1459,9295.035,9299.747,"['Eight', 'there', 'are', 'here', ',', 'yet', 'nine', 'there', 'were', 'set', 'out', 'from', 'Rivendell', '.']",14
+1460,9299.748,9301.749,"['Tell', 'me', ',', 'where', 'is', 'Gandalf', '?']",7
+1461,9301.75,9305.002,"['For', 'I', 'much', 'desire', 'to', 'speak', 'with', 'him', '.']",9
+1462,9305.003,9308.672,"['I', 'can', 'no', 'longer', 'see', 'him', 'from', 'afar', '.']",9
+1463,9308.673,9313.673,"['GALADRIEL', ':', 'Gandalf', 'the', 'Grey', 'did', 'not', 'pass', 'the', 'borders', 'of', 'this', 'land', '.']",14
+1464,9314.137,9319.137,"['He', 'has', 'fallen', 'into', 'Shadow', '.']",6
+1465,9321.269,9326.269,"['He', 'was', 'taken', 'by', 'both', 'Shadow', 'and', 'flame', '.']",9
+1466,9327.4,9331.862,"['A', 'Balrog', 'of', 'Morgoth', '.']",5
+1467,9331.863,9336.863,"['For', 'we', 'went', 'needlessly', 'into', 'the', 'net', 'of', 'Moria', '.']",10
+1468,9337.369,9341.205,"['Needless', 'were', 'none', 'of', 'the', 'deeds', 'of', 'Gandalf', 'in', 'life', '.']",11
+1469,9341.206,9346.206,"['We', 'do', 'not', 'yet', 'know', 'his', 'full', 'purpose', '.']",9
+1470,9349.297,9353.884,"['Do', 'not', 'let', 'the', 'great', 'emptiness', 'of', 'Khazad-dûm', 'fill', 'your', 'heart', '.', '.', '.']",14
+1471,9353.885,9357.221,"['.', '.', '.', 'Gimli', ',', 'son', 'of', 'Gléin', '.']",9
+1472,9357.222,9362.222,"['For', 'the', 'world', 'has', 'grown', 'full', 'of', 'peril', '.', '.', '.']",11
+1473,9362.227,9365.062,"['.', '.', '.', 'and', 'in', 'all', 'lands', '.', '.', '.']",10
+1474,9365.063,9370.063,"['.', '.', '.', 'love', 'is', 'now', 'mingled', 'with', 'grief', '.']",10
+1475,9381.204,9384.415,"['What', 'now', 'becomes', 'of', 'this', 'Fellowship', '?']",7
+1476,9384.416,9389.416,"['Without', 'Gandalf', ',', 'hope', 'is', 'lost', '.']",7
+1477,9390.422,9393.882,"['The', 'quest', 'stands', 'upon', 'the', 'edge', 'of', 'a', 'knife', '.']",10
+1478,9393.883,9397.72,"['Stray', 'but', 'a', 'little', 'and', 'it', 'will', 'fail', '.', '.', '.']",11
+1479,9397.721,9402.721,"['.', '.', '.', 'to', 'the', 'ruin', 'of', 'all', '.']",9
+1480,9404.894,9409.894,"['Yet', 'hope', 'remains', 'while', 'the', 'Company', 'is', 'true', '.']",9
+1481,9412.277,9417.277,"['Do', 'not', 'let', 'your', 'hearts', 'be', 'troubled', '.', 'Go', 'now', 'and', 'rest', '.', '.', '.']",15
+1482,9417.449,9422.449,"['.', '.', '.', 'for', 'you', 'are', 'weary', 'with', 'sorrow', 'and', 'much', 'toil', '.']",13
+1483,9423.371,9425.622,"['Tonight', ',', 'you', 'will', 'sleep', '.', '.', '.']",8
+1484,9425.623,9430.623,"['GALADRIEL', ':', 'Welcome', ',', 'Frodo', 'of', 'the', 'Shire', '.', '.', '.']",11
+1485,9430.628,9434.965,"['.', '.', '.', 'one', 'who', 'has', 'seen', 'the', 'Eye', '!']",10
+1486,9434.966,9439.966,[],0
+1487,9447.103,9452.103,"['A', 'lament', 'for', 'Gandalf', '.']",5
+1488,9456.946,9458.697,"['What', 'do', 'they', 'say', 'about', 'him', '?']",7
+1489,9458.698,9463.698,"['I', 'have', 'not', 'the', 'heart', 'to', 'tell', 'you', '.']",9
+1490,9464.12,9469.12,"['For', 'me', ',', 'the', 'grief', 'is', 'still', 'too', 'near', '.']",10
+1491,9469.334,9472.336,"['I', 'bet', 'they', ""don't"", 'mention', 'his', 'fireworks', '.']",8
+1492,9472.337,9477.337,"['There', 'should', 'be', 'a', 'verse', 'about', 'them', '.']",8
+1493,9478.927,9482.012,"['The', 'finest', 'rockets', 'ever', 'seen']",5
+1494,9482.013,9485.808,"['They', 'burst', 'in', 'stars', 'of', 'blue', 'and', 'green']",8
+1495,9485.809,9489.478,"['Or', 'after', 'thunder', ',', 'silver', 'showers']",6
+1496,9489.479,9491.688,[],0
+1497,9491.689,9494.691,"['Came', 'falling', 'like', 'a', 'rain', 'of', 'flowers']",7
+1498,9494.692,9499.692,"['Oh', ',', 'that', ""doesn't"", 'do', 'them', 'justice', 'by', 'a', 'long', 'road', '.']",12
+1499,9509.374,9512.251,"['ARAGORN', ':', 'Take', 'some', 'rest', '.']",6
+1500,9512.252,9515.17,"['These', 'borders', 'are', 'well-protected', '.']",5
+1501,9515.171,9520.171,"['I', 'will', 'find', 'no', 'rest', 'here', '.']",7
+1502,9520.552,9523.762,"['I', 'heard', 'her', 'voice', 'inside', 'my', 'head', '.']",8
+1503,9523.763,9527.724,"['She', 'spoke', 'of', 'my', 'father', 'and', 'the', 'fall', 'of', 'Gondor', '.']",11
+1504,9527.725,9532.725,"['She', 'said', 'to', 'me', ',', '""', 'Even', 'now', 'there', 'is', 'hope', 'left', '.', '""']",14
+1505,9534.566,9538.735,"['But', 'I', 'cannot', 'see', 'it', '.']",6
+1506,9538.736,9543.736,"['It', 'is', 'long', 'since', 'we', 'had', 'any', 'hope', '.']",9
+1507,9551.416,9554.293,"['My', 'father', 'is', 'a', 'noble', 'man', '.']",7
+1508,9554.294,9556.879,"['But', 'his', 'rule', 'is', 'failing', '.', '.', '.']",8
+1509,9556.88,9561.88,"['.', '.', '.', 'and', 'our', 'people', 'lose', 'faith', '.']",9
+1510,9563.72,9567.431,"['He', 'looks', 'to', 'me', 'to', 'make', 'things', 'right', ',', 'and', 'I', 'would', 'do', 'it', '.']",15
+1511,9567.432,9572.432,"['I', 'would', 'see', 'the', 'glory', 'of', 'Gondor', 'restored', '.']",9
+1512,9573.771,9577.441,"['Have', 'you', 'ever', 'seen', 'it', ',', 'Aragorn', '?']",8
+1513,9577.442,9579.61,"['The', 'White', 'Tower', 'of', 'Ecthelion', '.']",6
+1514,9579.611,9584.114,"['Glimmering', 'like', 'a', 'spike', 'of', 'pearl', 'and', 'silver', '.']",9
+1515,9584.115,9589.115,"['Its', 'banners', 'caught', 'high', 'in', 'the', 'morning', 'breeze', '.']",9
+1516,9590.538,9592.664,"['Have', 'you', 'ever', 'been', 'called', 'home', '.', '.', '.']",9
+1517,9592.665,9597.252,"['.', '.', '.', 'by', 'the', 'clear', 'ringing', 'of', 'silver', 'trumpets', '?']",11
+1518,9597.253,9600.797,"['I', 'have', 'seen', 'the', 'White', 'City', '.', '.', '.']",9
+1519,9600.798,9603.3,"['.', '.', '.', 'long', 'ago', '.']",6
+1520,9603.301,9608.301,"['One', 'day', ',', 'our', 'paths', 'will', 'lead', 'us', 'there', '.']",10
+1521,9609.182,9612.601,"['And', 'the', 'tower', 'guard', 'shall', 'take', 'up', 'the', 'call', ':']",10
+1522,9612.602,9617.602,"['""', 'The', 'Lords', 'of', 'Gondor', 'have', 'returned', '.', '""']",9
+1523,9683.131,9685.841,"['Will', 'you', 'look', 'into', 'the', 'mirror', '?']",7
+1524,9685.842,9690.345,"['What', 'will', 'I', 'see', '?']",5
+1525,9690.346,9693.557,"['Even', 'the', 'wisest', 'cannot', 'tell', '.']",6
+1526,9693.558,9695.642,"['For', 'the', 'mirror', '.', '.', '.']",6
+1527,9695.643,9700.643,"['.', '.', '.', 'shows', 'many', 'things', '.']",7
+1528,9701.19,9703.775,"['Things', 'that', 'were', '.', '.', '.']",6
+1529,9703.776,9707.154,"['.', '.', '.', 'things', 'that', 'are', '.', '.', '.']",9
+1530,9707.155,9712.155,"['.', '.', '.', 'and', 'some', 'things', '.', '.', '.']",9
+1531,9712.66,9717.66,"['.', '.', '.', 'that', 'have', 'not', 'yet', 'come', 'to', 'pass', '.']",11
+1532,9779.852,9784.852,[],0
+1533,9798.496,9803.496,"['I', 'know', 'what', 'it', 'is', 'you', 'saw', '.']",8
+1534,9803.793,9808.046,"['For', 'it', 'is', 'also', 'in', 'my', 'mind', '.']",8
+1535,9808.047,9813.047,"['It', 'is', 'what', 'will', 'come', 'to', 'pass', 'if', 'you', 'should', 'fail', '.']",12
+1536,9814.512,9819.512,"['The', 'Fellowship', 'is', 'breaking', '.', 'It', 'is', 'already', 'begun', '.']",10
+1537,9820.017,9823.52,"['He', 'will', 'try', 'to', 'take', 'the', 'Ring', '.']",8
+1538,9823.521,9826.523,"['You', 'know', 'of', 'whom', 'I', 'speak', '.']",7
+1539,9826.524,9831.524,"['One', 'by', 'one', ',', 'it', 'will', 'destroy', 'them', 'all', '.']",10
+1540,9832.697,9835.532,"['FRODO', ':', 'If', 'you', 'ask', 'it', 'of', 'me', '.', '.', '.']",11
+1541,9835.533,9839.661,"['.', '.', '.', 'I', 'will', 'give', 'you', 'the', 'One', 'Ring', '.']",11
+1542,9839.662,9844.662,"['You', 'offer', 'it', 'to', 'me', 'freely', '.']",7
+1543,9846.377,9851.377,"['I', 'do', 'not', 'deny', 'that', 'my', 'heart', 'has', 'greatly', 'desired', 'this', '.']",12
+1544,9856.721,9860.432,"['In', 'place', 'of', 'a', 'Dark', 'Lord', ',', 'you', 'would', 'have', 'a', 'queen', '.', '.', '.']",15
+1545,9860.433,9864.895,"['.', '.', '.', 'not', 'dark', 'but', 'beautiful', ',', 'and', 'terrible', 'as', 'the', 'dawn', '!']",14
+1546,9864.896,9868.398,"['Treacherous', 'as', 'the', 'sea', '!']",5
+1547,9868.399,9873.399,"['Stronger', 'than', 'the', 'foundations', 'of', 'the', 'earth', '!']",8
+1548,9873.821,9876.406,"['All', 'shall', 'love', 'me', '.', '.', '.']",7
+1549,9876.407,9881.407,"['.', '.', '.', 'and', 'despair', '.']",6
+1550,9893.341,9897.928,"['I', 'pass', 'the', 'test', '.', 'I', 'will', 'diminish', '.', '.', '.']",11
+1551,9897.929,9900.597,"['.', '.', '.', 'and', 'go', 'into', 'the', 'West', '.', '.', '.']",11
+1552,9900.598,9905.598,"['-', '.', '.', '.', 'and', 'remain', 'Galadriel', '.', '-', 'I', 'cannot', 'do', 'this', 'alone', '.']",15
+1553,9908.648,9913.648,"['You', 'are', 'a', 'Ring-bearer', ',', 'Frodo', '.', 'To', 'bear', 'a', 'Ring', 'of', 'Power', '.', '.', '.']",16
+1554,9913.736,9918.573,"['.', '.', '.', 'is', 'to', 'be', 'alone', '.']",8
+1555,9918.574,9921.493,"['This', 'is', 'Nenya', ',', 'the', 'Ring', 'of', 'Adamant', '.']",9
+1556,9921.494,9926.289,"['And', 'I', 'am', 'its', 'keeper', '.']",6
+1557,9926.29,9930.961,"['This', 'task', 'was', 'appointed', 'to', 'you', '.']",7
+1558,9930.962,9935.09,"['And', 'if', 'you', 'do', 'not', 'find', 'a', 'way', '.', '.', '.']",11
+1559,9935.091,9937.467,"['.', '.', '.', 'no', 'one', 'will', '.']",7
+1560,9937.468,9941.304,"['Then', 'I', 'know', 'what', 'I', 'must', 'do', '.']",8
+1561,9941.305,9945.767,"['It', ""'s"", 'just', '.', '.', '.']",6
+1562,9945.768,9950.768,"['.', '.', '.', ""I'm"", 'afraid', 'to', 'do', 'it', '.']",9
+1563,9951.482,9956.482,"['Even', 'the', 'smallest', 'person', 'can', 'change', 'the', 'course', 'of', 'the', 'future', '.']",12
+1564,9961.993,9966.993,"['Do', 'you', 'know', 'how', 'the', 'Orcs', 'first', 'came', 'into', 'being', '?']",11
+1565,9968.499,9973.003,"['They', 'were', 'Elves', 'once', '.']",5
+1566,9973.004,9976.506,"['Taken', 'by', 'the', 'Dark', 'Powers', '.', '.', '.']",8
+1567,9976.507,9980.01,"['.', '.', '.', 'tortured', 'and', 'mutilated', '.']",7
+1568,9980.011,9985.011,"['A', 'ruined', 'and', 'terrible', 'form', 'of', 'life', '.']",8
+1569,9985.641,9988.935,"['And', 'now', '.', '.', '.']",5
+1570,9988.936,9991.521,"['.', '.', '.', 'perfected', '.']",5
+1571,9991.522,9996.522,"['My', 'fighting', 'Uruk-hai', '.', '.', '.']",6
+1572,9996.652,9999.195,"['.', '.', '.', 'whom', 'do', 'you', 'serve', '?']",8
+1573,9999.196,10004.196,"['Saruman', '!']",2
+1574,10022.553,10026.222,"['Hunt', 'them', 'down', '.', 'Do', 'not', 'stop', 'until', 'they', 'are', 'found', '.']",12
+1575,10026.223,10029.351,"['You', 'do', 'not', 'know', 'pain', '.', 'You', 'do', 'not', 'know', 'fear', '.']",12
+1576,10029.352,10034.352,"['You', 'will', 'taste', 'Man-flesh', '!']",5
+1577,10037.36,10041.237,"['One', 'of', 'the', 'half', 'lings', 'carries', 'something', 'of', 'great', 'value', '.']",11
+1578,10041.238,10046.238,"['Bring', 'them', 'to', 'me', 'alive', 'and', 'unspoiled', '.']",8
+1579,10047.244,10052.244,"['Kill', 'the', 'others', '.']",4
+1580,10067.723,10072.723,"['CELEBORN', ':', 'Never', 'before', 'have', 'we', 'clad', 'strangers', 'in', 'the', 'garb', 'of', 'our', 'own', 'people', '.']",16
+1581,10074.271,10079.271,"['May', 'these', 'cloaks', 'help', 'shield', 'you', 'from', 'unfriendly', 'eyes', '.']",10
+1582,10085.282,10087.075,"['Lembas', '.']",2
+1583,10087.076,10091.162,"['Elvish', 'waybread', '.']",3
+1584,10091.163,10096.163,"['One', 'small', 'bite', 'is', 'enough', 'to', 'fill', 'the', 'stomach', 'of', 'a', 'grown', 'man', '.']",14
+1585,10100.631,10102.799,"['How', 'many', 'did', 'you', 'eat', '?']",6
+1586,10102.8,10105.969,"['Four', '.']",2
+1587,10105.97,10110.265,[],0
+1588,10110.266,10113.059,"['CELEBORN', '.', 'Every', 'league', 'you', 'travel', 'south', ',', 'the', 'danger', 'will', 'increase', '.']",13
+1589,10113.06,10117.313,"['Mordor', 'Orcs', 'now', 'hold', 'the', 'eastern', 'shore', 'of', 'the', 'Anduin', '.']",11
+1590,10117.314,10120.066,"['Nor', 'will', 'you', 'find', 'safety', 'on', 'the', 'western', 'bank', '.']",10
+1591,10120.067,10124.07,"['Strange', 'creatures', 'bearing', 'the', 'White', 'Hand', 'have', 'been', 'seen', 'on', 'our', 'borders', '.']",13
+1592,10124.071,10129.071,"['Seldom', 'do', 'Orcs', 'journey', 'in', 'the', 'open', 'under', 'the', 'sun', ',', 'yet', 'these', 'have', 'done', 'so', '.']",17
+1593,10137.835,10141.838,"['You', 'are', 'being', 'tracked', '.']",5
+1594,10141.839,10143.256,"['By', 'river', 'you', 'have', 'the', 'chance', '.', '.', '.']",9
+1595,10143.257,10148.257,"['.', '.', '.', 'of', 'outrunning', 'the', 'enemy', 'to', 'the', 'Falls', 'of', 'Rauros', '.']",13
+1596,10163.736,10168.736,"['GALADRIEL', ':', 'My', 'gift', 'for', 'you', ',', 'Legolas', ',', 'is', 'a', 'bow', 'of', 'the', 'Galadhrim', '.']",16
+1597,10168.824,10173.824,"['Worthy', 'of', 'the', 'skill', 'of', 'our', 'woodland', 'kin', '.']",9
+1598,10177.708,10180.335,"['These', 'are', 'the', 'daggers', 'of', 'the', 'Noldorin', '.']",8
+1599,10180.336,10183.713,"['They', 'have', 'already', 'seen', 'service', 'in', 'war', '.']",8
+1600,10183.714,10186.925,"['Do', 'not', 'fear', ',', 'young', 'Peregrin', 'Took', '.']",8
+1601,10186.926,10191.926,"['You', 'will', 'find', 'your', 'courage', '.']",6
+1602,10192.139,10194.265,"['And', 'for', 'you', ',', 'Samwise', 'Gamgee', '.', '.', '.']",9
+1603,10194.266,10197.018,"['.', '.', '.', 'Elven', 'rope', 'made', 'of', 'hithlain', '.']",9
+1604,10197.019,10200.939,"['Thank', 'you', ',', 'my', 'lady', '.']",6
+1605,10200.94,10205.94,"['Have', 'you', 'run', 'out', 'of', 'those', 'nice', ',', 'shiny', 'daggers', '?']",11
+1606,10210.741,10213.91,"['And', 'what', 'gift', 'would', 'a', 'dwarf', 'ask', 'of', 'the', 'Elves', '?']",11
+1607,10213.911,10216.704,"['Nothing', '.']",2
+1608,10216.705,10220.667,"['Except', 'to', 'look', 'upon', 'the', 'lady', 'of', 'the', 'Galadhrim', 'one', 'last', 'time', '.', '.', '.']",15
+1609,10220.668,10225.668,"['.', '.', '.', 'for', 'she', 'is', 'more', 'fair', 'than', 'all', 'the', 'jewels', 'beneath', 'the', 'earth', '.']",16
+1610,10232.93,10234.681,"['Actually', '.', '.', '.']",4
+1611,10234.682,10237.1,"['There', 'was', 'one', 'thing', '.']",5
+1612,10237.101,10239.936,"['No', ',', 'no', ',', ""I'm"", 'talking', 'nonsense', '.', 'It', ""'s"", 'quite', 'impossible', '.']",13
+1613,10239.937,10244.937,"['Stupid', 'to', 'ask', '.']",4
+1614,10245.276,10247.61,"['GALADRIEL', ':', 'I', 'have', 'nothing', 'greater', 'to', 'give', '.', '.', '.']",11
+1615,10247.611,10252.407,"['.', '.', '.', 'than', 'the', 'gift', 'you', 'already', 'bear', '.']",10
+1616,10252.408,10254.742,"['For', 'her', 'love', ',']",4
+1617,10254.743,10259.743,"['I', 'fear', 'the', 'grace', 'of', 'Arwen', 'Evenstar', 'will', 'diminish', '.']",10
+1618,10260.833,10265.712,"['I', 'would', 'have', 'her', 'leave', 'these', 'shores', ',']",8
+1619,10265.713,10270.633,"['and', 'be', 'with', 'her', 'people', '.']",6
+1620,10270.634,10275.634,"['I', 'would', 'have', 'her', 'take', 'the', 'ship', 'to', 'Valinor', '.']",10
+1621,10276.849,10280.518,"['That', 'choice', 'is', 'yet', 'before', 'her', '.']",7
+1622,10280.519,10283.771,"['You', 'have', 'your', 'own', 'choice', 'to', 'make', ',', 'Aragorn', '.']",10
+1623,10283.772,10288.772,"['To', 'rise', 'above', 'the', 'height', 'of', 'all', 'your', 'fathers', 'since', 'the', 'days', 'of', 'Elendil', '.', '.', '.']",17
+1624,10289.778,10294.778,"['.', '.', '.', 'or', 'to', 'fall', 'into', 'darkness', 'with', 'all', 'that', 'is', 'left', 'of', 'your', 'kin', '.']",17
+1625,10301.248,10306.248,"['Farewell', '.']",2
+1626,10306.42,10311.42,"['There', 'is', 'much', 'you', 'have', 'yet', 'to', 'do', '.']",9
+1627,10316.305,10317.764,"['We', 'shall', 'not', 'meet', 'again', '.', '.', '.']",8
+1628,10317.765,10321.684,"['Elessar', '.']",2
+1629,10321.685,10325.021,"['Farewell', ',', 'Frodo', 'Baggins', '.']",5
+1630,10325.022,10329.192,"['I', 'give', 'you', 'the', 'light', 'of', 'Eérendil', '.', '.', '.']",10
+1631,10329.193,10334.193,"['.', '.', '.', 'our', 'most', 'beloved', 'star', '.']",8
+1632,10340.704,10345.333,"['May', 'it', 'be', 'a', 'light', 'for', 'you', 'in', 'dark', 'places', '.', '.', '.']",13
+1633,10345.334,10350.334,"['.', '.', '.', 'when', 'all', 'other', 'lights', 'go', 'out', '.']",10
+1634,10358.222,10362.058,"['GIMLI', ':', 'I', 'have', 'taken', 'my', 'worst', 'wound', 'at', 'this', 'parting', '.', '.', '.']",14
+1635,10362.059,10367.059,"['.', '.', '.', 'having', 'looked', 'my', 'last', 'upon', 'that', 'which', 'is', 'fairest', '.']",13
+1636,10367.064,10370.692,"['Henceforth', 'I', 'will', 'call', 'nothing', 'fair', 'unless', 'it', 'be', 'her', 'gift', 'to', 'me', '.']",14
+1637,10370.693,10372.819,"['What', 'was', 'her', 'gift', '?']",5
+1638,10372.82,10377.82,"['I', 'asked', 'her', 'for', 'one', 'hair', 'from', 'her', 'golden', 'head', '.']",11
+1639,10378.534,10383.534,"['She', 'gave', 'me', 'three', '.']",5
+1640,10446.935,10451.935,[],0
+1641,10483.555,10488.555,"['Gollum', '.', 'He', 'has', 'tracked', 'us', 'since', 'Moria', '.']",9
+1642,10490.729,10494.065,"['I', 'had', 'hoped', 'we', 'would', 'lose', 'him', 'on', 'the', 'river', '.']",11
+1643,10494.066,10498.069,"['But', 'he', ""'s"", 'too', 'clever', 'a', 'waterman', '.']",8
+1644,10498.07,10501.531,"['And', 'if', 'he', 'alerts', 'the', 'enemy', 'to', 'our', 'whereabouts', '.', '.', '.']",12
+1645,10501.532,10503.991,"['.', '.', '.', 'it', 'will', 'make', 'the', 'crossing', 'even', 'more', 'dangerous', '.']",12
+1646,10503.992,10506.202,"['SAM', ':', 'Have', 'some', 'food', ',', 'Mr.', 'Frodo', '.']",9
+1647,10506.203,10509.497,"['-', 'No', ',', 'Sam', '.', '-', 'You', ""haven't"", 'eaten', 'anything', 'all', 'day', '.']",13
+1648,10509.498,10513.543,"[""You're"", 'not', 'sleeping', ',', 'neither', '.', ""Don't"", 'think', 'I', ""haven't"", 'noticed', '.']",12
+1649,10513.544,10516.712,"['-', 'Mr.', 'Frodo', '---', '-', ""I'm"", 'all', 'right', '.']",9
+1650,10516.713,10518.172,"['But', ""you're"", 'not', '.']",4
+1651,10518.173,10520.842,"[""I'm"", 'here', 'to', 'help', 'you', '.']",6
+1652,10520.843,10525.843,"['I', 'promised', 'Gandalf', 'that', 'I', 'would', '.']",7
+1653,10528.517,10533.396,"['You', ""can't"", 'help', 'me', ',', 'Sam', '.']",7
+1654,10533.397,10538.025,"['Not', 'this', 'time', '.']",4
+1655,10538.026,10543.026,"['Get', 'some', 'sleep', '.']",4
+1656,10546.451,10549.078,"['Minas', 'Tirith', 'is', 'the', 'safer', 'road', '.']",7
+1657,10549.079,10552.54,"['You', 'know', 'that', '.', 'From', 'there', 'we', 'can', 'regroup', '.']",10
+1658,10552.541,10555.084,"['Strike', 'out', 'for', 'Mordor', 'from', 'a', 'place', 'of', 'strength', '.']",10
+1659,10555.085,10558.421,"['There', 'is', 'no', 'strength', 'in', 'Gondor', 'that', 'can', 'avail', 'us', '.']",11
+1660,10558.422,10562.3,"['You', 'were', 'quick', 'enough', 'to', 'trust', 'the', 'Elves', '.']",9
+1661,10562.301,10565.303,"['Have', 'you', 'so', 'little', 'faith', 'in', 'your', 'own', 'people', '?']",10
+1662,10565.304,10568.514,"['Yes', ',', 'there', 'is', 'weakness', '.', 'There', 'is', 'frailty', '.']",10
+1663,10568.515,10572.059,"['But', 'there', 'is', 'courage', 'also', ',', 'and', 'honor', 'to', 'be', 'found', 'in', 'Men', '.']",14
+1664,10572.06,10574.604,"['But', 'you', 'will', 'not', 'see', 'that', '.']",7
+1665,10574.605,10576.272,"['You', 'are', 'afraid', '!']",4
+1666,10576.273,10579.108,"['All', 'your', 'life', ',', 'you', 'have', 'hidden', 'in', 'the', 'shadows', '.']",11
+1667,10579.109,10584.109,"['Scared', 'of', 'who', 'you', 'are', ',', 'of', 'what', 'you', 'are', '.']",11
+1668,10584.948,10589.948,"['I', 'will', 'not', 'lead', 'the', 'Ring', 'within', 'a', 'hundred', 'leagues', 'of', 'your', 'city', '.']",14
+1669,10601.173,10604.425,"['Frodo', '.']",2
+1670,10604.426,10609.347,"['The', 'Argonath', '.']",3
+1671,10609.348,10613.809,"['Long', 'have', 'I', 'desired', 'to', 'look', 'upon', 'the', 'kings', 'of', 'old', '.']",12
+1672,10613.81,10618.81,"['My', 'kin', '.']",3
+1673,10694.725,10697.184,"['We', 'cross', 'the', 'lake', 'at', 'nightfall', '.']",7
+1674,10697.185,10699.937,"['Hide', 'the', 'boats', 'and', 'continue', 'on', 'foot', '.']",8
+1675,10699.938,10703.858,"['-', 'We', 'approach', 'Mordor', 'from', 'the', 'North', '.', '-', 'Oh', ',', 'yes', '?']",13
+1676,10703.859,10707.862,"['Just', 'a', 'simple', 'matter', 'of', 'finding', 'our', 'way', 'through', 'Emyn', 'Muil', '.', '.', '.']",14
+1677,10707.863,10711.282,"['.', '.', '.', 'an', 'impassable', 'labyrinth', 'of', 'razor-sharp', 'rocks', '.']",10
+1678,10711.283,10714.785,"['And', 'after', 'that', ',', 'it', 'gets', 'even', 'better', '.']",9
+1679,10714.786,10719.786,"['Festering', ',', 'stinking', 'marshland', 'as', 'far', 'as', 'the', 'eye', 'can', 'see', '.']",12
+1680,10719.916,10722.877,"['That', 'is', 'our', 'road', '.']",5
+1681,10722.878,10726.297,"['I', 'suggest', 'you', 'take', 'some', 'rest', 'and', 'recover', 'your', 'strength', ',', 'Master', 'Dwarf', '.']",14
+1682,10726.298,10731.052,"['Recover', 'my', '---']",3
+1683,10731.053,10733.22,"['-', 'We', 'should', 'leave', 'now', '.', '-', 'No', '.']",9
+1684,10733.221,10737.892,"['Orcs', 'patrol', 'the', 'eastern', 'shore', '.', 'We', 'must', 'wait', 'for', 'cover', 'of', 'darkness', '.']",14
+1685,10737.893,10741.562,"['It', 'is', 'not', 'the', 'eastern', 'shore', 'that', 'worries', 'me', '.']",10
+1686,10741.563,10746.067,"['A', 'shadow', 'and', 'a', 'threat', 'has', 'been', 'growing', 'in', 'my', 'mind', '.']",12
+1687,10746.068,10751.068,"['Something', 'draws', 'near', '.', 'I', 'can', 'feel', 'it', '.']",9
+1688,10752.24,10757.24,"['Recover', 'strength', '?', 'Pay', 'no', 'heed', 'to', 'that', ',', 'young', 'Hobbit', '.']",12
+1689,10757.704,10762.704,"['Where', ""'s"", 'Frodo', '?']",4
+1690,10785.023,10788.317,"['BOROMIR', ':', 'None', 'of', 'us', 'should', 'wander', 'alone', '.']",9
+1691,10788.318,10790.653,"['You', ',', 'least', 'of', 'all', '.']",6
+1692,10790.654,10794.156,"['So', 'much', 'depends', 'on', 'you', '.']",6
+1693,10794.157,10799.157,"['Frodo', '?']",2
+1694,10803.25,10806.502,"['I', 'know', 'why', 'you', 'seek', 'solitude', '.']",7
+1695,10806.503,10810.756,"['You', 'suffer', '.', 'I', 'see', 'it', 'day', 'by', 'day', '.']",10
+1696,10810.757,10815.344,"['You', 'sure', 'you', 'do', 'not', 'suffer', 'needlessly', '?']",8
+1697,10815.345,10818.264,"['There', 'are', 'other', 'ways', ',', 'Frodo', '.']",7
+1698,10818.265,10822.309,"['-', 'Other', 'paths', 'that', 'we', 'might', 'take', '.', '-', 'I', 'know', 'what', 'you', 'would', 'say', '.']",16
+1699,10822.31,10826.313,"['It', 'would', 'seem', 'like', 'wisdom', 'but', 'for', 'the', 'warning', 'in', 'my', 'heart', '.']",13
+1700,10826.314,10829.567,"['Warning', '?', 'Against', 'what', '?']",5
+1701,10829.568,10831.902,"[""We're"", 'all', 'afraid', ',', 'Frodo', '.']",6
+1702,10831.903,10835.781,"['But', 'to', 'let', 'that', 'fear', 'drive', 'us', ',', 'to', 'destroy', 'what', 'hope', 'we', 'have', '.', '.', '.']",17
+1703,10835.782,10840.782,"['.', '.', '.', ""don't"", 'you', 'see', 'that', 'is', 'madness', '?', '-', 'There', 'is', 'no', 'other', 'way', '.']",17
+1704,10841.329,10846.208,"['I', 'ask', 'only', 'for', 'the', 'strength', 'to', 'defend', 'my', 'people', '!']",11
+1705,10846.209,10849.503,"['-', 'If', 'you', 'would', 'but', 'lend', 'me', 'the', 'Ring', '.', '-', 'No', '.']",13
+1706,10849.504,10854.504,"['-', 'Why', 'do', 'you', 'recoil', '?', 'I', 'am', 'no', 'thief', '.', '-', 'You', 'are', 'not', 'yourself', '.']",17
+1707,10855.01,10858.512,"['What', 'chance', 'do', 'you', 'think', 'you', 'have', '?']",8
+1708,10858.513,10863.392,"['They', 'will', 'find', 'you', '.', 'They', 'will', 'take', 'the', 'Ring', '.']",11
+1709,10863.393,10868.393,"['And', 'you', 'will', 'beg', 'for', 'death', 'before', 'the', 'end', '!']",10
+1710,10869.232,10871.525,"['You', 'fool', '!']",3
+1711,10871.526,10875.696,"['It', 'is', 'not', 'yours', ',', 'save', 'by', 'unhappy', 'chance', '!', 'It', 'could', 'have', 'been', 'mine', '.']",16
+1712,10875.697,10878.699,"['It', 'should', 'be', 'mine', '!', 'Give', 'it', 'to', 'me', '!']",10
+1713,10878.7,10880.201,"['-', 'Give', 'it', 'to', 'me', '!', '-', 'No', '!']",9
+1714,10880.202,10885.202,"['-', 'Give', 'it', 'to', 'me', '!', '-', 'No', '.']",9
+1715,10889.711,10891.921,"['I', 'see', 'your', 'mind', '.']",5
+1716,10891.922,10895.09,"['You', 'will', 'take', 'the', 'Ring', 'to', 'Sauron', '!']",8
+1717,10895.091,10897.218,"['You', 'will', 'betray', 'us', '!']",5
+1718,10897.219,10900.846,"[""You'll"", 'go', 'to', 'your', 'death', ',', 'and', 'the', 'death', 'of', 'us', 'all', '!']",13
+1719,10900.847,10905.847,"['Curse', 'you', '!', 'Curse', 'you', 'and', 'all', 'the', 'half', 'lings', '!']",11
+1720,10911.566,10916.566,"['Frodo', '?']",2
+1721,10917.405,10922.405,"['Frodo', '.']",2
+1722,10922.911,10925.12,"['What', 'have', 'I', 'done', '?']",5
+1723,10925.121,10927.081,"['Please', ',', 'Frodo', '.']",4
+1724,10927.082,10929.959,"['Frodo', ',', ""I'm"", 'sorry', '!']",5
+1725,10929.96,10934.96,"['Frodo', '!']",2
+1726,10957.112,10962.112,[],0
+1727,10978.3,10980.968,"['Frodo', '?']",2
+1728,10980.969,10984.305,"['-', 'It', 'has', 'taken', 'Boromir', '.', '-', 'Where', 'is', 'the', 'Ring', '?']",12
+1729,10984.306,10986.473,"['Stay', 'away', '!']",3
+1730,10986.474,10990.311,"['Frodo', '!']",2
+1731,10990.312,10995.312,"['-', 'I', 'swore', 'to', 'protect', 'you', '.', '-', 'Can', 'you', 'protect', 'me', 'from', 'yourself', '?']",15
+1732,11003.825,11008.825,"['Would', 'you', 'destroy', 'it', '?']",5
+1733,11011.333,11016.333,"['VOICE', 'OF', 'THE', 'RING', ':', 'Aragorn', '.']",7
+1734,11016.671,11020.841,"['Aragorn', '.']",2
+1735,11020.842,11025.842,"['Elessar', '.']",2
+1736,11030.352,11034.355,"['I', 'would', 'have', 'gone', 'with', 'you', 'to', 'the', 'end', '.']",10
+1737,11034.356,11039.356,"['Into', 'the', 'very', 'fires', 'of', 'Mordor', '.']",7
+1738,11040.528,11044.198,"['I', 'know', '.']",3
+1739,11044.199,11049.199,"['Look', 'after', 'the', 'others', '.', 'Especially', 'Sam', '.', 'He', 'will', 'not', 'understand', '.']",13
+1740,11053.375,11058.087,"['Go', ',', 'Frodo', '!']",4
+1741,11058.088,11059.88,"['Run', '.']",2
+1742,11059.881,11064.881,"['Run', '!']",2
+1743,11086.074,11091.074,"['Mr.', 'Frodo', '!']",3
+1744,11097.043,11100.421,"['Find', 'the', 'half', 'ling', '!']",5
+1745,11100.422,11105.422,"['Find', 'the', 'half', 'ling', '!']",5
+1746,11106.428,11111.428,"['Elendil', '!']",2
+1747,11114.602,11119.602,"['Aragorn', ',', 'go', '!']",4
+1748,11137.876,11139.793,"['PIPPIN', ':', 'Frodo', '!']",4
+1749,11139.794,11142.004,"['Hide', 'here', '.', 'Quick', '!']",5
+1750,11142.005,11145.966,"['Come', 'on', '!']",3
+1751,11145.967,11150.967,"['What', ""'s"", 'he', 'doing', '?']",5
+1752,11152.182,11157.182,"['He', ""'s"", 'leaving', '.']",4
+1753,11158.98,11163.98,"[""'No"", '!', ""'"", 'Pippin', '!']",5
+1754,11166.821,11169.698,"['MERRY', ':', 'Run', ',', 'Frodo', '.', 'Go', 'on', '!']",9
+1755,11169.699,11173.202,"['-', 'Hey', '!', 'Hey', ',', 'you', '!', '-', 'Over', 'here', '!']",11
+1756,11173.203,11178.203,"['-', 'Over', 'here', '!', '-', 'This', 'way', '!']",8
+1757,11185.673,11190.673,"['-', 'It', ""'s"", 'working', '!', '-', 'I', 'know', 'it', ""'s"", 'working', '!', 'Run', '!']",14
+1758,11241.479,11243.397,[],0
+1759,11243.398,11248.398,"['-', 'The', 'horn', 'of', 'Gondor', '.', '-', 'Boromir', '.']",9
+1760,11289.527,11294.527,"['Run', '!']",2
+1761,11387.417,11392.417,[],0
+1762,11502.24,11507.24,"['No', '.']",2
+1763,11507.703,11511.039,"['-', 'They', 'took', 'the', 'little', 'ones', '.', '-', 'Hold', 'still', '.']",11
+1764,11511.04,11515.043,"['Frodo', '.', 'Where', 'is', 'Frodo', '?']",6
+1765,11515.044,11517.17,"['I', 'let', 'Frodo', 'go', '.']",5
+1766,11517.171,11520.715,"['Then', 'you', 'did', 'what', 'I', 'could', 'not', '.']",8
+1767,11520.716,11524.553,"['I', 'tried', 'to', 'take', 'the', 'Ring', 'from', 'him', '.']",9
+1768,11524.554,11529.057,"['-', 'The', 'Ring', 'is', 'beyond', 'our', 'reach', 'now', '.', '-', 'Forgive', 'me', '.']",13
+1769,11529.058,11531.56,"['I', 'did', 'not', 'see', 'it', '.']",6
+1770,11531.561,11535.23,"['-', 'I', 'have', 'failed', 'you', 'all', '.', '-', 'No', ',', 'Boromir', '.']",12
+1771,11535.231,11538.066,"['You', 'fought', 'bravely', '.']",4
+1772,11538.067,11541.278,"['You', 'have', 'kept', 'your', 'honor', '.']",6
+1773,11541.279,11543.572,"['BOROMIR', ':', 'Leave', 'it']",4
+1774,11543.573,11546.783,"['It', 'is', 'over', '.']",4
+1775,11546.784,11551.784,"['The', 'world', 'of', 'Men', 'will', 'fall', '.', 'And', 'all', 'will', 'come', 'to', 'darkness', '.', '.', '.']",16
+1776,11552.498,11557.498,"['.', '.', '.', 'and', 'my', 'city', 'to', 'ruin', '.']",9
+1777,11559.589,11562.424,"['I', 'do', 'not', 'know', 'what', 'strength', 'is', 'in', 'my', 'blood', '.', '.', '.']",13
+1778,11562.425,11567.425,"['.', '.', '.', 'but', 'I', 'swear', 'to', 'you', ',', 'I', 'will', 'not', 'let', 'the', 'White', 'City', 'fall', '.', '.', '.']",20
+1779,11567.43,11570.932,"['.', '.', '.', 'nor', 'our', 'people', 'fail', '.']",8
+1780,11570.933,11575.933,"['Our', 'people', '.']",3
+1781,11576.105,11581.105,"['Our', 'people', '.']",3
+1782,11599.962,11604.549,"['I', 'would', 'have', 'followed', 'you', ',', 'my', 'brother', '.']",9
+1783,11604.55,11609.137,"['My', 'captain', '.']",3
+1784,11609.138,11614.138,"['My', 'king', '.']",3
+1785,11630.785,11633.328,"['Be', 'at', 'peace', '.', '.', '.']",6
+1786,11633.329,11638.329,"['.', '.', '.', 'son', 'of', 'Gondor', '.']",7
+1787,11651.847,11655.684,"['They', 'will', 'look', 'for', 'his', 'coming', 'from', 'the', 'White', 'Tower', '.']",11
+1788,11655.685,11660.685,"['But', 'he', 'will', 'not', 'return', '.']",6
+1789,11681.877,11686.877,"['Frodo', '!']",2
+1790,11703.399,11707.902,"['FRODO', ':', 'I', 'wish', 'the', 'Ring', 'had', 'never', 'come', 'to', 'me', '.']",12
+1791,11707.903,11712.903,"['I', 'wish', 'none', 'of', 'this', 'had', 'happened', '.']",8
+1792,11713.909,11716.87,"['GANDALF', ':', 'So', 'do', 'all', 'who', 'live', 'to', 'see', 'such', 'times', '.', '.', '.']",14
+1793,11716.871,11720.457,"['.', '.', '.', 'but', 'that', 'is', 'not', 'for', 'them', 'to', 'decide', '.']",12
+1794,11720.458,11723.376,"['All', 'you', 'have', 'to', 'decide', '.', '.', '.']",8
+1795,11723.377,11728.377,"['.', '.', '.', 'is', 'what', 'to', 'do', 'with', 'the', 'time', 'that', 'is', 'given', 'to', 'you', '.']",16
+1796,11756.952,11759.496,"['Frodo', ',', 'no', '!']",4
+1797,11759.497,11761.623,"['Frodo', '!']",2
+1798,11761.624,11766.624,"['-', 'Mr.', 'Frodo', '!', '-', 'No', ',', 'Sam', '.']",9
+1799,11767.797,11770.298,"['Go', 'back', ',', 'Sam', '!']",5
+1800,11770.299,11774.135,"['-', ""I'm"", 'going', 'to', 'Mordor', 'alone', '.', '-', 'Of', 'course', 'you', 'are', '.']",13
+1801,11774.136,11777.43,"['And', ""I'm"", 'coming', 'with', 'you', '!']",6
+1802,11777.431,11782.431,"['You', ""can't"", 'swim', '!']",4
+1803,11783.646,11788.646,"['Sam', '!']",2
+1804,11790.945,11795.945,"['Sam', '!']",2
+1805,11833.195,11836.197,"['I', 'made', 'a', 'promise', ',', 'Mr.', 'Frodo', '.']",8
+1806,11836.198,11841.198,"['A', 'promise', ':', '""', ""Don't"", 'you', 'leave', 'him', ',', 'Samwise', 'Gamgee', '.', '""']",13
+1807,11841.704,11844.539,"['And', 'I', ""don't"", 'mean', 'to', '.']",6
+1808,11844.54,11848.376,"['I', ""don't"", 'mean', 'to', '.']",5
+1809,11848.377,11853.377,"['Sam', '.']",2
+1810,11865.06,11870.06,"['Come', 'on', '.']",3
+1811,11895.257,11900.257,"['Hurry', '!', 'Frodo', 'and', 'Sam', 'have', 'reached', 'the', 'eastern', 'shore', '.']",11
+1812,11914.61,11919.61,"['-', 'You', 'mean', 'not', 'to', 'follow', 'them', '.', '-', 'Frodo', ""'s"", 'fate', 'is', 'no', 'longer', 'in', 'our', 'hands', '.']",19
+1813,11923.118,11928.118,"['Then', 'it', 'has', 'all', 'been', 'in', 'vain', '.', 'The', 'Fellowship', 'has', 'failed', '.']",13
+1814,11939.802,11944.305,"['Not', 'if', 'we', 'hold', 'true', 'to', 'each', 'other', '.']",9
+1815,11944.306,11949.306,"['We', 'will', 'not', 'abandon', 'Merry', 'and', 'Pippin', 'to', 'torment', 'and', 'death', '.']",12
+1816,11949.812,11954.812,"['Not', 'while', 'we', 'have', 'strength', 'left', '.', 'Leave', 'all', 'that', 'can', 'be', 'spared', 'behind', '.']",15
+1817,11956.318,11958.611,"['We', 'travel', 'light', '.']",4
+1818,11958.612,11963.491,"['Let', 'us', 'hunt', 'some', 'Orc', '.']",6
+1819,11963.492,11968.492,"['Yes', '!']",2
+1820,11984.513,11986.514,"['FRODO', ':', 'Mordor', '.']",4
+1821,11986.515,11990.852,"['I', 'hope', 'the', 'others', 'find', 'a', 'safer', 'road', '.']",9
+1822,11990.853,11994.355,"['Strider', 'will', 'look', 'after', 'them', '.']",6
+1823,11994.356,11998.026,"['I', ""don't"", 'suppose', ""we'll"", 'ever', 'see', 'them', 'again', '.']",9
+1824,11998.027,12000.695,"['We', 'may', 'yet', ',', 'Mr.', 'Frodo', '.']",7
+1825,12000.696,12004.365,"['We', 'may', '.']",3
+1826,12004.366,12009.037,"['Sam', '.', '.', '.']",4
+1827,12009.038,12014.038,"['.', '.', '.', ""I'm"", 'glad', 'you', 'are', 'with', 'me', '.']",10

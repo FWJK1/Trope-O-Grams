@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - Quarto/*/*.qmd 
+    - Quarto/*.qmd
+
+website:
+  title: "Trope-o-Grams (and more)"
+  sidebar:
+    contents: auto
+  
+
+execute: 
+  python-path: src

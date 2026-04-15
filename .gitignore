@@ -1,0 +1,7 @@
+*__pycache__*
+/.quarto/
+**/*.quarto_ipynb
+src/parse_file.py
+src/process_series.py
+src/shifter.py
+src/sliding_window.py
