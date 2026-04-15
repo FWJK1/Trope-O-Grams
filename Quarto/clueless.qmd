@@ -1,5 +1,5 @@
 ---
-title: "Notebook Test"
+title: "Clueless"
 author: Fitz Koch
 date: today
 description:  Running the pipeline from subtitle and time-tagged trope file => results
@@ -13,11 +13,6 @@ format:
     page-layout: full
   ipynb:
     wrap: none
-  pdf:
-    include-in-header:
-      text: |
-        \usepackage{enumitem}
-        \setlistdepth{9}
 execute: 
   cache: true
 editor:
@@ -376,34 +371,36 @@ Now we need to build the tf_idf:
 
 ```{python}
 
+
 def build_tf_idf_matrix(min_movies=5):
     df = pd.read_csv("Data/2020_genre_counts_by_trope.csv")
     genres = df.columns[2:29].tolist()
     num_genres = len(genres)
 
     # drop tropes too sparse to give reliable genre signal
-    df = df[df['Number_movies'] >= min_movies].copy()
+    df = df[df["Number_movies"] >= min_movies].copy()
 
     df_tropes = df[genres]  # original counts, used for IDF
 
     # smoothed IDF: log((1 + N) / (1 + df_t)) + 1
     # prevents single-genre tropes from getting IDF = log(27) ~ 3.3 and dominating everything
-    df['idf'] = np.log((1 + num_genres) / (1 + (df_tropes > 0).sum(axis=1))) + 1
+    df["idf"] = np.log((1 + num_genres) / (1 + (df_tropes > 0).sum(axis=1))) + 1
 
     # TF: fraction of this trope's genre signal pointing at each genre
     row_sums = df[genres].sum(axis=1)
     df[genres] = df[genres].divide(row_sums.where(row_sums > 0, 1), axis=0)
 
     # combine
-    df[genres] = df[genres].multiply(df['idf'], axis=0)
-    df.drop(columns=['idf'], inplace=True)
+    df[genres] = df[genres].multiply(df["idf"], axis=0)
+    df.drop(columns=["idf"], inplace=True)
     df.reset_index(drop=True, inplace=True)
-    df['Trope'] = df['Trope'].str.strip()
-    df = df[['Trope'] + genres]
-    df.dropna(how='all', inplace=True)
+    df["Trope"] = df["Trope"].str.strip()
+    df = df[["Trope"] + genres]
+    df.dropna(how="all", inplace=True)
     df.set_index("Trope", inplace=True)
     df.to_csv("Data/Cleaned-tf_idf-matrix.csv")
-    return df 
+    return df
+
 
 tf_idf = build_tf_idf_matrix()
 tf_idf.head()

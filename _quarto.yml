@@ -10,6 +10,5 @@ website:
   sidebar:
     contents: auto
   
-
 execute: 
   python-path: src

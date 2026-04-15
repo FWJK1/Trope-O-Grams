@@ -1,5 +1,5 @@
 ---
-title: "Notebook Test"
+title: "Fellowship of the Ring"
 author: Fitz Koch
 date: today
 description:  Running the pipeline from subtitle and time-tagged trope file => results
@@ -13,11 +13,6 @@ format:
     page-layout: full
   ipynb:
     wrap: none
-  pdf:
-    include-in-header:
-      text: |
-        \usepackage{enumitem}
-        \setlistdepth{9}
 execute: 
   cache: true
 editor:

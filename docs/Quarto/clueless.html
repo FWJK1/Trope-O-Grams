@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Fitz Koch">
+<meta name="dcterms.date" content="2026-04-15">
+<meta name="description" content="Running the pipeline from subtitle and time-tagged trope file => results">
 
-<title>clueless – Trope-o-Grams (and more)</title>
+<title>Clueless – Trope-o-Grams (and more)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,10 +23,65 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -40,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,11 +126,43 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar floating fullcontent quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -124,27 +214,1475 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Quarto/foTR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Notebook Test</span></a>
+ <span class="menu-text">Fellowship of the Ring</span></a>
   </div>
 </li>
       </ul>
   </li>
     </ul>
     </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup">Setup</a>
+  <ul class="collapse">
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a></li>
+  </ul></li>
+  <li><a href="#design" id="toc-design" class="nav-link" data-scroll-target="#design">Design</a></li>
+  <li><a href="#wrangling" id="toc-wrangling" class="nav-link" data-scroll-target="#wrangling">Wrangling</a>
+  <ul class="collapse">
+  <li><a href="#subtitle-file" id="toc-subtitle-file" class="nav-link" data-scroll-target="#subtitle-file">Subtitle File</a></li>
+  <li><a href="#trope-file" id="toc-trope-file" class="nav-link" data-scroll-target="#trope-file">Trope File</a></li>
+  </ul></li>
+  <li><a href="#hedonometer" id="toc-hedonometer" class="nav-link" data-scroll-target="#hedonometer">Hedonometer</a>
+  <ul class="collapse">
+  <li><a href="#basics" id="toc-basics" class="nav-link" data-scroll-target="#basics">Basics</a></li>
+  <li><a href="#decision-points" id="toc-decision-points" class="nav-link" data-scroll-target="#decision-points">Decision Points</a>
+  <ul class="collapse">
+  <li><a href="#faulty-reasoning" id="toc-faulty-reasoning" class="nav-link" data-scroll-target="#faulty-reasoning">Faulty Reasoning</a></li>
+  <li><a href="#fixed-reasoning" id="toc-fixed-reasoning" class="nav-link" data-scroll-target="#fixed-reasoning">Fixed Reasoning</a></li>
+  </ul></li>
+  <li><a href="#logic" id="toc-logic" class="nav-link" data-scroll-target="#logic">Logic</a></li>
+  </ul></li>
+  <li><a href="#genre" id="toc-genre" class="nav-link" data-scroll-target="#genre">Genre</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="clueless.ipynb" download="clueless.ipynb"><i class="bi bi-journal-code"></i>Jupyter</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Quarto/clueless.html">Quarto</a></li><li class="breadcrumb-item"><a href="../Quarto/clueless.html">Clueless</a></li></ol></nav></header>
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Quarto/clueless.html">Quarto</a></li><li class="breadcrumb-item"><a href="../Quarto/clueless.html">Clueless</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Clueless</h1>
+</div>
+
+<div>
+  <div class="description">
+    Running the pipeline from subtitle and time-tagged trope file =&gt; results
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page-right">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Fitz Koch </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 15, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="setup" class="level1">
+<h1>Setup</h1>
+<div id="cf30b182" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys, os</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>_project_root <span class="op">=</span> Path.cwd()</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="kw">not</span> (_project_root <span class="op">/</span> <span class="st">"src"</span>).exists():</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    _project_root <span class="op">=</span> _project_root.parent</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>os.chdir(_project_root)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="fa70b34f" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> product</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> srt</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> chardet</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt  </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> src.hedonometer <span class="im">import</span> parse_text, import_hedonometer_as_dict</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="c090fe5d" class="cell" data-execution_count="4">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># constants</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>plt.style.use([<span class="st">"ggplot"</span>])</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>IMG_WIDTH <span class="op">=</span> <span class="dv">12</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>sns.set_palette(<span class="st">"muted"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
+<div id="a4f643c0" class="cell" data-execution_count="5">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># srt_file = Path(</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#     "Data/subtitles/Fellowship Of The Ring 2001 [Extended Edition] SDH-en.srt"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># trope_file = Path("Data/trope_time_series/Fellowship_of_the_Ring_filled_copy.csv")</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># movie_title = "FoTR"</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># top_genres = ["Action", "Adventure", "Fantasy"]</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>srt_file <span class="op">=</span> Path(<span class="st">"Data/subtitles/Clueless.1995.srt"</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>trope_file <span class="op">=</span> Path(<span class="st">"Data/trope_time_series/clueless_tropes.csv"</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>movie_title <span class="op">=</span> <span class="st">"Clueless"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>top_genres <span class="op">=</span> [<span class="st">"Comedy"</span>, <span class="st">"Action"</span>, <span class="st">"Drama"</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+</section>
+<section id="design" class="level1">
+<h1>Design</h1>
+<ol type="1">
+<li>Wrangle data sources:
+<ul>
+<li>subtitle file</li>
+<li>time-tagged trope file</li>
+</ul></li>
+<li>Run hedonometer on subtitles, tropes, and the two together</li>
+<li>Calculate genre expectation for each.</li>
+</ol>
+</section>
+<section id="wrangling" class="level1">
+<h1>Wrangling</h1>
+<section id="subtitle-file" class="level2">
+<h2 class="anchored" data-anchor-id="subtitle-file">Subtitle File</h2>
+<p>First we load in the subtitle file and clean up the delta columns. To do so we need a custom parser that works on our two formats (ugh). That’s a claude job, I’m sorry.</p>
+<div id="86290317" class="cell" data-execution_count="6">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> parse_timestamp(t):</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> pd.isna(t):</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.nan</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># already a timedelta</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">hasattr</span>(t, <span class="st">"total_seconds"</span>):</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> t.total_seconds()</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> <span class="bu">str</span>(t).strip()</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">":"</span> <span class="kw">in</span> t:</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>        parts <span class="op">=</span> [<span class="bu">int</span>(p) <span class="cf">for</span> p <span class="kw">in</span> t.split(<span class="st">":"</span>)]</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> parts[<span class="dv">0</span>] <span class="op">*</span> <span class="dv">3600</span> <span class="op">+</span> parts[<span class="dv">1</span>] <span class="op">*</span> <span class="dv">60</span> <span class="op">+</span> parts[<span class="dv">2</span>]</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"."</span> <span class="kw">in</span> t:</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>        parts <span class="op">=</span> [<span class="bu">int</span>(p) <span class="cf">for</span> p <span class="kw">in</span> t.split(<span class="st">"."</span>)]</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(parts) <span class="op">==</span> <span class="dv">3</span>:</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> parts[<span class="dv">0</span>] <span class="op">*</span> <span class="dv">3600</span> <span class="op">+</span> parts[<span class="dv">1</span>] <span class="op">*</span> <span class="dv">60</span> <span class="op">+</span> parts[<span class="dv">2</span>]</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> <span class="bu">len</span>(parts) <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> parts[<span class="dv">0</span>] <span class="op">*</span> <span class="dv">60</span> <span class="op">+</span> parts[<span class="dv">1</span>]</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">float</span>(t)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Due to </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">, casting </span><span class="sc">{</span>t<span class="sc">}</span><span class="ss"> to nan"</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.nan</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Now we can start going</p>
+<div id="c52aaff4" class="cell" data-execution_count="7">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(srt_file, <span class="st">"r"</span>) <span class="im">as</span> f:</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    subtitle_generator <span class="op">=</span> srt.parse(f.read())</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>subtitles <span class="op">=</span> <span class="bu">list</span>(subtitle_generator)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>subtitle_df <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    [{<span class="st">"start"</span>: s.start, <span class="st">"end"</span>: s.end, <span class="st">"content"</span>: s.content} <span class="cf">for</span> s <span class="kw">in</span> subtitles]</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>subtitle_df[<span class="st">"start"</span>] <span class="op">=</span> subtitle_df[<span class="st">"start"</span>].<span class="bu">apply</span>(parse_timestamp)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>subtitle_df[<span class="st">"end"</span>] <span class="op">=</span> subtitle_df[<span class="st">"end"</span>].<span class="bu">apply</span>(parse_timestamp)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>subtitle_df <span class="op">=</span> subtitle_df.sort_values(by<span class="op">=</span><span class="st">"start"</span>, ascending<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>subtitle_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="72">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">start</th>
+<th data-quarto-table-cell-role="th">end</th>
+<th data-quarto-table-cell-role="th">content</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>52.261</td>
+<td>56.097</td>
+<td>Okay, you're probably going, "ls this\na Noxze...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>56.265</td>
+<td>60.727</td>
+<td>But seriously, I actually have\na way normal l...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>61.145</td>
+<td>65.314</td>
+<td>I get up, I brush my teeth,\nand I pick out my...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>84.334</td>
+<td>88.004</td>
+<td>Daddy's a litigator.\nThose are the scariest k...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>88.088</td>
+<td>90.923</td>
+<td>Even Lucy, our maid, is terrified of him.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>Do some light html NLP, then parse the text with our standard tokenizer.</p>
+<div id="8344bc6e" class="cell" data-execution_count="8">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>subtitle_df[<span class="st">"content"</span>] <span class="op">=</span> subtitle_df[<span class="st">"content"</span>].<span class="bu">str</span>.replace(<span class="st">"</span><span class="ch">\n</span><span class="st">"</span>, <span class="st">" "</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>subtitle_df[<span class="st">"content"</span>] <span class="op">=</span> subtitle_df[<span class="st">"content"</span>].<span class="bu">str</span>.replace(<span class="st">"&lt;i&gt;"</span>, <span class="st">" "</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>subtitle_df[<span class="st">"content"</span>] <span class="op">=</span> subtitle_df[<span class="st">"content"</span>].<span class="bu">str</span>.replace(<span class="st">"&lt;/i&gt;"</span>, <span class="st">" "</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>subtitle_df[<span class="st">"content"</span>] <span class="op">=</span> subtitle_df[<span class="st">"content"</span>].<span class="bu">apply</span>(parse_text)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Add a wordcount column:</p>
+<div id="17c64000" class="cell" data-execution_count="9">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>subtitle_df[<span class="st">"wordcount"</span>] <span class="op">=</span> subtitle_df[<span class="st">"content"</span>].<span class="bu">str</span>.<span class="bu">len</span>()</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>subtitle_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="74">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">start</th>
+<th data-quarto-table-cell-role="th">end</th>
+<th data-quarto-table-cell-role="th">content</th>
+<th data-quarto-table-cell-role="th">wordcount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>52.261</td>
+<td>56.097</td>
+<td>[Okay, ,, you're, probably, going, ,, ", ls, t...</td>
+<td>16</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>56.265</td>
+<td>60.727</td>
+<td>[But, seriously, ,, I, actually, have, a, way,...</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>61.145</td>
+<td>65.314</td>
+<td>[I, get, up, ,, I, brush, my, teeth, ,, and, I...</td>
+<td>17</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>84.334</td>
+<td>88.004</td>
+<td>[Daddy, 's, a, litigator, ., Those, are, the, ...</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>88.088</td>
+<td>90.923</td>
+<td>[Even, Lucy, ,, our, maid, ,, is, terrified, o...</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="trope-file" class="level2">
+<h2 class="anchored" data-anchor-id="trope-file">Trope File</h2>
+<p>Similarly convert the time deltas into seconds for the trope file.</p>
+<div id="a8c9240d" class="cell" data-execution_count="10">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(trope_file, <span class="st">"rb"</span>) <span class="im">as</span> f:</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    encoding <span class="op">=</span> chardet.detect(f.read())[<span class="st">"encoding"</span>]</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>trope_df <span class="op">=</span> pd.read_csv(trope_file, encoding<span class="op">=</span>encoding)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>trope_df[<span class="st">"start"</span>] <span class="op">=</span> trope_df[<span class="st">"Start Time"</span>].<span class="bu">apply</span>(parse_timestamp)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>trope_df[<span class="st">"end"</span>] <span class="op">=</span> trope_df[<span class="st">"End Time"</span>].<span class="bu">apply</span>(parse_timestamp)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>trope_df[<span class="st">"Camel Trope"</span>] <span class="op">=</span>  trope_df[<span class="st">'Trope'</span>].<span class="bu">str</span>.replace(<span class="st">" "</span>, <span class="st">""</span>) </span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>trope_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="75">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Trope</th>
+<th data-quarto-table-cell-role="th">Description</th>
+<th data-quarto-table-cell-role="th">Inverted?/Defied?</th>
+<th data-quarto-table-cell-role="th">Averted/Subverted?</th>
+<th data-quarto-table-cell-role="th">Rough Occurence in movie</th>
+<th data-quarto-table-cell-role="th">Background?</th>
+<th data-quarto-table-cell-role="th">Setups?</th>
+<th data-quarto-table-cell-role="th">Start Time</th>
+<th data-quarto-table-cell-role="th">End Time</th>
+<th data-quarto-table-cell-role="th">Unnamed: 9</th>
+<th data-quarto-table-cell-role="th">Unnamed: 10</th>
+<th data-quarto-table-cell-role="th">start</th>
+<th data-quarto-table-cell-role="th">end</th>
+<th data-quarto-table-cell-role="th">Camel Trope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>The '90s</td>
+<td>An odd but valid example — the whole movie se...</td>
+<td>No</td>
+<td>No</td>
+<td>Whole Movie</td>
+<td>Yes</td>
+<td>No</td>
+<td>0</td>
+<td>5833</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>0.0</td>
+<td>5833.0</td>
+<td>The'90s</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>Actually Pretty Funny</td>
+<td>Even though Heather's his girlfriend (at the ...</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>2661</td>
+<td>2669</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>2661.0</td>
+<td>2669.0</td>
+<td>ActuallyPrettyFunny</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>Adaptation Title Change</td>
+<td>Clueless is loosely based on Emma .</td>
+<td>No</td>
+<td>No</td>
+<td>Whole Movie</td>
+<td>Yes</td>
+<td>No</td>
+<td>0</td>
+<td>5833</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>0.0</td>
+<td>5833.0</td>
+<td>AdaptationTitleChange</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>Adaptational Angst Downgrade</td>
+<td>The scene in which Cher carelessly offends Lu...</td>
+<td>No</td>
+<td>No</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>4302</td>
+<td>4323</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>4302.0</td>
+<td>4323.0</td>
+<td>AdaptationalAngstDowngrade</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>Adapted Out</td>
+<td>Due to Christian being gay, there is no Jane ...</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>3955</td>
+<td>3989</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>3955.0</td>
+<td>3989.0</td>
+<td>AdaptedOut</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>Similarly, add a parse into tokens and add wordcount.</p>
+<div id="fb99106d" class="cell" data-execution_count="11">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>trope_df[<span class="st">"Description"</span>] <span class="op">=</span> trope_df[<span class="st">"Description"</span>].<span class="bu">apply</span>(parse_text)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>trope_df[<span class="st">"wordcount"</span>] <span class="op">=</span> trope_df[<span class="st">"Description"</span>].<span class="bu">str</span>.<span class="bu">len</span>()</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>trope_df[<span class="st">"wordcount"</span>].<span class="bu">sum</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="76">
+<pre><code>np.float64(5563.0)</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="hedonometer" class="level1">
+<h1>Hedonometer</h1>
+<section id="basics" class="level2">
+<h2 class="anchored" data-anchor-id="basics">Basics</h2>
+<p>Now we run the Hedonometer, per <span class="citation" data-cites="doddsTemporalPatternsHappiness2011">Dodds et al. (<a href="#ref-doddsTemporalPatternsHappiness2011" role="doc-biblioref">2011</a>)</span> and especially <span class="citation" data-cites="doddsHumanLanguageReveals2015">Dodds et al. (<a href="#ref-doddsHumanLanguageReveals2015" role="doc-biblioref">2015</a>)</span>. The standard logic is fairly simple:</p>
+<ol type="1">
+<li>Sliding window of <span class="math inline">\(N\)</span> words, where they used <span class="math inline">\(N = 10,000\)</span></li>
+<li>Exclude words with score <span class="math inline">\(h \in [5-\delta, 5+\delta]\)</span> to yield a lens <span class="math inline">\(L\)</span></li>
+<li>That gives the results for each window of <span class="math inline">\(N\)</span> words and we slide that across the series.</li>
+</ol>
+<p><span class="math display">\[
+h_{\text{avg}}T = \frac{\sum_{w \in L} f_w h_{\text{avg}} (w)}{ \sum_{w \in L} f_w}
+\]</span></p>
+</section>
+<section id="decision-points" class="level2">
+<h2 class="anchored" data-anchor-id="decision-points">Decision Points</h2>
+<p>The question is: what size window do we want to have, and how do we want to assign it? The purpose of the window is to average out the happiness of the text as we read it, but it doesn’t really make sense in movies for the ‘experience’ of the text to be over a certain period of time.</p>
+<p>A very academic <a href="https://learn.virtualspeech.com/tools/convert-words-to-time/">virtual speech website</a> claims that it takes 10 minutes to read 1300 words aloud. Other sources say that people read at about 250 wpm, and so take roughly 4 minutes to read 1000 words. So we have a few options:</p>
+<ol type="1">
+<li>Make our window a parameterized <span class="math inline">\(N / 1000 * 4\)</span> minutes long, and just take whatever words we get</li>
+<li>Categorize the movie by scene (more work).</li>
+<li>Stick to old reliable: just use how ever many tropes we need to get over <span class="math inline">\(N\)</span> words.</li>
+</ol>
+<p>We’ll go with option 1 for now, as I think art is experience as a relation with time.</p>
+<section id="faulty-reasoning" class="level3">
+<h3 class="anchored" data-anchor-id="faulty-reasoning">Faulty Reasoning</h3>
+<p>We have another decision point: how to we deal with the over-counting of tropes from our methodology above, where tropes are “on” for all the moments in the subtitle file that they are present for? To reduce this over counting, one option is to scale their frequency by some value <span class="math inline">\(\alpha &lt; 1\)</span>, so that we have:</p>
+<p><span class="math display">\[
+h_{\text{avg}}T = \frac{\sum_{w \in L_{s}} \alpha f_w h_{\text{avg}} (w) + \alpha \sum_{w \in L_{t}}  f_w h_{\text{avg}} (w)}{ \sum_{w \in L_{s}} f_{w} + \alpha \sum_{w \in L_{t} } f_{w}}
+\]</span></p>
+</section>
+<section id="fixed-reasoning" class="level3">
+<h3 class="anchored" data-anchor-id="fixed-reasoning">Fixed Reasoning</h3>
+<p>It probably makes more sense to just say we only use one trope once per window that it applies in by building this within the window, which will take more compute but is okay. We can keep <span class="math inline">\(\alpha\)</span>, however, as a sort of “cultural commentary rate.”</p>
+</section>
+</section>
+<section id="logic" class="level2">
+<h2 class="anchored" data-anchor-id="logic">Logic</h2>
+<p>We want to slide a happiness_assignation window over a certain time period. We want to take the start and end time of the movie, grab all the tropes and subtitles that fit in there, and return their happiness.</p>
+<p>First, a definition to turn data into happiness scores.</p>
+<div id="52dbc883" class="cell" data-execution_count="12">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> assign_happiness(data, lens_size, labmt: <span class="bu">dict</span> )<span class="op">-&gt;</span> np.ndarray:</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    happiness_scores <span class="op">=</span> np.array([labmt.get(word, np.nan) <span class="cf">for</span> word <span class="kw">in</span> data])</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    happiness_scores <span class="op">=</span> np.where(</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>        (happiness_scores <span class="op">&lt;</span> <span class="dv">5</span> <span class="op">-</span> lens_size) <span class="op">|</span> (happiness_scores <span class="op">&gt;</span> <span class="dv">5</span> <span class="op">+</span> lens_size),</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        happiness_scores,</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>        np.nan,</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> happiness_scores</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Second, a function to apply happiness to subtitle and trope content over a sliding window of time, and return the results</p>
+<div id="2d0d1e2f" class="cell" data-execution_count="13">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sliding_window_scores(</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    window_start,</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    window_end,</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    lens_size,</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    labmt,</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    subs: pd.DataFrame,</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    tropes: pd.DataFrame,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>):</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    sub_tokens <span class="op">=</span> []</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, row <span class="kw">in</span> subs.iterrows():</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> window_start <span class="op">&lt;=</span> row[<span class="st">"start"</span>] <span class="op">&lt;</span> window_end <span class="kw">and</span> <span class="bu">isinstance</span>(</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>            row[<span class="st">"content"</span>], <span class="bu">list</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>        ):</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>            sub_tokens <span class="op">+=</span> row[<span class="st">"content"</span>]</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    seen_tropes <span class="op">=</span> <span class="bu">set</span>()</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    trope_tokens <span class="op">=</span> []</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, row <span class="kw">in</span> tropes.iterrows():</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>        key <span class="op">=</span> (row[<span class="st">"start"</span>], row[<span class="st">"end"</span>])</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>            key <span class="kw">not</span> <span class="kw">in</span> seen_tropes</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>            <span class="kw">and</span> row[<span class="st">"start"</span>] <span class="op">&lt;</span> window_end</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>            <span class="kw">and</span> row[<span class="st">"end"</span>] <span class="op">&gt;</span> window_start</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>        ):</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>            trope_tokens <span class="op">+=</span> row[<span class="st">"Description"</span>]</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>            seen_tropes.add(key)</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>    sub_hs <span class="op">=</span> assign_happiness(sub_tokens, lens_size, labmt)</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    trope_hs <span class="op">=</span> assign_happiness(trope_tokens, lens_size, labmt)</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sub_hs, trope_hs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Third, a function to turn the scores into the proper hedonometer result, as required:</p>
+<div id="fc8cab85" class="cell" data-execution_count="14">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> aggregate_scores(sub_hs, trope_hs, alpha):</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    sub_score <span class="op">=</span> np.nan <span class="cf">if</span> np.<span class="bu">all</span>(np.isnan(sub_hs)) <span class="cf">else</span> np.nanmean(sub_hs)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    trope_score <span class="op">=</span> np.nan <span class="cf">if</span> np.<span class="bu">all</span>(np.isnan(trope_hs)) <span class="cf">else</span> np.nanmean(trope_hs)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    num <span class="op">=</span> np.nansum(sub_hs) <span class="op">+</span> alpha <span class="op">*</span> np.nansum(trope_hs)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    den <span class="op">=</span> np.<span class="bu">sum</span>(<span class="op">~</span>np.isnan(sub_hs)) <span class="op">+</span> alpha <span class="op">*</span> np.<span class="bu">sum</span>(<span class="op">~</span>np.isnan(trope_hs))</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    comb_score <span class="op">=</span> num <span class="op">/</span> den <span class="cf">if</span> den <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> np.nan</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sub_score, trope_score, comb_score</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Fourth, a wrapper function to do them all:</p>
+<div id="f2b5bc92" class="cell" data-execution_count="15">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hedonometer_score(subs, tropes, lens_size, alpha, step_size<span class="op">=</span><span class="dv">30</span>):</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    labmt <span class="op">=</span> import_hedonometer_as_dict()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    end_time <span class="op">=</span> <span class="bu">max</span>(subs[<span class="st">"end"</span>].<span class="bu">max</span>(), tropes[<span class="st">"end"</span>].<span class="bu">max</span>())</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> []</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> start <span class="kw">in</span> np.arange(<span class="dv">0</span>, end_time, step_size):</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>        end <span class="op">=</span> start <span class="op">+</span> <span class="dv">4</span> <span class="op">*</span> <span class="dv">60</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>        sub_hs, trope_hs <span class="op">=</span> sliding_window_scores(</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>            start, end, lens_size, labmt, subs, tropes</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>        sub_score, trope_score, comb_score <span class="op">=</span> aggregate_scores(sub_hs, trope_hs, alpha)</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>        results.append(</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>            {</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>                <span class="st">"start"</span>: start,</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>                <span class="st">"end"</span>: end,</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>                <span class="st">"Subtitle"</span>: sub_score,</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>                <span class="st">"Trope"</span>: trope_score,</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>                <span class="st">"Combined"</span>: comb_score,</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> pd.DataFrame(results)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Finally, a function that visualizes the results on an axis:</p>
+<div id="577c0396" class="cell" data-execution_count="16">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_hedonometer(subs, tropes, lens_size, alpha, movie, ax<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> ax:</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>        _, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">12</span>, IMG_WIDTH))</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> hedonometer_score(subs, tropes, lens_size, alpha, step_size<span class="op">=</span><span class="dv">30</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    melted <span class="op">=</span> df.melt(</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>        id_vars<span class="op">=</span><span class="st">"start"</span>,</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>        value_vars<span class="op">=</span>[<span class="st">"Subtitle"</span>, <span class="st">"Trope"</span>, <span class="st">"Combined"</span>],</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>        var_name<span class="op">=</span><span class="st">"series"</span>,</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>        value_name<span class="op">=</span><span class="st">"happiness"</span>,</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    sns.lineplot(</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>        data<span class="op">=</span>melted,</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span><span class="st">"start"</span>,</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span><span class="st">"happiness"</span>,</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>        hue<span class="op">=</span><span class="st">"series"</span>,</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>        ax<span class="op">=</span>ax,</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    ax.set_xlabel(<span class="st">"Time"</span>)</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>    ax.set_ylabel(<span class="st">"Happiness"</span>)</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>    ax.set_title(</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>        <span class="vs">rf"Average Happiness Over Time for </span><span class="sc">{</span>movie<span class="sc">}</span><span class="vs"> with lens=</span><span class="dv">$</span><span class="sc">{</span>lens_size<span class="sc">}</span><span class="vs">, </span><span class="ch">\a</span><span class="vs">lpha=</span><span class="sc">{</span>alpha<span class="sc">}</span><span class="dv">$</span><span class="vs">"</span></span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>    )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>A quick grid search:</p>
+<div id="24ff6403" class="cell" data-execution_count="17">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>alphas <span class="op">=</span> [<span class="fl">0.5</span>, <span class="fl">0.75</span>, <span class="dv">1</span>]</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>lens_sizes <span class="op">=</span> [<span class="dv">1</span>, <span class="fl">1.5</span>]</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> alpha, lens_size <span class="kw">in</span> product(alphas, lens_sizes):</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    plot_hedonometer(subtitle_df, trope_df, lens_size, alpha, movie_title)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="clueless_files/figure-html/cell-17-output-1.png" width="965" height="973" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="clueless_files/figure-html/cell-17-output-2.png" width="973" height="973" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="clueless_files/figure-html/cell-17-output-3.png" width="965" height="973" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="clueless_files/figure-html/cell-17-output-4.png" width="973" height="973" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="clueless_files/figure-html/cell-17-output-5.png" width="965" height="973" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="clueless_files/figure-html/cell-17-output-6.png" width="973" height="973" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="genre" class="level1">
+<h1>Genre</h1>
+<p>Now we want to plot the of the genre, as calculated from the tf-idf matrix. This is stuff we already did in the old repository, but if we represent the data as a series of <strong>events</strong> actually makes it faster. Sort of like a Gillepsie simulation.</p>
+<p>First we need to build a combined dataframe with all events. Basically, we’ll put active tropes on every line where they overlap with the subtitle, and put unplaced tropes on their own lines.</p>
+<div id="74dbc142" class="cell" data-execution_count="18">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> combine_frames(subs: pd.DataFrame, tropes: pd.DataFrame):</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    combined <span class="op">=</span> subs.copy(deep<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    n_rows <span class="op">=</span> subs.shape[<span class="dv">0</span>]</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    combined[<span class="st">"active tropes"</span>] <span class="op">=</span> [[] <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(n_rows)]</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    combined[<span class="st">"trope content"</span>] <span class="op">=</span> [[] <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(n_rows)]</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    unplaced <span class="op">=</span> []</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, trow <span class="kw">in</span> tropes.iterrows():</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>        placed <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> idx, srow <span class="kw">in</span> subs.iterrows():</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> trow.start <span class="op">&lt;</span> srow.end <span class="kw">and</span> trow.end <span class="op">&gt;</span> srow.start:</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>                placed <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>                combined.at[idx, <span class="st">"active tropes"</span>] <span class="op">+=</span> [trow[<span class="st">"Camel Trope"</span>]]</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>                combined.at[idx, <span class="st">"trope content"</span>] <span class="op">+=</span> trow[<span class="st">"Description"</span>]</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> placed:</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>            unplaced.append({</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>                <span class="st">"start"</span>: trow.start,</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>                <span class="st">"end"</span>: trow.end,</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>                <span class="st">"content"</span>: [],</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>                <span class="st">"active tropes"</span>: [trow[<span class="st">"Trope"</span>]],</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a>                <span class="st">"trope content"</span>: trow[<span class="st">"Description"</span>],</span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>            })</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>    full <span class="op">=</span> pd.concat([combined, pd.DataFrame(unplaced)], ignore_index<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> full.sort_values(<span class="st">"start"</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)   </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Now we need to build the tf_idf:</p>
+<div id="96f68463" class="cell" data-execution_count="19">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> build_tf_idf_matrix(min_movies<span class="op">=</span><span class="dv">5</span>):</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">"Data/2020_genre_counts_by_trope.csv"</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    genres <span class="op">=</span> df.columns[<span class="dv">2</span>:<span class="dv">29</span>].tolist()</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    num_genres <span class="op">=</span> <span class="bu">len</span>(genres)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># drop tropes too sparse to give reliable genre signal</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df[df[<span class="st">"Number_movies"</span>] <span class="op">&gt;=</span> min_movies].copy()</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    df_tropes <span class="op">=</span> df[genres]  <span class="co"># original counts, used for IDF</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># smoothed IDF: log((1 + N) / (1 + df_t)) + 1</span></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># prevents single-genre tropes from getting IDF = log(27) ~ 3.3 and dominating everything</span></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">"idf"</span>] <span class="op">=</span> np.log((<span class="dv">1</span> <span class="op">+</span> num_genres) <span class="op">/</span> (<span class="dv">1</span> <span class="op">+</span> (df_tropes <span class="op">&gt;</span> <span class="dv">0</span>).<span class="bu">sum</span>(axis<span class="op">=</span><span class="dv">1</span>))) <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># TF: fraction of this trope's genre signal pointing at each genre</span></span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>    row_sums <span class="op">=</span> df[genres].<span class="bu">sum</span>(axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>    df[genres] <span class="op">=</span> df[genres].divide(row_sums.where(row_sums <span class="op">&gt;</span> <span class="dv">0</span>, <span class="dv">1</span>), axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># combine</span></span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>    df[genres] <span class="op">=</span> df[genres].multiply(df[<span class="st">"idf"</span>], axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>    df.drop(columns<span class="op">=</span>[<span class="st">"idf"</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>    df.reset_index(drop<span class="op">=</span><span class="va">True</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">"Trope"</span>] <span class="op">=</span> df[<span class="st">"Trope"</span>].<span class="bu">str</span>.strip()</span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df[[<span class="st">"Trope"</span>] <span class="op">+</span> genres]</span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>    df.dropna(how<span class="op">=</span><span class="st">"all"</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>    df.set_index(<span class="st">"Trope"</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>    df.to_csv(<span class="st">"Data/Cleaned-tf_idf-matrix.csv"</span>)</span>
+<span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span>
+<span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-30"><a href="#cb19-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-31"><a href="#cb19-31" aria-hidden="true" tabindex="-1"></a>tf_idf <span class="op">=</span> build_tf_idf_matrix()</span>
+<span id="cb19-32"><a href="#cb19-32" aria-hidden="true" tabindex="-1"></a>tf_idf.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="84">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Action</th>
+<th data-quarto-table-cell-role="th">Adult</th>
+<th data-quarto-table-cell-role="th">Adventure</th>
+<th data-quarto-table-cell-role="th">Animation</th>
+<th data-quarto-table-cell-role="th">Biography</th>
+<th data-quarto-table-cell-role="th">Comedy</th>
+<th data-quarto-table-cell-role="th">Crime</th>
+<th data-quarto-table-cell-role="th">Documentary</th>
+<th data-quarto-table-cell-role="th">Drama</th>
+<th data-quarto-table-cell-role="th">Family</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">Mystery</th>
+<th data-quarto-table-cell-role="th">News</th>
+<th data-quarto-table-cell-role="th">Romance</th>
+<th data-quarto-table-cell-role="th">Sci-Fi</th>
+<th data-quarto-table-cell-role="th">Short</th>
+<th data-quarto-table-cell-role="th">Sport</th>
+<th data-quarto-table-cell-role="th">Thriller</th>
+<th data-quarto-table-cell-role="th">War</th>
+<th data-quarto-table-cell-role="th">Western</th>
+<th data-quarto-table-cell-role="th">\N</th>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Trope</th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">ABNegative</th>
+<td>0.273674</td>
+<td>0.0</td>
+<td>0.068418</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.205255</td>
+<td>0.205255</td>
+<td>0.000000</td>
+<td>0.547348</td>
+<td>0.068418</td>
+<td>...</td>
+<td>0.068418</td>
+<td>0.0</td>
+<td>0.136837</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.136837</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.068418</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">ABirthdayNotABreak</th>
+<td>0.264554</td>
+<td>0.0</td>
+<td>0.105822</td>
+<td>0.0</td>
+<td>0.052911</td>
+<td>0.105822</td>
+<td>0.211643</td>
+<td>0.052911</td>
+<td>0.264554</td>
+<td>0.000000</td>
+<td>...</td>
+<td>0.158733</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.052911</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.158733</td>
+<td>0.052911</td>
+<td>0.0</td>
+<td>0.000000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">ABloodyMess</th>
+<td>0.173184</td>
+<td>0.0</td>
+<td>0.173184</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.461824</td>
+<td>0.057728</td>
+<td>0.000000</td>
+<td>0.346368</td>
+<td>0.057728</td>
+<td>...</td>
+<td>0.115456</td>
+<td>0.0</td>
+<td>0.230912</td>
+<td>0.057728</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.115456</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">ABoyAndHisX</th>
+<td>0.102628</td>
+<td>0.0</td>
+<td>0.307883</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.153941</td>
+<td>0.051314</td>
+<td>0.000000</td>
+<td>0.513138</td>
+<td>0.410511</td>
+<td>...</td>
+<td>0.051314</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.051314</td>
+<td>0.051314</td>
+<td>0.0</td>
+<td>0.051314</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">ACappella</th>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.795431</td>
+<td>0.000000</td>
+<td>0.198858</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>...</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.596574</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+</tr>
+</tbody>
+</table>
+
+<p>5 rows × 27 columns</p>
+</div>
+</div>
+</div>
+<p>Now we need a function for evaluating the scores for a genre:</p>
+<div id="f9c900df" class="cell" data-execution_count="20">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> assign_generic_scores(tropes, tf_idf):</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> tropes:</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> {g: <span class="fl">0.0</span> <span class="cf">for</span> g <span class="kw">in</span> tf_idf.columns}</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    valid <span class="op">=</span> [t <span class="cf">for</span> t <span class="kw">in</span> tropes <span class="cf">if</span> t <span class="kw">in</span> tf_idf.index]</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    raw <span class="op">=</span> tf_idf.loc[valid].<span class="bu">sum</span>()</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> raw.<span class="bu">sum</span>()</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (raw <span class="op">/</span> total <span class="cf">if</span> total <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> raw).to_dict()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Finally we want to apply the above to every event.</p>
+<div id="753873ec" class="cell" data-execution_count="21">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> build_genre_columns(combined, tf_idf):</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> combined[<span class="st">'active tropes'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> tropes: assign_generic_scores(tropes, tf_idf))</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> pd.concat([combined[[<span class="st">'start'</span>, <span class="st">'end'</span>, <span class="st">'active tropes'</span>]], pd.DataFrame(scores.tolist(), index<span class="op">=</span>combined.index)], axis <span class="op">=</span><span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Lets check and see that this looks reasonable:</p>
+<div id="a287c091" class="cell" data-execution_count="22">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>combined <span class="op">=</span> combine_frames(subtitle_df, trope_df)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>combined <span class="op">=</span> build_genre_columns(combined , tf_idf)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>combined.head(<span class="dv">20</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="87">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">start</th>
+<th data-quarto-table-cell-role="th">end</th>
+<th data-quarto-table-cell-role="th">active tropes</th>
+<th data-quarto-table-cell-role="th">Action</th>
+<th data-quarto-table-cell-role="th">Adult</th>
+<th data-quarto-table-cell-role="th">Adventure</th>
+<th data-quarto-table-cell-role="th">Animation</th>
+<th data-quarto-table-cell-role="th">Biography</th>
+<th data-quarto-table-cell-role="th">Comedy</th>
+<th data-quarto-table-cell-role="th">Crime</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">Mystery</th>
+<th data-quarto-table-cell-role="th">News</th>
+<th data-quarto-table-cell-role="th">Romance</th>
+<th data-quarto-table-cell-role="th">Sci-Fi</th>
+<th data-quarto-table-cell-role="th">Short</th>
+<th data-quarto-table-cell-role="th">Sport</th>
+<th data-quarto-table-cell-role="th">Thriller</th>
+<th data-quarto-table-cell-role="th">War</th>
+<th data-quarto-table-cell-role="th">Western</th>
+<th data-quarto-table-cell-role="th">\N</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>0.000</td>
+<td>0.000</td>
+<td>[Status Cell Phone]</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>...</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>0.000</td>
+<td>0.000</td>
+<td>[Stern Teacher]</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>...</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>0.000</td>
+<td>0.000</td>
+<td>[nan]</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>...</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>0.000</td>
+<td>0.000</td>
+<td>[The Stoner]</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>...</td>
+<td>0.000000</td>
+<td>0.0</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>52.261</td>
+<td>56.097</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.091803</td>
+<td>0.0</td>
+<td>0.088428</td>
+<td>0.005665</td>
+<td>0.005994</td>
+<td>0.200048</td>
+<td>0.039515</td>
+<td>...</td>
+<td>0.019845</td>
+<td>0.0</td>
+<td>0.094008</td>
+<td>0.034937</td>
+<td>0.005736</td>
+<td>0.014802</td>
+<td>0.043167</td>
+<td>0.005494</td>
+<td>0.007045</td>
+<td>0.000111</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">5</th>
+<td>56.265</td>
+<td>60.727</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.091803</td>
+<td>0.0</td>
+<td>0.088428</td>
+<td>0.005665</td>
+<td>0.005994</td>
+<td>0.200048</td>
+<td>0.039515</td>
+<td>...</td>
+<td>0.019845</td>
+<td>0.0</td>
+<td>0.094008</td>
+<td>0.034937</td>
+<td>0.005736</td>
+<td>0.014802</td>
+<td>0.043167</td>
+<td>0.005494</td>
+<td>0.007045</td>
+<td>0.000111</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">6</th>
+<td>61.145</td>
+<td>65.314</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">7</th>
+<td>84.334</td>
+<td>88.004</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">8</th>
+<td>88.088</td>
+<td>90.923</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">9</th>
+<td>91.049</td>
+<td>94.927</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">10</th>
+<td>95.012</td>
+<td>97.305</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">11</th>
+<td>97.389</td>
+<td>98.931</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">12</th>
+<td>99.016</td>
+<td>101.476</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">13</th>
+<td>101.560</td>
+<td>102.560</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">14</th>
+<td>102.644</td>
+<td>105.646</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">15</th>
+<td>105.731</td>
+<td>108.900</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">16</th>
+<td>108.984</td>
+<td>112.111</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">17</th>
+<td>112.196</td>
+<td>114.405</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">18</th>
+<td>114.490</td>
+<td>116.449</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">19</th>
+<td>116.533</td>
+<td>118.534</td>
+<td>[The'90s, AdaptationTitleChange, AlphaBitch, A...</td>
+<td>0.094703</td>
+<td>0.0</td>
+<td>0.088194</td>
+<td>0.005427</td>
+<td>0.008411</td>
+<td>0.191448</td>
+<td>0.043752</td>
+<td>...</td>
+<td>0.020250</td>
+<td>0.0</td>
+<td>0.090238</td>
+<td>0.035691</td>
+<td>0.005698</td>
+<td>0.013681</td>
+<td>0.045089</td>
+<td>0.006151</td>
+<td>0.007448</td>
+<td>0.000100</td>
+</tr>
+</tbody>
+</table>
+
+<p>20 rows × 30 columns</p>
+</div>
+</div>
+</div>
+<p>Plot to see how it looks over time</p>
+<div id="0444f037" class="cell" data-execution_count="23">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_all(subs, tropes, lens_size, alpha, movie, top_genres, tf_idf):</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(IMG_WIDTH <span class="op">*</span> <span class="dv">2</span>, IMG_WIDTH))</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    fig.suptitle(<span class="ss">f"</span><span class="sc">{</span>movie<span class="sc">}</span><span class="ss"> — lens=</span><span class="sc">{</span>lens_size<span class="sc">}</span><span class="ss">, α=</span><span class="sc">{</span>alpha<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    plot_hedonometer(subs, tropes, lens_size, alpha, movie, ax<span class="op">=</span>axes[<span class="dv">0</span>, <span class="dv">0</span>])</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    combined <span class="op">=</span> combine_frames(subs, tropes)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    genre_df <span class="op">=</span> build_genre_columns(combined, tf_idf)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> ax, genre <span class="kw">in</span> <span class="bu">zip</span>(axes.flat[<span class="dv">1</span>:], top_genres):</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>        sns.lineplot(data<span class="op">=</span>genre_df, x<span class="op">=</span><span class="st">"start"</span>, y<span class="op">=</span>genre, ax<span class="op">=</span>ax, color<span class="op">=</span><span class="st">"black"</span>)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>        ax.set_title(genre)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>        ax.set_xlabel(<span class="st">"Time"</span>)</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>        ax.set_ylabel(<span class="st">"Genre Score"</span>)</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>        ax.set_ylim(<span class="dv">0</span>, <span class="dv">1</span>)</span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>plot_all(</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>    subtitle_df,</span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>    trope_df,</span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a>    lens_size<span class="op">=</span><span class="fl">1.5</span>,</span>
+<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a>    alpha<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a>    movie<span class="op">=</span>movie_title,</span>
+<span id="cb23-26"><a href="#cb23-26" aria-hidden="true" tabindex="-1"></a>    top_genres<span class="op">=</span>top_genres,</span>
+<span id="cb23-27"><a href="#cb23-27" aria-hidden="true" tabindex="-1"></a>    tf_idf<span class="op">=</span>tf_idf,</span>
+<span id="cb23-28"><a href="#cb23-28" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="clueless_files/figure-html/cell-23-output-1.png" width="2295" height="1133" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 
+</section>
 
-
-
-
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-doddsHumanLanguageReveals2015" class="csl-entry" role="listitem">
+Dodds, Peter Sheridan, Eric M. Clark, Suma Desu, Morgan R. Frank, Andrew J. Reagan, Jake Ryland Williams, Lewis Mitchell, et al. 2015. <span>“Human Language Reveals a Universal Positivity Bias.”</span> <em>Proceedings of the National Academy of Sciences</em> 112 (8): 2389–94. <a href="https://doi.org/10.1073/pnas.1411678112">https://doi.org/10.1073/pnas.1411678112</a>.
+</div>
+<div id="ref-doddsTemporalPatternsHappiness2011" class="csl-entry" role="listitem">
+Dodds, Peter Sheridan, Kameron Decker Harris, Isabel M. Kloumann, Catherine A. Bliss, and Christopher M. Danforth. 2011. <span>“Temporal <span>Patterns</span> of <span>Happiness</span> and <span>Information</span> in a <span>Global Social Network</span>: <span>Hedonometrics</span> and <span>Twitter</span>.”</span> <em>PLOS ONE</em> 6 (12): e26752. <a href="https://doi.org/10.1371/journal.pone.0026752">https://doi.org/10.1371/journal.pone.0026752</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
